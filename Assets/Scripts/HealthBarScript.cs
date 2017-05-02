@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class HealthBarScript : MonoBehaviour {
+public class HealthBarScript : MonoBehaviour
+{
 	public static HealthBarScript S;
 	
 	// Private variables
@@ -16,27 +17,36 @@ public class HealthBarScript : MonoBehaviour {
 	// Other script variable access
 	XanderScript xanderScript;
 	SheraScript sheraScript;
+	JeremiahScript jeremiahScript;
+	CroakScript croakScript;
 
-	void Start () {
+	void Start ()
+	{
 		S = this;
 		thisParent = this.transform.root.gameObject;
-		if (thisParent.name == "Xander(Clone)") {
+		if (thisParent.name == "Xander") {
 			xanderScript = thisParent.GetComponent<XanderScript> ();
 			maxHealth = xanderScript.maxHealth;
-		}
-		else if (thisParent.name == "Shera(Clone)") {
+		} else if (thisParent.name == "Shera") {
 			sheraScript = thisParent.GetComponent<SheraScript> ();
 			maxHealth = sheraScript.maxHealth;
+		} else if (thisParent.name == "Jeremiah") {
+			jeremiahScript = thisParent.GetComponent<JeremiahScript> ();
+			maxHealth = jeremiahScript.maxHealth;
+		} else if (thisParent.name == "Croak") {
+			croakScript = thisParent.GetComponent<CroakScript> ();
+			maxHealth = croakScript.maxHealth;
 		} else {
 			maxHealth = 100f;
 		}
 		curHealth = maxHealth;
 
-		healthBar = this.transform.FindChild("HealthBar").GetComponent<Image>();
+		healthBar = this.transform.FindChild ("HealthBar").GetComponent<Image> ();
 		healthBar.transform.localScale = new Vector3 (Mathf.Clamp (maxHealth, 0f, 1f), healthBar.transform.localScale.y, healthBar.transform.localScale.z);
 	}
 
-	public void GetHit (float healthLost) {
+	public void GetHit (float healthLost)
+	{
 		curHealth -= healthLost;
 
 		calcHealth = curHealth / maxHealth;
@@ -48,7 +58,8 @@ public class HealthBarScript : MonoBehaviour {
 		healthBar.transform.localScale = new Vector3 (Mathf.Clamp (calcHealth, 0f, 1f), healthBar.transform.localScale.y, healthBar.transform.localScale.z);
 	}
 
-	void Update () {
+	void Update ()
+	{
 		if (curHealth <= 0f) {
 			Destroy (thisParent);
 		}

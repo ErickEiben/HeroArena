@@ -8,7 +8,7 @@ public class PlayerSelectScript : MonoBehaviour
 	public GameObject playerUIPrefab;
 	public GameObject Canvas;
 
-	public const int maxPlayers = 4;
+	const int maxPlayers = 4;
 
 	List<Vector3> playerPositions = new List<Vector3> () {
 		new Vector3 (-295, 0, 0),
@@ -28,11 +28,9 @@ public class PlayerSelectScript : MonoBehaviour
 	{
 		var inputDevice = InputManager.ActiveDevice;
 
-		if (JoinButtonWasPressedOnDevice( inputDevice ))
-		{
-			if (ThereIsNoPlayerUsingDevice( inputDevice ))
-			{
-				CreatePlayer( inputDevice );
+		if (JoinButtonWasPressedOnDevice (inputDevice)) {
+			if (ThereIsNoPlayerUsingDevice (inputDevice)) {
+				CreatePlayer (inputDevice);
 			}
 		}
 	}
@@ -40,6 +38,7 @@ public class PlayerSelectScript : MonoBehaviour
 	bool JoinButtonWasPressedOnDevice (InputDevice inputDevice)
 	{
 		return inputDevice.Action1.WasPressed || inputDevice.Action2.WasPressed || inputDevice.Action3.WasPressed || inputDevice.Action4.WasPressed;
+		print ("Button Pressed");
 	}
 
 	SelectUIScript FindPlayerUsingDevice (InputDevice inputDevice)
@@ -51,6 +50,7 @@ public class PlayerSelectScript : MonoBehaviour
 				return player;
 			}
 		}
+
 		return null;
 	}
 
@@ -73,14 +73,14 @@ public class PlayerSelectScript : MonoBehaviour
 			var playerPosition = playerPositions [0];
 			playerPositions.RemoveAt (0);
 
-			var gameObject = GameObject.Find ("PlayerSelectUI (" + players.Count + ")");
+			var gameObject = (GameObject)Instantiate (playerUIPrefab, playerPosition, Quaternion.identity);
+			print ("Object Created");
 			var player = gameObject.GetComponent<SelectUIScript> ();
 			player.Device = inputDevice;
 			players.Add (player);
 
 			return player;
 		}
-
 		return null;
 	}
 
@@ -92,7 +92,6 @@ public class PlayerSelectScript : MonoBehaviour
 		Destroy (player.gameObject);
 	}
 
-	/*
 	void OnGUI() {
 		const float h = 22.0f;
 		var y = 10.0f;
@@ -107,5 +106,4 @@ public class PlayerSelectScript : MonoBehaviour
 			y += h;
 		}
 	}
-	*/
 }
