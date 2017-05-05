@@ -11,10 +11,10 @@ public class PlayerSelectScript : MonoBehaviour
 	const int maxPlayers = 4;
 
 	List<Vector3> playerPositions = new List<Vector3> () {
-		new Vector3 (-295, 0, 0),
-		new Vector3 (-100, 0, 0),
-		new Vector3 (100, 0, 0),
-		new Vector3 (295, 0, 0),
+		new Vector3 (-602, 150, 0),
+		new Vector3 (-216, 150, 0),
+		new Vector3 (174, 150, 0),
+		new Vector3 (560, 150, 0),
 	};
 
 	List<SelectUIScript> players = new List<SelectUIScript> (maxPlayers);
@@ -73,8 +73,10 @@ public class PlayerSelectScript : MonoBehaviour
 			var playerPosition = playerPositions [0];
 			playerPositions.RemoveAt (0);
 
-			var gameObject = (GameObject)Instantiate (playerUIPrefab, playerPosition, Quaternion.identity);
-			print ("Object Created");
+			var gameObject = (GameObject)Instantiate (playerUIPrefab, Vector3.zero, Quaternion.identity);
+			gameObject.transform.parent = Canvas.transform;
+			gameObject.transform.position = new Vector3 ((Canvas.transform.position.x - playerPosition.x), (Canvas.transform.position.y + playerPosition.y), Canvas.transform.position.z);
+			gameObject.transform.localScale = new Vector3 (2, 2, 2);
 			var player = gameObject.GetComponent<SelectUIScript> ();
 			player.Device = inputDevice;
 			players.Add (player);
@@ -92,17 +94,18 @@ public class PlayerSelectScript : MonoBehaviour
 		Destroy (player.gameObject);
 	}
 
-	void OnGUI() {
+	void OnGUI ()
+	{
 		const float h = 22.0f;
 		var y = 10.0f;
 
 		GUI.color = Color.black;
 
-		GUI.Label (new Rect(10, y, 300, y + h), "Active players: " + players.Count + "/" + maxPlayers);
+		GUI.Label (new Rect (10, y, 300, y + h), "Active players: " + players.Count + "/" + maxPlayers);
 		y += h;
 
 		if (players.Count < maxPlayers) {
-			GUI.Label (new Rect(10, y, 300, y + h), "Press a button to join!");
+			GUI.Label (new Rect (10, y, 300, y + h), "Press a button to join!");
 			y += h;
 		}
 	}
