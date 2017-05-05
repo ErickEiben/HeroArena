@@ -18,6 +18,12 @@ public class AnimationScript : MonoBehaviour {
 		if ((selected == false) && (this.name == "BloodhunterPlayerSelect")) {
 			anim.Play ("Nothing Idle");
 		}
+		if ((selected == false) && (this.name == "CroakPlayerSelect")) {
+			anim.Play ("Nothing Idle");
+		}
+		if ((selected == false) && (this.name == "SheraPlayerSelect")) {
+			anim.Play ("Nothing Idle");
+		}
 	}
 
 }

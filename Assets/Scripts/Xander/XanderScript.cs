@@ -183,7 +183,7 @@ public class XanderScript : MonoBehaviour
 
 			// Playing animations
 			if (moveDirection == Vector3.zero) { 
-				playerAnim.Play ("Idle");
+				playerAnim.Play ("Move Idle");
 			}
 			if (moveDirection != Vector3.zero) {
 				playerAnim.Play ("Run");

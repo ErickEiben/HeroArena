@@ -6,15 +6,19 @@ using InControl;
 public class PlayerSelectScript : MonoBehaviour
 {
 	public GameObject playerUIPrefab;
-	public GameObject Canvas;
+	public GameObject canvas;
+	[HideInInspector] public GameObject playerJoin1;
+	[HideInInspector] public GameObject playerJoin2;
+	[HideInInspector] public GameObject playerJoin3;
+	[HideInInspector] public GameObject playerJoin4;
 
 	const int maxPlayers = 4;
 
 	List<Vector3> playerPositions = new List<Vector3> () {
-		new Vector3 (-602, 150, 0),
-		new Vector3 (-216, 150, 0),
-		new Vector3 (174, 150, 0),
-		new Vector3 (560, 150, 0),
+		new Vector3 (-602, 100, 0),
+		new Vector3 (-216, 100, 0),
+		new Vector3 (174, 100, 0),
+		new Vector3 (560, 100, 0),
 	};
 
 	List<SelectUIScript> players = new List<SelectUIScript> (maxPlayers);
@@ -22,6 +26,11 @@ public class PlayerSelectScript : MonoBehaviour
 	void Start ()
 	{
 		InputManager.OnDeviceDetached += OnDeviceDetached;
+
+		playerJoin1 = GameObject.Find ("PlayerJoin1");
+		playerJoin2 = GameObject.Find ("PlayerJoin2");
+		playerJoin3 = GameObject.Find ("PlayerJoin3");
+		playerJoin4 = GameObject.Find ("PlayerJoin4");
 	}
 
 	void Update ()
@@ -74,12 +83,22 @@ public class PlayerSelectScript : MonoBehaviour
 			playerPositions.RemoveAt (0);
 
 			var gameObject = (GameObject)Instantiate (playerUIPrefab, Vector3.zero, Quaternion.identity);
-			gameObject.transform.parent = Canvas.transform;
-			gameObject.transform.position = new Vector3 ((Canvas.transform.position.x - playerPosition.x), (Canvas.transform.position.y + playerPosition.y), Canvas.transform.position.z);
-			gameObject.transform.localScale = new Vector3 (2, 2, 2);
+			gameObject.transform.parent = canvas.transform;
+			gameObject.transform.localPosition = playerPosition;
+			gameObject.transform.localScale = new Vector3 (1, 1, 1);
 			var player = gameObject.GetComponent<SelectUIScript> ();
 			player.Device = inputDevice;
 			players.Add (player);
+
+			if (players.Count == 1) {
+				playerJoin1.SetActive (false);
+			} else if (players.Count == 2) {
+				playerJoin2.SetActive (false);
+			} else if (players.Count == 3) {
+				playerJoin3.SetActive (false);
+			} else if (players.Count == 4) {
+				playerJoin4.SetActive (false);
+			}
 
 			return player;
 		}
