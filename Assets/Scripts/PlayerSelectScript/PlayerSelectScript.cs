@@ -47,7 +47,6 @@ public class PlayerSelectScript : MonoBehaviour
 	bool JoinButtonWasPressedOnDevice (InputDevice inputDevice)
 	{
 		return inputDevice.Action1.WasPressed || inputDevice.Action2.WasPressed || inputDevice.Action3.WasPressed || inputDevice.Action4.WasPressed;
-		print ("Button Pressed");
 	}
 
 	SelectUIScript FindPlayerUsingDevice (InputDevice inputDevice)
@@ -122,10 +121,5 @@ public class PlayerSelectScript : MonoBehaviour
 
 		GUI.Label (new Rect (10, y, 300, y + h), "Active players: " + players.Count + "/" + maxPlayers);
 		y += h;
-
-		if (players.Count < maxPlayers) {
-			GUI.Label (new Rect (10, y, 300, y + h), "Press a button to join!");
-			y += h;
-		}
 	}
 }

@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class AnimationScript : MonoBehaviour {
 
-	public Animation anim;
-	public bool selected = false;
+	[HideInInspector] public Animation anim;
+	[HideInInspector] public bool selected = false;
 
 	void Start () {
 		anim = GetComponent<Animation> ();
