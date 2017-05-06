@@ -87,6 +87,7 @@ public class PlayerSelectScript : MonoBehaviour
 			gameObject.transform.localScale = new Vector3 (1, 1, 1);
 			var player = gameObject.GetComponent<SelectUIScript> ();
 			player.Device = inputDevice;
+			player.playerNumber = players.Count;
 			players.Add (player);
 
 			if (players.Count == 1) {

@@ -63,6 +63,7 @@ public class JeremiahScript : MonoBehaviour
 	[HideInInspector] public bool jeremiahSlowed = false;
 	[HideInInspector] public float jeremiahSlowedAmount;
 	[HideInInspector] public float jeremiahSlowedLength;
+	public int team;
 
 	#endregion
 

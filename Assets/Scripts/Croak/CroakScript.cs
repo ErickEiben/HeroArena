@@ -60,6 +60,7 @@ public class CroakScript : MonoBehaviour
 	[HideInInspector] public bool croakSlowed = false;
 	[HideInInspector] public float croakSlowedAmount;
 	[HideInInspector] public float croakSlowedLength;
+	public int team;
 
 	#endregion
 

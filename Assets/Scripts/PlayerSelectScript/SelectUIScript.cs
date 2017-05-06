@@ -8,6 +8,8 @@ public class SelectUIScript : MonoBehaviour
 {
 	public static SelectUIScript S;
 
+	#region *** Variables ***
+
 	[HideInInspector] public GameObject xanderPlayerSelect;
 	[HideInInspector] public GameObject bloodhunterPlayerSelect;
 	[HideInInspector] public GameObject croakPlayerSelect;
@@ -26,7 +28,9 @@ public class SelectUIScript : MonoBehaviour
 
 	[HideInInspector] [Range (0, 3)] public int characterSelected;
 	[HideInInspector] [Range (0, 5)] public int teamColor;
-	[HideInInspector] [Range (0, 3)] public int playerPosition;
+	[HideInInspector] [Range (0, 3)] public int playerNumber;
+
+	#endregion
 
 	public InputDevice Device { get; set; }
 

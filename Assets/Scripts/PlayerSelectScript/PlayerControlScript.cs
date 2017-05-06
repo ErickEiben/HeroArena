@@ -162,6 +162,7 @@ public class PlayerControlScript : MonoBehaviour {
 		Destroy( player.gameObject );
 	}
 
+	/*
 	void OnGUI() {
 		const float h = 22.0f;
 		var y = 10.0f;
@@ -184,4 +185,5 @@ public class PlayerControlScript : MonoBehaviour {
 			y += h;
 		}
 	}
+	*/
 }

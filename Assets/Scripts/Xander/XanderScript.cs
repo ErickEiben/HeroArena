@@ -49,12 +49,13 @@ public class XanderScript : MonoBehaviour
 	public float xanderDigSpeed;
 	private bool digCooling;
 
-	[Header ("----- Xander Various -----")]
+	[Header ("----- Xander Miscellaneous Variables -----")]
 	public GameObject basicSpawnPoint;
 	public GameObject mineSpawnPoint;
 	[HideInInspector] public bool xanderSlowed = false;
 	[HideInInspector] public float xanderSlowedAmount;
 	[HideInInspector] public float xanderSlowedLength;
+	public int team;
 
 	#endregion
 

@@ -62,6 +62,7 @@ public class SheraScript : MonoBehaviour
 	[HideInInspector] public bool sheraSlowed = false;
 	[HideInInspector] public float sheraSlowedAmount;
 	[HideInInspector] public float sheraSlowedLength;
+	public int team;
 
 	#endregion
 
