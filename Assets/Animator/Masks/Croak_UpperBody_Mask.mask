@@ -1,0 +1,157 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1011 &101100000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Croak_UpperBody_Mask
+  m_Mask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: Gator
+    m_Weight: 1
+  - m_Path: Whole Rig
+    m_Weight: 1
+  - m_Path: Whole Rig/Hip Control
+    m_Weight: 1
+  - m_Path: Whole Rig/Hip Control/Tail Controller
+    m_Weight: 0
+  - m_Path: Whole Rig/Hip Control/Tail Controller/Tail
+    m_Weight: 0
+  - m_Path: Whole Rig/Hip Control/Tail Controller/Tail/Lower Tail
+    m_Weight: 0
+  - m_Path: Whole Rig/Hip Control/Tail Controller/Tail Controller 2
+    m_Weight: 0
+  - m_Path: Whole Rig/Hip Control/Tail Controller/Tail Controller 2/Tail Controller
+      3
+    m_Weight: 0
+  - m_Path: Whole Rig/Hip Control/Tail Controller/Tail Controller 2/Tail Controller
+      3/Middle Tail
+    m_Weight: 0
+  - m_Path: Whole Rig/Hip Control/Tail Controller/Tail Controller 2/Tail Controller
+      3/Tail Controller 4
+    m_Weight: 0
+  - m_Path: Whole Rig/Hip Control/Tail Controller/Tail Controller 2/Tail Controller
+      3/Tail Controller 4/Upper tail
+    m_Weight: 0
+  - m_Path: Whole Rig/Hip Control/Tail Controller/Tail Controller 2/Tail Controller
+      3/Tail Controller 4/Upper tail/Tail end
+    m_Weight: 0
+  - m_Path: Whole Rig/Hip Control/Upper Body Control
+    m_Weight: 1
+  - m_Path: Whole Rig/Hip Control/Upper Body Control/Spine Base
+    m_Weight: 1
+  - m_Path: Whole Rig/Hip Control/Upper Body Control/Spine Base/Lower Spine
+    m_Weight: 1
+  - m_Path: Whole Rig/Hip Control/Upper Body Control/Spine Base/Lower Spine/Mid Spine
+    m_Weight: 1
+  - m_Path: Whole Rig/Hip Control/Upper Body Control/Spine Base/Lower Spine/Mid Spine/Left
+      CLavicle
+    m_Weight: 1
+  - m_Path: Whole Rig/Hip Control/Upper Body Control/Spine Base/Lower Spine/Mid Spine/Left
+      CLavicle/Left  Shoulder Controller
+    m_Weight: 1
+  - m_Path: Whole Rig/Hip Control/Upper Body Control/Spine Base/Lower Spine/Mid Spine/Left
+      CLavicle/Left  Shoulder Controller/Left Arm Controller
+    m_Weight: 1
+  - m_Path: Whole Rig/Hip Control/Upper Body Control/Spine Base/Lower Spine/Mid Spine/Left
+      CLavicle/Left  Shoulder Controller/Left Arm Controller/Left Wrist Controller
+    m_Weight: 1
+  - m_Path: Whole Rig/Hip Control/Upper Body Control/Spine Base/Lower Spine/Mid Spine/Left
+      CLavicle/Left Shoulder
+    m_Weight: 1
+  - m_Path: Whole Rig/Hip Control/Upper Body Control/Spine Base/Lower Spine/Mid Spine/Left
+      CLavicle/Left Shoulder/Left Arm
+    m_Weight: 1
+  - m_Path: Whole Rig/Hip Control/Upper Body Control/Spine Base/Lower Spine/Mid Spine/Left
+      CLavicle/Left Shoulder/Left Arm/Left Wrist
+    m_Weight: 1
+  - m_Path: Whole Rig/Hip Control/Upper Body Control/Spine Base/Lower Spine/Mid Spine/Neck
+      Fix
+    m_Weight: 1
+  - m_Path: Whole Rig/Hip Control/Upper Body Control/Spine Base/Lower Spine/Mid Spine/Neck
+      Fix/Upper Spine
+    m_Weight: 1
+  - m_Path: Whole Rig/Hip Control/Upper Body Control/Spine Base/Lower Spine/Mid Spine/Neck
+      Fix/Upper Spine/Head/Neck Control
+    m_Weight: 1
+  - m_Path: Whole Rig/Hip Control/Upper Body Control/Spine Base/Lower Spine/Mid Spine/Neck
+      Fix/Upper Spine/Neck
+    m_Weight: 1
+  - m_Path: Whole Rig/Hip Control/Upper Body Control/Spine Base/Lower Spine/Mid Spine/Neck
+      Fix/Upper Spine/Neck/Jaw Control
+    m_Weight: 1
+  - m_Path: Whole Rig/Hip Control/Upper Body Control/Spine Base/Lower Spine/Mid Spine/Neck
+      Fix/Upper Spine/Neck/Lower Jaw
+    m_Weight: 1
+  - m_Path: Whole Rig/Hip Control/Upper Body Control/Spine Base/Lower Spine/Mid Spine/Neck
+      Fix/Upper Spine/Neck/Lower Jaw/Jaw Bottom
+    m_Weight: 1
+  - m_Path: Whole Rig/Hip Control/Upper Body Control/Spine Base/Lower Spine/Mid Spine/Neck
+      Fix/Upper Spine/Neck/Upper Jaw
+    m_Weight: 1
+  - m_Path: Whole Rig/Hip Control/Upper Body Control/Spine Base/Lower Spine/Mid Spine/Neck
+      Fix/Upper Spine/Neck/Upper Jaw/Top Jaw
+    m_Weight: 1
+  - m_Path: Whole Rig/Hip Control/Upper Body Control/Spine Base/Lower Spine/Mid Spine/Right
+      Clavicle
+    m_Weight: 1
+  - m_Path: Whole Rig/Hip Control/Upper Body Control/Spine Base/Lower Spine/Mid Spine/Right
+      Clavicle/Right Shoulder
+    m_Weight: 1
+  - m_Path: Whole Rig/Hip Control/Upper Body Control/Spine Base/Lower Spine/Mid Spine/Right
+      Clavicle/Right Shoulder/Right Arm
+    m_Weight: 1
+  - m_Path: Whole Rig/Hip Control/Upper Body Control/Spine Base/Lower Spine/Mid Spine/Right
+      Clavicle/Right Shoulder/Right Arm/Right Wrist
+    m_Weight: 1
+  - m_Path: Whole Rig/Hip Control/Upper Body Control/Spine Base/Lower Spine/Mid Spine/Right
+      Clavicle/Right Shoulder Controller
+    m_Weight: 1
+  - m_Path: Whole Rig/Hip Control/Upper Body Control/Spine Base/Lower Spine/Mid Spine/Right
+      Clavicle/Right Shoulder Controller/Right Arm Controller
+    m_Weight: 1
+  - m_Path: Whole Rig/Hip Control/Upper Body Control/Spine Base/Lower Spine/Mid Spine/Right
+      Clavicle/Right Shoulder Controller/Right Arm Controller/Right Wrist Controller
+    m_Weight: 1
+  - m_Path: Whole Rig/Hip Control/Waist Swivel
+    m_Weight: 0
+  - m_Path: Whole Rig/Hip Control/Waist Swivel/Pelvis
+    m_Weight: 0
+  - m_Path: Whole Rig/Hip Control/Waist Swivel/Pelvis/Left Thigh
+    m_Weight: 0
+  - m_Path: Whole Rig/Hip Control/Waist Swivel/Pelvis/Left Thigh/Left Knee
+    m_Weight: 0
+  - m_Path: Whole Rig/Hip Control/Waist Swivel/Pelvis/Left Thigh/Left Knee/Left Foot
+    m_Weight: 0
+  - m_Path: Whole Rig/Hip Control/Waist Swivel/Pelvis/Left Thigh/Left Knee/Left Foot/Left
+      Toe
+    m_Weight: 0
+  - m_Path: Whole Rig/Hip Control/Waist Swivel/Pelvis/Left Thigh/Left Knee/Left Foot/Left
+      Toe/Left Toe Nub
+    m_Weight: 0
+  - m_Path: Whole Rig/Hip Control/Waist Swivel/Pelvis/Pelvis Nub
+    m_Weight: 0
+  - m_Path: Whole Rig/Hip Control/Waist Swivel/Pelvis/Right Thigh
+    m_Weight: 0
+  - m_Path: Whole Rig/Hip Control/Waist Swivel/Pelvis/Right Thigh/Right Knee
+    m_Weight: 0
+  - m_Path: Whole Rig/Hip Control/Waist Swivel/Pelvis/Right Thigh/Right Knee/Right
+      Foot
+    m_Weight: 0
+  - m_Path: Whole Rig/Hip Control/Waist Swivel/Pelvis/Right Thigh/Right Knee/Right
+      Foot/Right Toe
+    m_Weight: 0
+  - m_Path: Whole Rig/Hip Control/Waist Swivel/Pelvis/Right Thigh/Right Knee/Right
+      Foot/Right Toe/Right Toe Nub
+    m_Weight: 0
+  - m_Path: Whole Rig/Left Foot Controller
+    m_Weight: 0
+  - m_Path: Whole Rig/Left Foot Controller/IK Chain002
+    m_Weight: 0
+  - m_Path: Whole Rig/Right Foot Controller
+    m_Weight: 0
+  - m_Path: Whole Rig/Right Foot Controller/IK Chain001
+    m_Weight: 0

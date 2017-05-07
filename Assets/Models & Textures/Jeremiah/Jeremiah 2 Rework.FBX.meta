@@ -1,0 +1,3737 @@
+fileFormatVersion: 2
+guid: 680290f32edd89d47984527db93309fb
+timeCreated: 1494018189
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Circle001
+    100002: Circle002
+    100004: Circle003
+    100006: Circle004
+    100008: Circle005
+    100010: Circle006
+    100012: Circle007
+    100014: Circle008
+    100016: Circle009
+    100018: Circle010
+    100020: Circle011
+    100022: Circle012
+    100024: Circle013
+    100026: Circle014
+    100028: Circle015
+    100030: Donut001
+    100032: Donut002
+    100034: Donut003
+    100036: Donut004
+    100038: Donut005
+    100040: Donut006
+    100042: Dummy001
+    100044: Dummy002
+    100046: Hat
+    100048: Head
+    100050: Head Controller
+    100052: Head Nub
+    100054: IK Chain001
+    100056: IK Chain002
+    100058: IK Chain003
+    100060: IK Chain004
+    100062: IK Chain005
+    100064: IK Chain006
+    100066: Index Finger 1
+    100068: Index Finger 2
+    100070: Index Finger 3
+    100072: Index Finger Nub
+    100074: Jeremiah
+    100076: Left Arm
+    100078: Left Clavicle
+    100080: Left Foot
+    100082: Left Hand
+    100084: Left Hand Nub
+    100086: Left Leg
+    100088: Left Shin
+    100090: Left Shoulder
+    100092: Left Toe
+    100094: Left Toe Nub
+    100096: Left Wrist
+    100098: Line001
+    100100: Line002
+    100102: Middle Finger 1
+    100104: Middle Finger 2
+    100106: Middle Finger 3
+    100108: Middle Finger Nub
+    100110: Neck
+    100112: NeckBase
+    100114: Pelvis
+    100116: Pelvis Nub
+    100118: Pinky Finger 1
+    100120: Pinky Finger 2
+    100122: Pinky Finger 3
+    100124: Pinky Finger Nub
+    100126: //RootNode
+    100128: Right Arm
+    100130: Right Clavicle
+    100132: Right Foot
+    100134: Right Hand
+    100136: Right Leg
+    100138: Right Shin
+    100140: Right Shoulder
+    100142: Right Toe
+    100144: Right Toe Nub
+    100146: Right Wrist
+    100148: Ring Finger 1
+    100150: Ring Finger 2
+    100152: Ring Finger 3
+    100154: Ring Finger Nub
+    100156: Spine 1
+    100158: Spine 2
+    100160: Spine 3
+    100162: Spine Base Controller
+    100164: Star001
+    100166: Thumb 1
+    100168: Thumb 2
+    100170: Thumb 3
+    100172: Thumb Nub
+    100174: Weapon
+    400000: Circle001
+    400002: Circle002
+    400004: Circle003
+    400006: Circle004
+    400008: Circle005
+    400010: Circle006
+    400012: Circle007
+    400014: Circle008
+    400016: Circle009
+    400018: Circle010
+    400020: Circle011
+    400022: Circle012
+    400024: Circle013
+    400026: Circle014
+    400028: Circle015
+    400030: Donut001
+    400032: Donut002
+    400034: Donut003
+    400036: Donut004
+    400038: Donut005
+    400040: Donut006
+    400042: Dummy001
+    400044: Dummy002
+    400046: Hat
+    400048: Head
+    400050: Head Controller
+    400052: Head Nub
+    400054: IK Chain001
+    400056: IK Chain002
+    400058: IK Chain003
+    400060: IK Chain004
+    400062: IK Chain005
+    400064: IK Chain006
+    400066: Index Finger 1
+    400068: Index Finger 2
+    400070: Index Finger 3
+    400072: Index Finger Nub
+    400074: Jeremiah
+    400076: Left Arm
+    400078: Left Clavicle
+    400080: Left Foot
+    400082: Left Hand
+    400084: Left Hand Nub
+    400086: Left Leg
+    400088: Left Shin
+    400090: Left Shoulder
+    400092: Left Toe
+    400094: Left Toe Nub
+    400096: Left Wrist
+    400098: Line001
+    400100: Line002
+    400102: Middle Finger 1
+    400104: Middle Finger 2
+    400106: Middle Finger 3
+    400108: Middle Finger Nub
+    400110: Neck
+    400112: NeckBase
+    400114: Pelvis
+    400116: Pelvis Nub
+    400118: Pinky Finger 1
+    400120: Pinky Finger 2
+    400122: Pinky Finger 3
+    400124: Pinky Finger Nub
+    400126: //RootNode
+    400128: Right Arm
+    400130: Right Clavicle
+    400132: Right Foot
+    400134: Right Hand
+    400136: Right Leg
+    400138: Right Shin
+    400140: Right Shoulder
+    400142: Right Toe
+    400144: Right Toe Nub
+    400146: Right Wrist
+    400148: Ring Finger 1
+    400150: Ring Finger 2
+    400152: Ring Finger 3
+    400154: Ring Finger Nub
+    400156: Spine 1
+    400158: Spine 2
+    400160: Spine 3
+    400162: Spine Base Controller
+    400164: Star001
+    400166: Thumb 1
+    400168: Thumb 2
+    400170: Thumb 3
+    400172: Thumb Nub
+    400174: Weapon
+    2300000: Circle013
+    2300002: Hat
+    2300004: Weapon
+    3300000: Circle013
+    3300002: Hat
+    3300004: Weapon
+    4300000: Jeremiah
+    4300002: Weapon
+    4300004: Circle013
+    4300006: Hat
+    7400000: Run_Jeremiah2
+    7400002: Attack V1_Jeremiah2
+    7400004: Attack V2_Jeremiah2
+    7400006: Ability 1_Jeremiah2
+    7400008: Ability 2_Jeremiah2
+    7400010: Nothing Idle_Jeremiah2
+    7400012: Character Select Idle_Jeremiah2
+    7400014: Character Selected Idle_Jeremiah2
+    7400016: Move Idle_Jeremiah2
+    7400018: Strafe Left_Jeremiah2
+    7400020: Strafe Right_Jeremiah2
+    7400022: Backpedal_Jeremiah2
+    7400024: Death_Jeremiah2
+    7400026: ALL_Jeremiah2
+    9500000: //RootNode
+    13700000: Jeremiah
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Run_Jeremiah2
+      takeName: Take 001
+      firstFrame: 5
+      lastFrame: 53
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Dummy001
+        weight: 1
+      - path: Dummy002
+        weight: 1
+      - path: Jeremiah
+        weight: 1
+      - path: Star001
+        weight: 1
+      - path: Star001/Circle001
+        weight: 1
+      - path: Star001/Circle001/Circle002
+        weight: 1
+      - path: Star001/Circle001/Pelvis
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Left Leg
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Left Leg/Left Shin
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Left Leg/Left Shin/Left Foot
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Left Leg/Left Shin/Left Foot/Left Toe
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Left Leg/Left Shin/Left Foot/Left Toe/Left
+          Toe Nub
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Pelvis Nub
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Right Leg
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Right Leg/Right Shin
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Right Leg/Right Shin/Right Foot
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Right Leg/Right Shin/Right Foot/Right Toe
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Right Leg/Right Shin/Right Foot/Right Toe/Right
+          Toe Nub
+        weight: 1
+      - path: Star001/Circle001/Spine 1
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Circle014
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Circle014/Circle006
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Circle014/Circle006/Circle007
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Circle014/Circle006/Circle007/Circle008
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Circle015
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Circle015/Circle003
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Circle015/Circle003/Circle004
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Circle015/Circle003/Circle004/Circle005
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle009
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle009/Pinky Finger 1
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle009/Pinky Finger 1/Pinky Finger 2
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle009/Pinky Finger 1/Pinky Finger 2/Pinky Finger
+          3
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle009/Pinky Finger 1/Pinky Finger 2/Pinky Finger
+          3/Pinky Finger Nub
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle010
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle010/Ring Finger 1
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle010/Ring Finger 1/Ring Finger 2
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle010/Ring Finger 1/Ring Finger 2/Ring Finger
+          3
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle010/Ring Finger 1/Ring Finger 2/Ring Finger
+          3/Ring Finger Nub
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle011
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle011/Middle Finger 1
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle011/Middle Finger 1/Middle Finger 2
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle011/Middle Finger 1/Middle Finger 2/Middle
+          Finger 3
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle011/Middle Finger 1/Middle Finger 2/Middle
+          Finger 3/Middle Finger Nub
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle012
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle012/Index Finger 1
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle012/Index Finger 1/Index Finger 2
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle012/Index Finger 1/Index Finger 2/Index Finger
+          3
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle012/Index Finger 1/Index Finger 2/Index Finger
+          3/Index Finger Nub
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle013
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle013/Thumb 1
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle013/Thumb 1/Thumb 2
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle013/Thumb 1/Thumb 2/Thumb 3
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle013/Thumb 1/Thumb 2/Thumb 3/Thumb Nub
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Left Hand Nub
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Neck
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Neck/Head
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Neck/Head/Hat
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Neck/Head/Head Nub
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Right Clavicle
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Right Clavicle/Right Shoulder
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Right Clavicle/Right Shoulder/Right
+          Arm
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Right Clavicle/Right Shoulder/Right
+          Arm/Right Wrist
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Right Clavicle/Right Shoulder/Right
+          Arm/Right Wrist/Right Hand
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Right Clavicle/Right Shoulder/Right
+          Arm/Right Wrist/Right Hand/Weapon
+        weight: 1
+      - path: Star001/Circle001/Spine Base Controller
+        weight: 1
+      - path: Star001/Circle001/Spine Base Controller/NeckBase
+        weight: 1
+      - path: Star001/Circle001/Spine Base Controller/NeckBase/Head Controller
+        weight: 1
+      - path: Star001/Line001
+        weight: 1
+      - path: Star001/Line001/Donut001
+        weight: 1
+      - path: Star001/Line001/Donut001/IK Chain001
+        weight: 1
+      - path: Star001/Line001/Donut002
+        weight: 1
+      - path: Star001/Line001/Donut002/IK Chain002
+        weight: 1
+      - path: Star001/Line001/Donut003
+        weight: 1
+      - path: Star001/Line001/Donut003/IK Chain003
+        weight: 1
+      - path: Star001/Line002
+        weight: 1
+      - path: Star001/Line002/Donut004
+        weight: 1
+      - path: Star001/Line002/Donut004/IK Chain004
+        weight: 1
+      - path: Star001/Line002/Donut005
+        weight: 1
+      - path: Star001/Line002/Donut005/IK Chain005
+        weight: 1
+      - path: Star001/Line002/Donut006
+        weight: 1
+      - path: Star001/Line002/Donut006/IK Chain006
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Attack V1_Jeremiah2
+      takeName: Take 001
+      firstFrame: 60
+      lastFrame: 105
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Dummy001
+        weight: 1
+      - path: Dummy002
+        weight: 1
+      - path: Jeremiah
+        weight: 1
+      - path: Star001
+        weight: 1
+      - path: Star001/Circle001
+        weight: 1
+      - path: Star001/Circle001/Circle002
+        weight: 1
+      - path: Star001/Circle001/Pelvis
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Left Leg
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Left Leg/Left Shin
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Left Leg/Left Shin/Left Foot
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Left Leg/Left Shin/Left Foot/Left Toe
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Left Leg/Left Shin/Left Foot/Left Toe/Left
+          Toe Nub
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Pelvis Nub
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Right Leg
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Right Leg/Right Shin
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Right Leg/Right Shin/Right Foot
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Right Leg/Right Shin/Right Foot/Right Toe
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Right Leg/Right Shin/Right Foot/Right Toe/Right
+          Toe Nub
+        weight: 1
+      - path: Star001/Circle001/Spine 1
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Circle014
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Circle014/Circle006
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Circle014/Circle006/Circle007
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Circle014/Circle006/Circle007/Circle008
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Circle015
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Circle015/Circle003
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Circle015/Circle003/Circle004
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Circle015/Circle003/Circle004/Circle005
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle009
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle009/Pinky Finger 1
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle009/Pinky Finger 1/Pinky Finger 2
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle009/Pinky Finger 1/Pinky Finger 2/Pinky Finger
+          3
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle009/Pinky Finger 1/Pinky Finger 2/Pinky Finger
+          3/Pinky Finger Nub
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle010
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle010/Ring Finger 1
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle010/Ring Finger 1/Ring Finger 2
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle010/Ring Finger 1/Ring Finger 2/Ring Finger
+          3
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle010/Ring Finger 1/Ring Finger 2/Ring Finger
+          3/Ring Finger Nub
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle011
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle011/Middle Finger 1
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle011/Middle Finger 1/Middle Finger 2
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle011/Middle Finger 1/Middle Finger 2/Middle
+          Finger 3
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle011/Middle Finger 1/Middle Finger 2/Middle
+          Finger 3/Middle Finger Nub
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle012
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle012/Index Finger 1
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle012/Index Finger 1/Index Finger 2
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle012/Index Finger 1/Index Finger 2/Index Finger
+          3
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle012/Index Finger 1/Index Finger 2/Index Finger
+          3/Index Finger Nub
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle013
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle013/Thumb 1
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle013/Thumb 1/Thumb 2
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle013/Thumb 1/Thumb 2/Thumb 3
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle013/Thumb 1/Thumb 2/Thumb 3/Thumb Nub
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Left Hand Nub
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Neck
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Neck/Head
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Neck/Head/Hat
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Neck/Head/Head Nub
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Right Clavicle
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Right Clavicle/Right Shoulder
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Right Clavicle/Right Shoulder/Right
+          Arm
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Right Clavicle/Right Shoulder/Right
+          Arm/Right Wrist
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Right Clavicle/Right Shoulder/Right
+          Arm/Right Wrist/Right Hand
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Right Clavicle/Right Shoulder/Right
+          Arm/Right Wrist/Right Hand/Weapon
+        weight: 1
+      - path: Star001/Circle001/Spine Base Controller
+        weight: 1
+      - path: Star001/Circle001/Spine Base Controller/NeckBase
+        weight: 1
+      - path: Star001/Circle001/Spine Base Controller/NeckBase/Head Controller
+        weight: 1
+      - path: Star001/Line001
+        weight: 1
+      - path: Star001/Line001/Donut001
+        weight: 1
+      - path: Star001/Line001/Donut001/IK Chain001
+        weight: 1
+      - path: Star001/Line001/Donut002
+        weight: 1
+      - path: Star001/Line001/Donut002/IK Chain002
+        weight: 1
+      - path: Star001/Line001/Donut003
+        weight: 1
+      - path: Star001/Line001/Donut003/IK Chain003
+        weight: 1
+      - path: Star001/Line002
+        weight: 1
+      - path: Star001/Line002/Donut004
+        weight: 1
+      - path: Star001/Line002/Donut004/IK Chain004
+        weight: 1
+      - path: Star001/Line002/Donut005
+        weight: 1
+      - path: Star001/Line002/Donut005/IK Chain005
+        weight: 1
+      - path: Star001/Line002/Donut006
+        weight: 1
+      - path: Star001/Line002/Donut006/IK Chain006
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Attack V2_Jeremiah2
+      takeName: Take 001
+      firstFrame: 110
+      lastFrame: 140
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Dummy001
+        weight: 1
+      - path: Dummy002
+        weight: 1
+      - path: Jeremiah
+        weight: 1
+      - path: Star001
+        weight: 1
+      - path: Star001/Circle001
+        weight: 1
+      - path: Star001/Circle001/Circle002
+        weight: 1
+      - path: Star001/Circle001/Pelvis
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Left Leg
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Left Leg/Left Shin
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Left Leg/Left Shin/Left Foot
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Left Leg/Left Shin/Left Foot/Left Toe
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Left Leg/Left Shin/Left Foot/Left Toe/Left
+          Toe Nub
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Pelvis Nub
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Right Leg
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Right Leg/Right Shin
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Right Leg/Right Shin/Right Foot
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Right Leg/Right Shin/Right Foot/Right Toe
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Right Leg/Right Shin/Right Foot/Right Toe/Right
+          Toe Nub
+        weight: 1
+      - path: Star001/Circle001/Spine 1
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Circle014
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Circle014/Circle006
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Circle014/Circle006/Circle007
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Circle014/Circle006/Circle007/Circle008
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Circle015
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Circle015/Circle003
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Circle015/Circle003/Circle004
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Circle015/Circle003/Circle004/Circle005
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle009
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle009/Pinky Finger 1
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle009/Pinky Finger 1/Pinky Finger 2
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle009/Pinky Finger 1/Pinky Finger 2/Pinky Finger
+          3
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle009/Pinky Finger 1/Pinky Finger 2/Pinky Finger
+          3/Pinky Finger Nub
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle010
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle010/Ring Finger 1
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle010/Ring Finger 1/Ring Finger 2
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle010/Ring Finger 1/Ring Finger 2/Ring Finger
+          3
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle010/Ring Finger 1/Ring Finger 2/Ring Finger
+          3/Ring Finger Nub
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle011
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle011/Middle Finger 1
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle011/Middle Finger 1/Middle Finger 2
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle011/Middle Finger 1/Middle Finger 2/Middle
+          Finger 3
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle011/Middle Finger 1/Middle Finger 2/Middle
+          Finger 3/Middle Finger Nub
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle012
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle012/Index Finger 1
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle012/Index Finger 1/Index Finger 2
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle012/Index Finger 1/Index Finger 2/Index Finger
+          3
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle012/Index Finger 1/Index Finger 2/Index Finger
+          3/Index Finger Nub
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle013
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle013/Thumb 1
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle013/Thumb 1/Thumb 2
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle013/Thumb 1/Thumb 2/Thumb 3
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle013/Thumb 1/Thumb 2/Thumb 3/Thumb Nub
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Left Hand Nub
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Neck
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Neck/Head
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Neck/Head/Hat
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Neck/Head/Head Nub
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Right Clavicle
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Right Clavicle/Right Shoulder
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Right Clavicle/Right Shoulder/Right
+          Arm
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Right Clavicle/Right Shoulder/Right
+          Arm/Right Wrist
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Right Clavicle/Right Shoulder/Right
+          Arm/Right Wrist/Right Hand
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Right Clavicle/Right Shoulder/Right
+          Arm/Right Wrist/Right Hand/Weapon
+        weight: 1
+      - path: Star001/Circle001/Spine Base Controller
+        weight: 1
+      - path: Star001/Circle001/Spine Base Controller/NeckBase
+        weight: 1
+      - path: Star001/Circle001/Spine Base Controller/NeckBase/Head Controller
+        weight: 1
+      - path: Star001/Line001
+        weight: 1
+      - path: Star001/Line001/Donut001
+        weight: 1
+      - path: Star001/Line001/Donut001/IK Chain001
+        weight: 1
+      - path: Star001/Line001/Donut002
+        weight: 1
+      - path: Star001/Line001/Donut002/IK Chain002
+        weight: 1
+      - path: Star001/Line001/Donut003
+        weight: 1
+      - path: Star001/Line001/Donut003/IK Chain003
+        weight: 1
+      - path: Star001/Line002
+        weight: 1
+      - path: Star001/Line002/Donut004
+        weight: 1
+      - path: Star001/Line002/Donut004/IK Chain004
+        weight: 1
+      - path: Star001/Line002/Donut005
+        weight: 1
+      - path: Star001/Line002/Donut005/IK Chain005
+        weight: 1
+      - path: Star001/Line002/Donut006
+        weight: 1
+      - path: Star001/Line002/Donut006/IK Chain006
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Ability 1_Jeremiah2
+      takeName: Take 001
+      firstFrame: 145
+      lastFrame: 175
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Dummy001
+        weight: 1
+      - path: Dummy002
+        weight: 1
+      - path: Jeremiah
+        weight: 1
+      - path: Star001
+        weight: 1
+      - path: Star001/Circle001
+        weight: 1
+      - path: Star001/Circle001/Circle002
+        weight: 1
+      - path: Star001/Circle001/Pelvis
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Left Leg
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Left Leg/Left Shin
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Left Leg/Left Shin/Left Foot
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Left Leg/Left Shin/Left Foot/Left Toe
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Left Leg/Left Shin/Left Foot/Left Toe/Left
+          Toe Nub
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Pelvis Nub
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Right Leg
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Right Leg/Right Shin
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Right Leg/Right Shin/Right Foot
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Right Leg/Right Shin/Right Foot/Right Toe
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Right Leg/Right Shin/Right Foot/Right Toe/Right
+          Toe Nub
+        weight: 1
+      - path: Star001/Circle001/Spine 1
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Circle014
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Circle014/Circle006
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Circle014/Circle006/Circle007
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Circle014/Circle006/Circle007/Circle008
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Circle015
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Circle015/Circle003
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Circle015/Circle003/Circle004
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Circle015/Circle003/Circle004/Circle005
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle009
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle009/Pinky Finger 1
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle009/Pinky Finger 1/Pinky Finger 2
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle009/Pinky Finger 1/Pinky Finger 2/Pinky Finger
+          3
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle009/Pinky Finger 1/Pinky Finger 2/Pinky Finger
+          3/Pinky Finger Nub
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle010
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle010/Ring Finger 1
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle010/Ring Finger 1/Ring Finger 2
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle010/Ring Finger 1/Ring Finger 2/Ring Finger
+          3
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle010/Ring Finger 1/Ring Finger 2/Ring Finger
+          3/Ring Finger Nub
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle011
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle011/Middle Finger 1
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle011/Middle Finger 1/Middle Finger 2
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle011/Middle Finger 1/Middle Finger 2/Middle
+          Finger 3
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle011/Middle Finger 1/Middle Finger 2/Middle
+          Finger 3/Middle Finger Nub
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle012
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle012/Index Finger 1
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle012/Index Finger 1/Index Finger 2
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle012/Index Finger 1/Index Finger 2/Index Finger
+          3
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle012/Index Finger 1/Index Finger 2/Index Finger
+          3/Index Finger Nub
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle013
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle013/Thumb 1
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle013/Thumb 1/Thumb 2
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle013/Thumb 1/Thumb 2/Thumb 3
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle013/Thumb 1/Thumb 2/Thumb 3/Thumb Nub
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Left Hand Nub
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Neck
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Neck/Head
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Neck/Head/Hat
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Neck/Head/Head Nub
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Right Clavicle
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Right Clavicle/Right Shoulder
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Right Clavicle/Right Shoulder/Right
+          Arm
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Right Clavicle/Right Shoulder/Right
+          Arm/Right Wrist
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Right Clavicle/Right Shoulder/Right
+          Arm/Right Wrist/Right Hand
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Right Clavicle/Right Shoulder/Right
+          Arm/Right Wrist/Right Hand/Weapon
+        weight: 1
+      - path: Star001/Circle001/Spine Base Controller
+        weight: 1
+      - path: Star001/Circle001/Spine Base Controller/NeckBase
+        weight: 1
+      - path: Star001/Circle001/Spine Base Controller/NeckBase/Head Controller
+        weight: 1
+      - path: Star001/Line001
+        weight: 1
+      - path: Star001/Line001/Donut001
+        weight: 1
+      - path: Star001/Line001/Donut001/IK Chain001
+        weight: 1
+      - path: Star001/Line001/Donut002
+        weight: 1
+      - path: Star001/Line001/Donut002/IK Chain002
+        weight: 1
+      - path: Star001/Line001/Donut003
+        weight: 1
+      - path: Star001/Line001/Donut003/IK Chain003
+        weight: 1
+      - path: Star001/Line002
+        weight: 1
+      - path: Star001/Line002/Donut004
+        weight: 1
+      - path: Star001/Line002/Donut004/IK Chain004
+        weight: 1
+      - path: Star001/Line002/Donut005
+        weight: 1
+      - path: Star001/Line002/Donut005/IK Chain005
+        weight: 1
+      - path: Star001/Line002/Donut006
+        weight: 1
+      - path: Star001/Line002/Donut006/IK Chain006
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Ability 2_Jeremiah2
+      takeName: Take 001
+      firstFrame: 180
+      lastFrame: 240
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Dummy001
+        weight: 1
+      - path: Dummy002
+        weight: 1
+      - path: Jeremiah
+        weight: 1
+      - path: Star001
+        weight: 1
+      - path: Star001/Circle001
+        weight: 1
+      - path: Star001/Circle001/Circle002
+        weight: 1
+      - path: Star001/Circle001/Pelvis
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Left Leg
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Left Leg/Left Shin
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Left Leg/Left Shin/Left Foot
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Left Leg/Left Shin/Left Foot/Left Toe
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Left Leg/Left Shin/Left Foot/Left Toe/Left
+          Toe Nub
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Pelvis Nub
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Right Leg
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Right Leg/Right Shin
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Right Leg/Right Shin/Right Foot
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Right Leg/Right Shin/Right Foot/Right Toe
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Right Leg/Right Shin/Right Foot/Right Toe/Right
+          Toe Nub
+        weight: 1
+      - path: Star001/Circle001/Spine 1
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Circle014
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Circle014/Circle006
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Circle014/Circle006/Circle007
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Circle014/Circle006/Circle007/Circle008
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Circle015
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Circle015/Circle003
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Circle015/Circle003/Circle004
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Circle015/Circle003/Circle004/Circle005
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle009
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle009/Pinky Finger 1
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle009/Pinky Finger 1/Pinky Finger 2
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle009/Pinky Finger 1/Pinky Finger 2/Pinky Finger
+          3
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle009/Pinky Finger 1/Pinky Finger 2/Pinky Finger
+          3/Pinky Finger Nub
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle010
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle010/Ring Finger 1
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle010/Ring Finger 1/Ring Finger 2
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle010/Ring Finger 1/Ring Finger 2/Ring Finger
+          3
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle010/Ring Finger 1/Ring Finger 2/Ring Finger
+          3/Ring Finger Nub
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle011
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle011/Middle Finger 1
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle011/Middle Finger 1/Middle Finger 2
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle011/Middle Finger 1/Middle Finger 2/Middle
+          Finger 3
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle011/Middle Finger 1/Middle Finger 2/Middle
+          Finger 3/Middle Finger Nub
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle012
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle012/Index Finger 1
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle012/Index Finger 1/Index Finger 2
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle012/Index Finger 1/Index Finger 2/Index Finger
+          3
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle012/Index Finger 1/Index Finger 2/Index Finger
+          3/Index Finger Nub
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle013
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle013/Thumb 1
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle013/Thumb 1/Thumb 2
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle013/Thumb 1/Thumb 2/Thumb 3
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle013/Thumb 1/Thumb 2/Thumb 3/Thumb Nub
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Left Hand Nub
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Neck
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Neck/Head
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Neck/Head/Hat
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Neck/Head/Head Nub
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Right Clavicle
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Right Clavicle/Right Shoulder
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Right Clavicle/Right Shoulder/Right
+          Arm
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Right Clavicle/Right Shoulder/Right
+          Arm/Right Wrist
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Right Clavicle/Right Shoulder/Right
+          Arm/Right Wrist/Right Hand
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Right Clavicle/Right Shoulder/Right
+          Arm/Right Wrist/Right Hand/Weapon
+        weight: 1
+      - path: Star001/Circle001/Spine Base Controller
+        weight: 1
+      - path: Star001/Circle001/Spine Base Controller/NeckBase
+        weight: 1
+      - path: Star001/Circle001/Spine Base Controller/NeckBase/Head Controller
+        weight: 1
+      - path: Star001/Line001
+        weight: 1
+      - path: Star001/Line001/Donut001
+        weight: 1
+      - path: Star001/Line001/Donut001/IK Chain001
+        weight: 1
+      - path: Star001/Line001/Donut002
+        weight: 1
+      - path: Star001/Line001/Donut002/IK Chain002
+        weight: 1
+      - path: Star001/Line001/Donut003
+        weight: 1
+      - path: Star001/Line001/Donut003/IK Chain003
+        weight: 1
+      - path: Star001/Line002
+        weight: 1
+      - path: Star001/Line002/Donut004
+        weight: 1
+      - path: Star001/Line002/Donut004/IK Chain004
+        weight: 1
+      - path: Star001/Line002/Donut005
+        weight: 1
+      - path: Star001/Line002/Donut005/IK Chain005
+        weight: 1
+      - path: Star001/Line002/Donut006
+        weight: 1
+      - path: Star001/Line002/Donut006/IK Chain006
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Nothing Idle_Jeremiah2
+      takeName: Take 001
+      firstFrame: 245
+      lastFrame: 305
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Dummy001
+        weight: 1
+      - path: Dummy002
+        weight: 1
+      - path: Jeremiah
+        weight: 1
+      - path: Star001
+        weight: 1
+      - path: Star001/Circle001
+        weight: 1
+      - path: Star001/Circle001/Circle002
+        weight: 1
+      - path: Star001/Circle001/Pelvis
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Left Leg
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Left Leg/Left Shin
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Left Leg/Left Shin/Left Foot
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Left Leg/Left Shin/Left Foot/Left Toe
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Left Leg/Left Shin/Left Foot/Left Toe/Left
+          Toe Nub
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Pelvis Nub
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Right Leg
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Right Leg/Right Shin
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Right Leg/Right Shin/Right Foot
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Right Leg/Right Shin/Right Foot/Right Toe
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Right Leg/Right Shin/Right Foot/Right Toe/Right
+          Toe Nub
+        weight: 1
+      - path: Star001/Circle001/Spine 1
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Circle014
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Circle014/Circle006
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Circle014/Circle006/Circle007
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Circle014/Circle006/Circle007/Circle008
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Circle015
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Circle015/Circle003
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Circle015/Circle003/Circle004
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Circle015/Circle003/Circle004/Circle005
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle009
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle009/Pinky Finger 1
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle009/Pinky Finger 1/Pinky Finger 2
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle009/Pinky Finger 1/Pinky Finger 2/Pinky Finger
+          3
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle009/Pinky Finger 1/Pinky Finger 2/Pinky Finger
+          3/Pinky Finger Nub
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle010
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle010/Ring Finger 1
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle010/Ring Finger 1/Ring Finger 2
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle010/Ring Finger 1/Ring Finger 2/Ring Finger
+          3
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle010/Ring Finger 1/Ring Finger 2/Ring Finger
+          3/Ring Finger Nub
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle011
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle011/Middle Finger 1
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle011/Middle Finger 1/Middle Finger 2
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle011/Middle Finger 1/Middle Finger 2/Middle
+          Finger 3
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle011/Middle Finger 1/Middle Finger 2/Middle
+          Finger 3/Middle Finger Nub
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle012
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle012/Index Finger 1
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle012/Index Finger 1/Index Finger 2
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle012/Index Finger 1/Index Finger 2/Index Finger
+          3
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle012/Index Finger 1/Index Finger 2/Index Finger
+          3/Index Finger Nub
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle013
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle013/Thumb 1
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle013/Thumb 1/Thumb 2
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle013/Thumb 1/Thumb 2/Thumb 3
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle013/Thumb 1/Thumb 2/Thumb 3/Thumb Nub
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Left Hand Nub
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Neck
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Neck/Head
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Neck/Head/Hat
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Neck/Head/Head Nub
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Right Clavicle
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Right Clavicle/Right Shoulder
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Right Clavicle/Right Shoulder/Right
+          Arm
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Right Clavicle/Right Shoulder/Right
+          Arm/Right Wrist
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Right Clavicle/Right Shoulder/Right
+          Arm/Right Wrist/Right Hand
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Right Clavicle/Right Shoulder/Right
+          Arm/Right Wrist/Right Hand/Weapon
+        weight: 1
+      - path: Star001/Circle001/Spine Base Controller
+        weight: 1
+      - path: Star001/Circle001/Spine Base Controller/NeckBase
+        weight: 1
+      - path: Star001/Circle001/Spine Base Controller/NeckBase/Head Controller
+        weight: 1
+      - path: Star001/Line001
+        weight: 1
+      - path: Star001/Line001/Donut001
+        weight: 1
+      - path: Star001/Line001/Donut001/IK Chain001
+        weight: 1
+      - path: Star001/Line001/Donut002
+        weight: 1
+      - path: Star001/Line001/Donut002/IK Chain002
+        weight: 1
+      - path: Star001/Line001/Donut003
+        weight: 1
+      - path: Star001/Line001/Donut003/IK Chain003
+        weight: 1
+      - path: Star001/Line002
+        weight: 1
+      - path: Star001/Line002/Donut004
+        weight: 1
+      - path: Star001/Line002/Donut004/IK Chain004
+        weight: 1
+      - path: Star001/Line002/Donut005
+        weight: 1
+      - path: Star001/Line002/Donut005/IK Chain005
+        weight: 1
+      - path: Star001/Line002/Donut006
+        weight: 1
+      - path: Star001/Line002/Donut006/IK Chain006
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Character Select Idle_Jeremiah2
+      takeName: Take 001
+      firstFrame: 315
+      lastFrame: 375
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Dummy001
+        weight: 1
+      - path: Dummy002
+        weight: 1
+      - path: Jeremiah
+        weight: 1
+      - path: Star001
+        weight: 1
+      - path: Star001/Circle001
+        weight: 1
+      - path: Star001/Circle001/Circle002
+        weight: 1
+      - path: Star001/Circle001/Pelvis
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Left Leg
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Left Leg/Left Shin
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Left Leg/Left Shin/Left Foot
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Left Leg/Left Shin/Left Foot/Left Toe
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Left Leg/Left Shin/Left Foot/Left Toe/Left
+          Toe Nub
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Pelvis Nub
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Right Leg
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Right Leg/Right Shin
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Right Leg/Right Shin/Right Foot
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Right Leg/Right Shin/Right Foot/Right Toe
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Right Leg/Right Shin/Right Foot/Right Toe/Right
+          Toe Nub
+        weight: 1
+      - path: Star001/Circle001/Spine 1
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Circle014
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Circle014/Circle006
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Circle014/Circle006/Circle007
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Circle014/Circle006/Circle007/Circle008
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Circle015
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Circle015/Circle003
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Circle015/Circle003/Circle004
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Circle015/Circle003/Circle004/Circle005
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle009
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle009/Pinky Finger 1
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle009/Pinky Finger 1/Pinky Finger 2
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle009/Pinky Finger 1/Pinky Finger 2/Pinky Finger
+          3
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle009/Pinky Finger 1/Pinky Finger 2/Pinky Finger
+          3/Pinky Finger Nub
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle010
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle010/Ring Finger 1
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle010/Ring Finger 1/Ring Finger 2
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle010/Ring Finger 1/Ring Finger 2/Ring Finger
+          3
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle010/Ring Finger 1/Ring Finger 2/Ring Finger
+          3/Ring Finger Nub
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle011
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle011/Middle Finger 1
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle011/Middle Finger 1/Middle Finger 2
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle011/Middle Finger 1/Middle Finger 2/Middle
+          Finger 3
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle011/Middle Finger 1/Middle Finger 2/Middle
+          Finger 3/Middle Finger Nub
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle012
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle012/Index Finger 1
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle012/Index Finger 1/Index Finger 2
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle012/Index Finger 1/Index Finger 2/Index Finger
+          3
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle012/Index Finger 1/Index Finger 2/Index Finger
+          3/Index Finger Nub
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle013
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle013/Thumb 1
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle013/Thumb 1/Thumb 2
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle013/Thumb 1/Thumb 2/Thumb 3
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle013/Thumb 1/Thumb 2/Thumb 3/Thumb Nub
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Left Hand Nub
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Neck
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Neck/Head
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Neck/Head/Hat
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Neck/Head/Head Nub
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Right Clavicle
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Right Clavicle/Right Shoulder
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Right Clavicle/Right Shoulder/Right
+          Arm
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Right Clavicle/Right Shoulder/Right
+          Arm/Right Wrist
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Right Clavicle/Right Shoulder/Right
+          Arm/Right Wrist/Right Hand
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Right Clavicle/Right Shoulder/Right
+          Arm/Right Wrist/Right Hand/Weapon
+        weight: 1
+      - path: Star001/Circle001/Spine Base Controller
+        weight: 1
+      - path: Star001/Circle001/Spine Base Controller/NeckBase
+        weight: 1
+      - path: Star001/Circle001/Spine Base Controller/NeckBase/Head Controller
+        weight: 1
+      - path: Star001/Line001
+        weight: 1
+      - path: Star001/Line001/Donut001
+        weight: 1
+      - path: Star001/Line001/Donut001/IK Chain001
+        weight: 1
+      - path: Star001/Line001/Donut002
+        weight: 1
+      - path: Star001/Line001/Donut002/IK Chain002
+        weight: 1
+      - path: Star001/Line001/Donut003
+        weight: 1
+      - path: Star001/Line001/Donut003/IK Chain003
+        weight: 1
+      - path: Star001/Line002
+        weight: 1
+      - path: Star001/Line002/Donut004
+        weight: 1
+      - path: Star001/Line002/Donut004/IK Chain004
+        weight: 1
+      - path: Star001/Line002/Donut005
+        weight: 1
+      - path: Star001/Line002/Donut005/IK Chain005
+        weight: 1
+      - path: Star001/Line002/Donut006
+        weight: 1
+      - path: Star001/Line002/Donut006/IK Chain006
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Character Selected Idle_Jeremiah2
+      takeName: Take 001
+      firstFrame: 375
+      lastFrame: 495
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Dummy001
+        weight: 1
+      - path: Dummy002
+        weight: 1
+      - path: Jeremiah
+        weight: 1
+      - path: Star001
+        weight: 1
+      - path: Star001/Circle001
+        weight: 1
+      - path: Star001/Circle001/Circle002
+        weight: 1
+      - path: Star001/Circle001/Pelvis
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Left Leg
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Left Leg/Left Shin
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Left Leg/Left Shin/Left Foot
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Left Leg/Left Shin/Left Foot/Left Toe
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Left Leg/Left Shin/Left Foot/Left Toe/Left
+          Toe Nub
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Pelvis Nub
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Right Leg
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Right Leg/Right Shin
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Right Leg/Right Shin/Right Foot
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Right Leg/Right Shin/Right Foot/Right Toe
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Right Leg/Right Shin/Right Foot/Right Toe/Right
+          Toe Nub
+        weight: 1
+      - path: Star001/Circle001/Spine 1
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Circle014
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Circle014/Circle006
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Circle014/Circle006/Circle007
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Circle014/Circle006/Circle007/Circle008
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Circle015
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Circle015/Circle003
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Circle015/Circle003/Circle004
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Circle015/Circle003/Circle004/Circle005
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle009
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle009/Pinky Finger 1
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle009/Pinky Finger 1/Pinky Finger 2
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle009/Pinky Finger 1/Pinky Finger 2/Pinky Finger
+          3
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle009/Pinky Finger 1/Pinky Finger 2/Pinky Finger
+          3/Pinky Finger Nub
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle010
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle010/Ring Finger 1
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle010/Ring Finger 1/Ring Finger 2
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle010/Ring Finger 1/Ring Finger 2/Ring Finger
+          3
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle010/Ring Finger 1/Ring Finger 2/Ring Finger
+          3/Ring Finger Nub
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle011
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle011/Middle Finger 1
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle011/Middle Finger 1/Middle Finger 2
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle011/Middle Finger 1/Middle Finger 2/Middle
+          Finger 3
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle011/Middle Finger 1/Middle Finger 2/Middle
+          Finger 3/Middle Finger Nub
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle012
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle012/Index Finger 1
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle012/Index Finger 1/Index Finger 2
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle012/Index Finger 1/Index Finger 2/Index Finger
+          3
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle012/Index Finger 1/Index Finger 2/Index Finger
+          3/Index Finger Nub
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle013
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle013/Thumb 1
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle013/Thumb 1/Thumb 2
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle013/Thumb 1/Thumb 2/Thumb 3
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle013/Thumb 1/Thumb 2/Thumb 3/Thumb Nub
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Left Hand Nub
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Neck
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Neck/Head
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Neck/Head/Hat
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Neck/Head/Head Nub
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Right Clavicle
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Right Clavicle/Right Shoulder
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Right Clavicle/Right Shoulder/Right
+          Arm
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Right Clavicle/Right Shoulder/Right
+          Arm/Right Wrist
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Right Clavicle/Right Shoulder/Right
+          Arm/Right Wrist/Right Hand
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Right Clavicle/Right Shoulder/Right
+          Arm/Right Wrist/Right Hand/Weapon
+        weight: 1
+      - path: Star001/Circle001/Spine Base Controller
+        weight: 1
+      - path: Star001/Circle001/Spine Base Controller/NeckBase
+        weight: 1
+      - path: Star001/Circle001/Spine Base Controller/NeckBase/Head Controller
+        weight: 1
+      - path: Star001/Line001
+        weight: 1
+      - path: Star001/Line001/Donut001
+        weight: 1
+      - path: Star001/Line001/Donut001/IK Chain001
+        weight: 1
+      - path: Star001/Line001/Donut002
+        weight: 1
+      - path: Star001/Line001/Donut002/IK Chain002
+        weight: 1
+      - path: Star001/Line001/Donut003
+        weight: 1
+      - path: Star001/Line001/Donut003/IK Chain003
+        weight: 1
+      - path: Star001/Line002
+        weight: 1
+      - path: Star001/Line002/Donut004
+        weight: 1
+      - path: Star001/Line002/Donut004/IK Chain004
+        weight: 1
+      - path: Star001/Line002/Donut005
+        weight: 1
+      - path: Star001/Line002/Donut005/IK Chain005
+        weight: 1
+      - path: Star001/Line002/Donut006
+        weight: 1
+      - path: Star001/Line002/Donut006/IK Chain006
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Move Idle_Jeremiah2
+      takeName: Take 001
+      firstFrame: 510
+      lastFrame: 690
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Dummy001
+        weight: 1
+      - path: Dummy002
+        weight: 1
+      - path: Jeremiah
+        weight: 1
+      - path: Star001
+        weight: 1
+      - path: Star001/Circle001
+        weight: 1
+      - path: Star001/Circle001/Circle002
+        weight: 1
+      - path: Star001/Circle001/Pelvis
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Left Leg
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Left Leg/Left Shin
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Left Leg/Left Shin/Left Foot
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Left Leg/Left Shin/Left Foot/Left Toe
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Left Leg/Left Shin/Left Foot/Left Toe/Left
+          Toe Nub
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Pelvis Nub
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Right Leg
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Right Leg/Right Shin
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Right Leg/Right Shin/Right Foot
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Right Leg/Right Shin/Right Foot/Right Toe
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Right Leg/Right Shin/Right Foot/Right Toe/Right
+          Toe Nub
+        weight: 1
+      - path: Star001/Circle001/Spine 1
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Circle014
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Circle014/Circle006
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Circle014/Circle006/Circle007
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Circle014/Circle006/Circle007/Circle008
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Circle015
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Circle015/Circle003
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Circle015/Circle003/Circle004
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Circle015/Circle003/Circle004/Circle005
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle009
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle009/Pinky Finger 1
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle009/Pinky Finger 1/Pinky Finger 2
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle009/Pinky Finger 1/Pinky Finger 2/Pinky Finger
+          3
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle009/Pinky Finger 1/Pinky Finger 2/Pinky Finger
+          3/Pinky Finger Nub
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle010
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle010/Ring Finger 1
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle010/Ring Finger 1/Ring Finger 2
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle010/Ring Finger 1/Ring Finger 2/Ring Finger
+          3
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle010/Ring Finger 1/Ring Finger 2/Ring Finger
+          3/Ring Finger Nub
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle011
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle011/Middle Finger 1
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle011/Middle Finger 1/Middle Finger 2
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle011/Middle Finger 1/Middle Finger 2/Middle
+          Finger 3
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle011/Middle Finger 1/Middle Finger 2/Middle
+          Finger 3/Middle Finger Nub
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle012
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle012/Index Finger 1
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle012/Index Finger 1/Index Finger 2
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle012/Index Finger 1/Index Finger 2/Index Finger
+          3
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle012/Index Finger 1/Index Finger 2/Index Finger
+          3/Index Finger Nub
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle013
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle013/Thumb 1
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle013/Thumb 1/Thumb 2
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle013/Thumb 1/Thumb 2/Thumb 3
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle013/Thumb 1/Thumb 2/Thumb 3/Thumb Nub
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Left Hand Nub
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Neck
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Neck/Head
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Neck/Head/Hat
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Neck/Head/Head Nub
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Right Clavicle
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Right Clavicle/Right Shoulder
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Right Clavicle/Right Shoulder/Right
+          Arm
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Right Clavicle/Right Shoulder/Right
+          Arm/Right Wrist
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Right Clavicle/Right Shoulder/Right
+          Arm/Right Wrist/Right Hand
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Right Clavicle/Right Shoulder/Right
+          Arm/Right Wrist/Right Hand/Weapon
+        weight: 1
+      - path: Star001/Circle001/Spine Base Controller
+        weight: 1
+      - path: Star001/Circle001/Spine Base Controller/NeckBase
+        weight: 1
+      - path: Star001/Circle001/Spine Base Controller/NeckBase/Head Controller
+        weight: 1
+      - path: Star001/Line001
+        weight: 1
+      - path: Star001/Line001/Donut001
+        weight: 1
+      - path: Star001/Line001/Donut001/IK Chain001
+        weight: 1
+      - path: Star001/Line001/Donut002
+        weight: 1
+      - path: Star001/Line001/Donut002/IK Chain002
+        weight: 1
+      - path: Star001/Line001/Donut003
+        weight: 1
+      - path: Star001/Line001/Donut003/IK Chain003
+        weight: 1
+      - path: Star001/Line002
+        weight: 1
+      - path: Star001/Line002/Donut004
+        weight: 1
+      - path: Star001/Line002/Donut004/IK Chain004
+        weight: 1
+      - path: Star001/Line002/Donut005
+        weight: 1
+      - path: Star001/Line002/Donut005/IK Chain005
+        weight: 1
+      - path: Star001/Line002/Donut006
+        weight: 1
+      - path: Star001/Line002/Donut006/IK Chain006
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Strafe Left_Jeremiah2
+      takeName: Take 001
+      firstFrame: 700
+      lastFrame: 735
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Dummy001
+        weight: 1
+      - path: Dummy002
+        weight: 1
+      - path: Jeremiah
+        weight: 1
+      - path: Star001
+        weight: 1
+      - path: Star001/Circle001
+        weight: 1
+      - path: Star001/Circle001/Circle002
+        weight: 1
+      - path: Star001/Circle001/Pelvis
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Left Leg
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Left Leg/Left Shin
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Left Leg/Left Shin/Left Foot
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Left Leg/Left Shin/Left Foot/Left Toe
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Left Leg/Left Shin/Left Foot/Left Toe/Left
+          Toe Nub
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Pelvis Nub
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Right Leg
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Right Leg/Right Shin
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Right Leg/Right Shin/Right Foot
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Right Leg/Right Shin/Right Foot/Right Toe
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Right Leg/Right Shin/Right Foot/Right Toe/Right
+          Toe Nub
+        weight: 1
+      - path: Star001/Circle001/Spine 1
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Circle014
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Circle014/Circle006
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Circle014/Circle006/Circle007
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Circle014/Circle006/Circle007/Circle008
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Circle015
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Circle015/Circle003
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Circle015/Circle003/Circle004
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Circle015/Circle003/Circle004/Circle005
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle009
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle009/Pinky Finger 1
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle009/Pinky Finger 1/Pinky Finger 2
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle009/Pinky Finger 1/Pinky Finger 2/Pinky Finger
+          3
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle009/Pinky Finger 1/Pinky Finger 2/Pinky Finger
+          3/Pinky Finger Nub
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle010
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle010/Ring Finger 1
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle010/Ring Finger 1/Ring Finger 2
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle010/Ring Finger 1/Ring Finger 2/Ring Finger
+          3
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle010/Ring Finger 1/Ring Finger 2/Ring Finger
+          3/Ring Finger Nub
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle011
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle011/Middle Finger 1
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle011/Middle Finger 1/Middle Finger 2
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle011/Middle Finger 1/Middle Finger 2/Middle
+          Finger 3
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle011/Middle Finger 1/Middle Finger 2/Middle
+          Finger 3/Middle Finger Nub
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle012
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle012/Index Finger 1
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle012/Index Finger 1/Index Finger 2
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle012/Index Finger 1/Index Finger 2/Index Finger
+          3
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle012/Index Finger 1/Index Finger 2/Index Finger
+          3/Index Finger Nub
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle013
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle013/Thumb 1
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle013/Thumb 1/Thumb 2
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle013/Thumb 1/Thumb 2/Thumb 3
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle013/Thumb 1/Thumb 2/Thumb 3/Thumb Nub
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Left Hand Nub
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Neck
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Neck/Head
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Neck/Head/Hat
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Neck/Head/Head Nub
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Right Clavicle
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Right Clavicle/Right Shoulder
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Right Clavicle/Right Shoulder/Right
+          Arm
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Right Clavicle/Right Shoulder/Right
+          Arm/Right Wrist
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Right Clavicle/Right Shoulder/Right
+          Arm/Right Wrist/Right Hand
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Right Clavicle/Right Shoulder/Right
+          Arm/Right Wrist/Right Hand/Weapon
+        weight: 1
+      - path: Star001/Circle001/Spine Base Controller
+        weight: 1
+      - path: Star001/Circle001/Spine Base Controller/NeckBase
+        weight: 1
+      - path: Star001/Circle001/Spine Base Controller/NeckBase/Head Controller
+        weight: 1
+      - path: Star001/Line001
+        weight: 1
+      - path: Star001/Line001/Donut001
+        weight: 1
+      - path: Star001/Line001/Donut001/IK Chain001
+        weight: 1
+      - path: Star001/Line001/Donut002
+        weight: 1
+      - path: Star001/Line001/Donut002/IK Chain002
+        weight: 1
+      - path: Star001/Line001/Donut003
+        weight: 1
+      - path: Star001/Line001/Donut003/IK Chain003
+        weight: 1
+      - path: Star001/Line002
+        weight: 1
+      - path: Star001/Line002/Donut004
+        weight: 1
+      - path: Star001/Line002/Donut004/IK Chain004
+        weight: 1
+      - path: Star001/Line002/Donut005
+        weight: 1
+      - path: Star001/Line002/Donut005/IK Chain005
+        weight: 1
+      - path: Star001/Line002/Donut006
+        weight: 1
+      - path: Star001/Line002/Donut006/IK Chain006
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Strafe Right_Jeremiah2
+      takeName: Take 001
+      firstFrame: 740
+      lastFrame: 775
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Dummy001
+        weight: 1
+      - path: Dummy002
+        weight: 1
+      - path: Jeremiah
+        weight: 1
+      - path: Star001
+        weight: 1
+      - path: Star001/Circle001
+        weight: 1
+      - path: Star001/Circle001/Circle002
+        weight: 1
+      - path: Star001/Circle001/Pelvis
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Left Leg
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Left Leg/Left Shin
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Left Leg/Left Shin/Left Foot
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Left Leg/Left Shin/Left Foot/Left Toe
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Left Leg/Left Shin/Left Foot/Left Toe/Left
+          Toe Nub
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Pelvis Nub
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Right Leg
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Right Leg/Right Shin
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Right Leg/Right Shin/Right Foot
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Right Leg/Right Shin/Right Foot/Right Toe
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Right Leg/Right Shin/Right Foot/Right Toe/Right
+          Toe Nub
+        weight: 1
+      - path: Star001/Circle001/Spine 1
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Circle014
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Circle014/Circle006
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Circle014/Circle006/Circle007
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Circle014/Circle006/Circle007/Circle008
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Circle015
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Circle015/Circle003
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Circle015/Circle003/Circle004
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Circle015/Circle003/Circle004/Circle005
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle009
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle009/Pinky Finger 1
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle009/Pinky Finger 1/Pinky Finger 2
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle009/Pinky Finger 1/Pinky Finger 2/Pinky Finger
+          3
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle009/Pinky Finger 1/Pinky Finger 2/Pinky Finger
+          3/Pinky Finger Nub
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle010
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle010/Ring Finger 1
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle010/Ring Finger 1/Ring Finger 2
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle010/Ring Finger 1/Ring Finger 2/Ring Finger
+          3
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle010/Ring Finger 1/Ring Finger 2/Ring Finger
+          3/Ring Finger Nub
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle011
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle011/Middle Finger 1
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle011/Middle Finger 1/Middle Finger 2
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle011/Middle Finger 1/Middle Finger 2/Middle
+          Finger 3
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle011/Middle Finger 1/Middle Finger 2/Middle
+          Finger 3/Middle Finger Nub
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle012
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle012/Index Finger 1
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle012/Index Finger 1/Index Finger 2
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle012/Index Finger 1/Index Finger 2/Index Finger
+          3
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle012/Index Finger 1/Index Finger 2/Index Finger
+          3/Index Finger Nub
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle013
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle013/Thumb 1
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle013/Thumb 1/Thumb 2
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle013/Thumb 1/Thumb 2/Thumb 3
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle013/Thumb 1/Thumb 2/Thumb 3/Thumb Nub
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Left Hand Nub
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Neck
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Neck/Head
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Neck/Head/Hat
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Neck/Head/Head Nub
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Right Clavicle
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Right Clavicle/Right Shoulder
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Right Clavicle/Right Shoulder/Right
+          Arm
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Right Clavicle/Right Shoulder/Right
+          Arm/Right Wrist
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Right Clavicle/Right Shoulder/Right
+          Arm/Right Wrist/Right Hand
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Right Clavicle/Right Shoulder/Right
+          Arm/Right Wrist/Right Hand/Weapon
+        weight: 1
+      - path: Star001/Circle001/Spine Base Controller
+        weight: 1
+      - path: Star001/Circle001/Spine Base Controller/NeckBase
+        weight: 1
+      - path: Star001/Circle001/Spine Base Controller/NeckBase/Head Controller
+        weight: 1
+      - path: Star001/Line001
+        weight: 1
+      - path: Star001/Line001/Donut001
+        weight: 1
+      - path: Star001/Line001/Donut001/IK Chain001
+        weight: 1
+      - path: Star001/Line001/Donut002
+        weight: 1
+      - path: Star001/Line001/Donut002/IK Chain002
+        weight: 1
+      - path: Star001/Line001/Donut003
+        weight: 1
+      - path: Star001/Line001/Donut003/IK Chain003
+        weight: 1
+      - path: Star001/Line002
+        weight: 1
+      - path: Star001/Line002/Donut004
+        weight: 1
+      - path: Star001/Line002/Donut004/IK Chain004
+        weight: 1
+      - path: Star001/Line002/Donut005
+        weight: 1
+      - path: Star001/Line002/Donut005/IK Chain005
+        weight: 1
+      - path: Star001/Line002/Donut006
+        weight: 1
+      - path: Star001/Line002/Donut006/IK Chain006
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Backpedal_Jeremiah2
+      takeName: Take 001
+      firstFrame: 780
+      lastFrame: 820
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Dummy001
+        weight: 1
+      - path: Dummy002
+        weight: 1
+      - path: Jeremiah
+        weight: 1
+      - path: Star001
+        weight: 1
+      - path: Star001/Circle001
+        weight: 1
+      - path: Star001/Circle001/Circle002
+        weight: 1
+      - path: Star001/Circle001/Pelvis
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Left Leg
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Left Leg/Left Shin
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Left Leg/Left Shin/Left Foot
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Left Leg/Left Shin/Left Foot/Left Toe
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Left Leg/Left Shin/Left Foot/Left Toe/Left
+          Toe Nub
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Pelvis Nub
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Right Leg
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Right Leg/Right Shin
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Right Leg/Right Shin/Right Foot
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Right Leg/Right Shin/Right Foot/Right Toe
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Right Leg/Right Shin/Right Foot/Right Toe/Right
+          Toe Nub
+        weight: 1
+      - path: Star001/Circle001/Spine 1
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Circle014
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Circle014/Circle006
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Circle014/Circle006/Circle007
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Circle014/Circle006/Circle007/Circle008
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Circle015
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Circle015/Circle003
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Circle015/Circle003/Circle004
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Circle015/Circle003/Circle004/Circle005
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle009
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle009/Pinky Finger 1
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle009/Pinky Finger 1/Pinky Finger 2
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle009/Pinky Finger 1/Pinky Finger 2/Pinky Finger
+          3
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle009/Pinky Finger 1/Pinky Finger 2/Pinky Finger
+          3/Pinky Finger Nub
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle010
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle010/Ring Finger 1
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle010/Ring Finger 1/Ring Finger 2
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle010/Ring Finger 1/Ring Finger 2/Ring Finger
+          3
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle010/Ring Finger 1/Ring Finger 2/Ring Finger
+          3/Ring Finger Nub
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle011
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle011/Middle Finger 1
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle011/Middle Finger 1/Middle Finger 2
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle011/Middle Finger 1/Middle Finger 2/Middle
+          Finger 3
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle011/Middle Finger 1/Middle Finger 2/Middle
+          Finger 3/Middle Finger Nub
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle012
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle012/Index Finger 1
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle012/Index Finger 1/Index Finger 2
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle012/Index Finger 1/Index Finger 2/Index Finger
+          3
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle012/Index Finger 1/Index Finger 2/Index Finger
+          3/Index Finger Nub
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle013
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle013/Thumb 1
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle013/Thumb 1/Thumb 2
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle013/Thumb 1/Thumb 2/Thumb 3
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle013/Thumb 1/Thumb 2/Thumb 3/Thumb Nub
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Left Hand Nub
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Neck
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Neck/Head
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Neck/Head/Hat
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Neck/Head/Head Nub
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Right Clavicle
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Right Clavicle/Right Shoulder
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Right Clavicle/Right Shoulder/Right
+          Arm
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Right Clavicle/Right Shoulder/Right
+          Arm/Right Wrist
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Right Clavicle/Right Shoulder/Right
+          Arm/Right Wrist/Right Hand
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Right Clavicle/Right Shoulder/Right
+          Arm/Right Wrist/Right Hand/Weapon
+        weight: 1
+      - path: Star001/Circle001/Spine Base Controller
+        weight: 1
+      - path: Star001/Circle001/Spine Base Controller/NeckBase
+        weight: 1
+      - path: Star001/Circle001/Spine Base Controller/NeckBase/Head Controller
+        weight: 1
+      - path: Star001/Line001
+        weight: 1
+      - path: Star001/Line001/Donut001
+        weight: 1
+      - path: Star001/Line001/Donut001/IK Chain001
+        weight: 1
+      - path: Star001/Line001/Donut002
+        weight: 1
+      - path: Star001/Line001/Donut002/IK Chain002
+        weight: 1
+      - path: Star001/Line001/Donut003
+        weight: 1
+      - path: Star001/Line001/Donut003/IK Chain003
+        weight: 1
+      - path: Star001/Line002
+        weight: 1
+      - path: Star001/Line002/Donut004
+        weight: 1
+      - path: Star001/Line002/Donut004/IK Chain004
+        weight: 1
+      - path: Star001/Line002/Donut005
+        weight: 1
+      - path: Star001/Line002/Donut005/IK Chain005
+        weight: 1
+      - path: Star001/Line002/Donut006
+        weight: 1
+      - path: Star001/Line002/Donut006/IK Chain006
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Death_Jeremiah2
+      takeName: Take 001
+      firstFrame: 830
+      lastFrame: 880
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Dummy001
+        weight: 1
+      - path: Dummy002
+        weight: 1
+      - path: Jeremiah
+        weight: 1
+      - path: Star001
+        weight: 1
+      - path: Star001/Circle001
+        weight: 1
+      - path: Star001/Circle001/Circle002
+        weight: 1
+      - path: Star001/Circle001/Pelvis
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Left Leg
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Left Leg/Left Shin
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Left Leg/Left Shin/Left Foot
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Left Leg/Left Shin/Left Foot/Left Toe
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Left Leg/Left Shin/Left Foot/Left Toe/Left
+          Toe Nub
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Pelvis Nub
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Right Leg
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Right Leg/Right Shin
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Right Leg/Right Shin/Right Foot
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Right Leg/Right Shin/Right Foot/Right Toe
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Right Leg/Right Shin/Right Foot/Right Toe/Right
+          Toe Nub
+        weight: 1
+      - path: Star001/Circle001/Spine 1
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Circle014
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Circle014/Circle006
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Circle014/Circle006/Circle007
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Circle014/Circle006/Circle007/Circle008
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Circle015
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Circle015/Circle003
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Circle015/Circle003/Circle004
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Circle015/Circle003/Circle004/Circle005
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle009
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle009/Pinky Finger 1
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle009/Pinky Finger 1/Pinky Finger 2
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle009/Pinky Finger 1/Pinky Finger 2/Pinky Finger
+          3
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle009/Pinky Finger 1/Pinky Finger 2/Pinky Finger
+          3/Pinky Finger Nub
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle010
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle010/Ring Finger 1
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle010/Ring Finger 1/Ring Finger 2
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle010/Ring Finger 1/Ring Finger 2/Ring Finger
+          3
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle010/Ring Finger 1/Ring Finger 2/Ring Finger
+          3/Ring Finger Nub
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle011
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle011/Middle Finger 1
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle011/Middle Finger 1/Middle Finger 2
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle011/Middle Finger 1/Middle Finger 2/Middle
+          Finger 3
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle011/Middle Finger 1/Middle Finger 2/Middle
+          Finger 3/Middle Finger Nub
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle012
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle012/Index Finger 1
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle012/Index Finger 1/Index Finger 2
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle012/Index Finger 1/Index Finger 2/Index Finger
+          3
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle012/Index Finger 1/Index Finger 2/Index Finger
+          3/Index Finger Nub
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle013
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle013/Thumb 1
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle013/Thumb 1/Thumb 2
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle013/Thumb 1/Thumb 2/Thumb 3
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle013/Thumb 1/Thumb 2/Thumb 3/Thumb Nub
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Left Hand Nub
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Neck
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Neck/Head
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Neck/Head/Hat
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Neck/Head/Head Nub
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Right Clavicle
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Right Clavicle/Right Shoulder
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Right Clavicle/Right Shoulder/Right
+          Arm
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Right Clavicle/Right Shoulder/Right
+          Arm/Right Wrist
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Right Clavicle/Right Shoulder/Right
+          Arm/Right Wrist/Right Hand
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Right Clavicle/Right Shoulder/Right
+          Arm/Right Wrist/Right Hand/Weapon
+        weight: 1
+      - path: Star001/Circle001/Spine Base Controller
+        weight: 1
+      - path: Star001/Circle001/Spine Base Controller/NeckBase
+        weight: 1
+      - path: Star001/Circle001/Spine Base Controller/NeckBase/Head Controller
+        weight: 1
+      - path: Star001/Line001
+        weight: 1
+      - path: Star001/Line001/Donut001
+        weight: 1
+      - path: Star001/Line001/Donut001/IK Chain001
+        weight: 1
+      - path: Star001/Line001/Donut002
+        weight: 1
+      - path: Star001/Line001/Donut002/IK Chain002
+        weight: 1
+      - path: Star001/Line001/Donut003
+        weight: 1
+      - path: Star001/Line001/Donut003/IK Chain003
+        weight: 1
+      - path: Star001/Line002
+        weight: 1
+      - path: Star001/Line002/Donut004
+        weight: 1
+      - path: Star001/Line002/Donut004/IK Chain004
+        weight: 1
+      - path: Star001/Line002/Donut005
+        weight: 1
+      - path: Star001/Line002/Donut005/IK Chain005
+        weight: 1
+      - path: Star001/Line002/Donut006
+        weight: 1
+      - path: Star001/Line002/Donut006/IK Chain006
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: ALL_Jeremiah2
+      takeName: Take 001
+      firstFrame: 5
+      lastFrame: 880
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Dummy001
+        weight: 1
+      - path: Dummy002
+        weight: 1
+      - path: Jeremiah
+        weight: 1
+      - path: Star001
+        weight: 1
+      - path: Star001/Circle001
+        weight: 1
+      - path: Star001/Circle001/Circle002
+        weight: 1
+      - path: Star001/Circle001/Pelvis
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Left Leg
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Left Leg/Left Shin
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Left Leg/Left Shin/Left Foot
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Left Leg/Left Shin/Left Foot/Left Toe
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Left Leg/Left Shin/Left Foot/Left Toe/Left
+          Toe Nub
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Pelvis Nub
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Right Leg
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Right Leg/Right Shin
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Right Leg/Right Shin/Right Foot
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Right Leg/Right Shin/Right Foot/Right Toe
+        weight: 1
+      - path: Star001/Circle001/Pelvis/Right Leg/Right Shin/Right Foot/Right Toe/Right
+          Toe Nub
+        weight: 1
+      - path: Star001/Circle001/Spine 1
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Circle014
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Circle014/Circle006
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Circle014/Circle006/Circle007
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Circle014/Circle006/Circle007/Circle008
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Circle015
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Circle015/Circle003
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Circle015/Circle003/Circle004
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Circle015/Circle003/Circle004/Circle005
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle009
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle009/Pinky Finger 1
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle009/Pinky Finger 1/Pinky Finger 2
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle009/Pinky Finger 1/Pinky Finger 2/Pinky Finger
+          3
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle009/Pinky Finger 1/Pinky Finger 2/Pinky Finger
+          3/Pinky Finger Nub
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle010
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle010/Ring Finger 1
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle010/Ring Finger 1/Ring Finger 2
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle010/Ring Finger 1/Ring Finger 2/Ring Finger
+          3
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle010/Ring Finger 1/Ring Finger 2/Ring Finger
+          3/Ring Finger Nub
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle011
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle011/Middle Finger 1
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle011/Middle Finger 1/Middle Finger 2
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle011/Middle Finger 1/Middle Finger 2/Middle
+          Finger 3
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle011/Middle Finger 1/Middle Finger 2/Middle
+          Finger 3/Middle Finger Nub
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle012
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle012/Index Finger 1
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle012/Index Finger 1/Index Finger 2
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle012/Index Finger 1/Index Finger 2/Index Finger
+          3
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle012/Index Finger 1/Index Finger 2/Index Finger
+          3/Index Finger Nub
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle013
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle013/Thumb 1
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle013/Thumb 1/Thumb 2
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle013/Thumb 1/Thumb 2/Thumb 3
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Circle013/Thumb 1/Thumb 2/Thumb 3/Thumb Nub
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+          Arm/Left Wrist/Left Hand/Left Hand Nub
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Neck
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Neck/Head
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Neck/Head/Hat
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Neck/Head/Head Nub
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Right Clavicle
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Right Clavicle/Right Shoulder
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Right Clavicle/Right Shoulder/Right
+          Arm
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Right Clavicle/Right Shoulder/Right
+          Arm/Right Wrist
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Right Clavicle/Right Shoulder/Right
+          Arm/Right Wrist/Right Hand
+        weight: 1
+      - path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Right Clavicle/Right Shoulder/Right
+          Arm/Right Wrist/Right Hand/Weapon
+        weight: 1
+      - path: Star001/Circle001/Spine Base Controller
+        weight: 1
+      - path: Star001/Circle001/Spine Base Controller/NeckBase
+        weight: 1
+      - path: Star001/Circle001/Spine Base Controller/NeckBase/Head Controller
+        weight: 1
+      - path: Star001/Line001
+        weight: 1
+      - path: Star001/Line001/Donut001
+        weight: 1
+      - path: Star001/Line001/Donut001/IK Chain001
+        weight: 1
+      - path: Star001/Line001/Donut002
+        weight: 1
+      - path: Star001/Line001/Donut002/IK Chain002
+        weight: 1
+      - path: Star001/Line001/Donut003
+        weight: 1
+      - path: Star001/Line001/Donut003/IK Chain003
+        weight: 1
+      - path: Star001/Line002
+        weight: 1
+      - path: Star001/Line002/Donut004
+        weight: 1
+      - path: Star001/Line002/Donut004/IK Chain004
+        weight: 1
+      - path: Star001/Line002/Donut005
+        weight: 1
+      - path: Star001/Line002/Donut005/IK Chain005
+        weight: 1
+      - path: Star001/Line002/Donut006
+        weight: 1
+      - path: Star001/Line002/Donut006/IK Chain006
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,180 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1011 &101100000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Xander UpperBody_Mask
+  m_Mask: 00000000010000000100000000000000000000000100000001000000010000000100000000000000000000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: Backpack
+    m_Weight: 1
+  - m_Path: Backpack(Flap)
+    m_Weight: 1
+  - m_Path: Civet Skeley
+    m_Weight: 1
+  - m_Path: Civet Skeley/Bip001 Footsteps
+    m_Weight: 1
+  - m_Path: Civet Skeley/Bip001 Pelvis
+    m_Weight: 1
+  - m_Path: Civet Skeley/Bip001 Pelvis/Bip001 Spine
+    m_Weight: 1
+  - m_Path: Civet Skeley/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh
+    m_Weight: 0
+  - m_Path: Civet Skeley/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf
+    m_Weight: 0
+  - m_Path: Civet Skeley/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf/Bip001
+      L HorseLink
+    m_Weight: 0
+  - m_Path: Civet Skeley/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf/Bip001
+      L HorseLink/Bip001 L Foot
+    m_Weight: 0
+  - m_Path: Civet Skeley/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf/Bip001
+      L HorseLink/Bip001 L Foot/Bip001 L Toe0
+    m_Weight: 0
+  - m_Path: Civet Skeley/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf/Bip001
+      L HorseLink/Bip001 L Foot/Bip001 L Toe0/Bip001 L Toe01
+    m_Weight: 0
+  - m_Path: Civet Skeley/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf/Bip001
+      L HorseLink/Bip001 L Foot/Bip001 L Toe0/Bip001 L Toe01/Bip001 L Toe02
+    m_Weight: 0
+  - m_Path: Civet Skeley/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf/Bip001
+      L HorseLink/Bip001 L Foot/Bip001 L Toe0/Bip001 L Toe01/Bip001 L Toe02/Bip001
+      L Toe0Nub
+    m_Weight: 0
+  - m_Path: Civet Skeley/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh
+    m_Weight: 0
+  - m_Path: Civet Skeley/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf
+    m_Weight: 0
+  - m_Path: Civet Skeley/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf/Bip001
+      R HorseLink
+    m_Weight: 0
+  - m_Path: Civet Skeley/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf/Bip001
+      R HorseLink/Bip001 R Foot
+    m_Weight: 0
+  - m_Path: Civet Skeley/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf/Bip001
+      R HorseLink/Bip001 R Foot/Bip001 R Toe0
+    m_Weight: 0
+  - m_Path: Civet Skeley/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf/Bip001
+      R HorseLink/Bip001 R Foot/Bip001 R Toe0/Bip001 R Toe01
+    m_Weight: 0
+  - m_Path: Civet Skeley/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf/Bip001
+      R HorseLink/Bip001 R Foot/Bip001 R Toe0/Bip001 R Toe01/Bip001 R Toe02
+    m_Weight: 0
+  - m_Path: Civet Skeley/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf/Bip001
+      R HorseLink/Bip001 R Foot/Bip001 R Toe0/Bip001 R Toe01/Bip001 R Toe02/Bip001
+      R Toe0Nub
+    m_Weight: 0
+  - m_Path: Civet Skeley/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1
+    m_Weight: 1
+  - m_Path: Civet Skeley/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2
+    m_Weight: 1
+  - m_Path: Civet Skeley/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+      Spine3
+    m_Weight: 1
+  - m_Path: Civet Skeley/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+      Spine3/Backpack Controller
+    m_Weight: 1
+  - m_Path: Civet Skeley/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+      Spine3/Bip001 Neck
+    m_Weight: 1
+  - m_Path: Civet Skeley/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+      Spine3/Bip001 Neck/Bip001 Head
+    m_Weight: 1
+  - m_Path: Civet Skeley/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+      Spine3/Bip001 Neck/Bip001 Head/Bip001 HeadNub
+    m_Weight: 1
+  - m_Path: Civet Skeley/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+      Spine3/Bip001 Neck/Bip001 L Clavicle
+    m_Weight: 1
+  - m_Path: Civet Skeley/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+      Spine3/Bip001 Neck/Bip001 L Clavicle/Bip001 L UpperArm
+    m_Weight: 1
+  - m_Path: Civet Skeley/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+      Spine3/Bip001 Neck/Bip001 L Clavicle/Bip001 L UpperArm/Bip001 L Forearm
+    m_Weight: 1
+  - m_Path: Civet Skeley/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+      Spine3/Bip001 Neck/Bip001 L Clavicle/Bip001 L UpperArm/Bip001 L Forearm/Bip001
+      L Hand
+    m_Weight: 1
+  - m_Path: Civet Skeley/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+      Spine3/Bip001 Neck/Bip001 L Clavicle/Bip001 L UpperArm/Bip001 L Forearm/Bip001
+      L Hand/Bip001 L Finger0
+    m_Weight: 1
+  - m_Path: Civet Skeley/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+      Spine3/Bip001 Neck/Bip001 L Clavicle/Bip001 L UpperArm/Bip001 L Forearm/Bip001
+      L Hand/Bip001 L Finger0/Bip001 L Finger0Nub
+    m_Weight: 1
+  - m_Path: Civet Skeley/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+      Spine3/Bip001 Neck/Bip001 R Clavicle
+    m_Weight: 1
+  - m_Path: Civet Skeley/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+      Spine3/Bip001 Neck/Bip001 R Clavicle/Bip001 R UpperArm
+    m_Weight: 1
+  - m_Path: Civet Skeley/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+      Spine3/Bip001 Neck/Bip001 R Clavicle/Bip001 R UpperArm/Bip001 R Forearm
+    m_Weight: 1
+  - m_Path: Civet Skeley/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+      Spine3/Bip001 Neck/Bip001 R Clavicle/Bip001 R UpperArm/Bip001 R Forearm/Bip001
+      R Hand
+    m_Weight: 1
+  - m_Path: Civet Skeley/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+      Spine3/Bip001 Neck/Bip001 R Clavicle/Bip001 R UpperArm/Bip001 R Forearm/Bip001
+      R Hand/Bip001 R Finger0
+    m_Weight: 1
+  - m_Path: Civet Skeley/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+      Spine3/Bip001 Neck/Bip001 R Clavicle/Bip001 R UpperArm/Bip001 R Forearm/Bip001
+      R Hand/Bip001 R Finger0/Bip001 R Finger0Nub
+    m_Weight: 1
+  - m_Path: Civet Skeley/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+      Spine3/Landmine Controller
+    m_Weight: 1
+  - m_Path: Civet Skeley/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+      Spine3/Left Grenade Controller
+    m_Weight: 1
+  - m_Path: Civet Skeley/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+      Spine3/Middle Grenade Controller
+    m_Weight: 1
+  - m_Path: Civet Skeley/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+      Spine3/Right Grenade Controller
+    m_Weight: 1
+  - m_Path: Civet Skeley/Bip001 Pelvis/Bip001 Spine/Bip001 Tail
+    m_Weight: 0
+  - m_Path: Civet Skeley/Bip001 Pelvis/Bip001 Spine/Bip001 Tail/Bip001 Tail1
+    m_Weight: 0
+  - m_Path: Civet Skeley/Bip001 Pelvis/Bip001 Spine/Bip001 Tail/Bip001 Tail1/Bip001
+      Tail2
+    m_Weight: 0
+  - m_Path: Civet Skeley/Bip001 Pelvis/Bip001 Spine/Bip001 Tail/Bip001 Tail1/Bip001
+      Tail2/Bip001 Tail3
+    m_Weight: 0
+  - m_Path: Civet Skeley/Bip001 Pelvis/Bip001 Spine/Bip001 Tail/Bip001 Tail1/Bip001
+      Tail2/Bip001 Tail3/Bip001 Tail4
+    m_Weight: 0
+  - m_Path: Civet Skeley/Bip001 Pelvis/Bip001 Spine/Bip001 Tail/Bip001 Tail1/Bip001
+      Tail2/Bip001 Tail3/Bip001 Tail4/Bip001 Tail5
+    m_Weight: 0
+  - m_Path: Civet Skeley/Bip001 Pelvis/Bip001 Spine/Bip001 Tail/Bip001 Tail1/Bip001
+      Tail2/Bip001 Tail3/Bip001 Tail4/Bip001 Tail5/Bip001 TailNub
+    m_Weight: 0
+  - m_Path: Landmine
+    m_Weight: 1
+  - m_Path: Landmine/Landmine Base
+    m_Weight: 1
+  - m_Path: Left Grenade (Top)
+    m_Weight: 1
+  - m_Path: Left Grenade (Top)/Left Grenade (Bottom)
+    m_Weight: 1
+  - m_Path: Middle Grenade (Top)
+    m_Weight: 1
+  - m_Path: 'Middle Grenade (Top)/Middle Grenade (Bottom) '
+    m_Weight: 1
+  - m_Path: Right Grenade (Top)
+    m_Weight: 1
+  - m_Path: Right Grenade (Top)/Right Grenade (Bottom)
+    m_Weight: 1
+  - m_Path: Xander
+    m_Weight: 1

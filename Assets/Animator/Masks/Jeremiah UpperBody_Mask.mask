@@ -1,0 +1,228 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &101100000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Jeremiah UpperBody_Mask
+  m_Mask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: Dummy001
+    m_Weight: 1
+  - m_Path: Dummy002
+    m_Weight: 1
+  - m_Path: Jeremiah
+    m_Weight: 1
+  - m_Path: Star001
+    m_Weight: 1
+  - m_Path: Star001/Circle001
+    m_Weight: 1
+  - m_Path: Star001/Circle001/Circle002
+    m_Weight: 1
+  - m_Path: Star001/Circle001/Pelvis
+    m_Weight: 1
+  - m_Path: Star001/Circle001/Pelvis/Left Leg
+    m_Weight: 0
+  - m_Path: Star001/Circle001/Pelvis/Left Leg/Left Shin
+    m_Weight: 0
+  - m_Path: Star001/Circle001/Pelvis/Left Leg/Left Shin/Left Foot
+    m_Weight: 0
+  - m_Path: Star001/Circle001/Pelvis/Left Leg/Left Shin/Left Foot/Left Toe
+    m_Weight: 0
+  - m_Path: Star001/Circle001/Pelvis/Left Leg/Left Shin/Left Foot/Left Toe/Left Toe
+      Nub
+    m_Weight: 0
+  - m_Path: Star001/Circle001/Pelvis/Pelvis Nub
+    m_Weight: 1
+  - m_Path: Star001/Circle001/Pelvis/Right Leg
+    m_Weight: 0
+  - m_Path: Star001/Circle001/Pelvis/Right Leg/Right Shin
+    m_Weight: 0
+  - m_Path: Star001/Circle001/Pelvis/Right Leg/Right Shin/Right Foot
+    m_Weight: 0
+  - m_Path: Star001/Circle001/Pelvis/Right Leg/Right Shin/Right Foot/Right Toe
+    m_Weight: 0
+  - m_Path: Star001/Circle001/Pelvis/Right Leg/Right Shin/Right Foot/Right Toe/Right
+      Toe Nub
+    m_Weight: 0
+  - m_Path: Star001/Circle001/Spine 1
+    m_Weight: 1
+  - m_Path: Star001/Circle001/Spine 1/Spine 2
+    m_Weight: 1
+  - m_Path: Star001/Circle001/Spine 1/Spine 2/Spine 3
+    m_Weight: 1
+  - m_Path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Circle014
+    m_Weight: 1
+  - m_Path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Circle014/Circle006
+    m_Weight: 1
+  - m_Path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Circle014/Circle006/Circle007
+    m_Weight: 1
+  - m_Path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Circle014/Circle006/Circle007/Circle008
+    m_Weight: 1
+  - m_Path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Circle015
+    m_Weight: 1
+  - m_Path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Circle015/Circle003
+    m_Weight: 1
+  - m_Path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Circle015/Circle003/Circle004
+    m_Weight: 1
+  - m_Path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Circle015/Circle003/Circle004/Circle005
+    m_Weight: 1
+  - m_Path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle
+    m_Weight: 1
+  - m_Path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder
+    m_Weight: 1
+  - m_Path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+      Arm
+    m_Weight: 1
+  - m_Path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+      Arm/Left Wrist
+    m_Weight: 1
+  - m_Path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+      Arm/Left Wrist/Left Hand
+    m_Weight: 1
+  - m_Path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+      Arm/Left Wrist/Left Hand/Circle009
+    m_Weight: 1
+  - m_Path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+      Arm/Left Wrist/Left Hand/Circle009/Pinky Finger 1
+    m_Weight: 1
+  - m_Path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+      Arm/Left Wrist/Left Hand/Circle009/Pinky Finger 1/Pinky Finger 2
+    m_Weight: 1
+  - m_Path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+      Arm/Left Wrist/Left Hand/Circle009/Pinky Finger 1/Pinky Finger 2/Pinky Finger
+      3
+    m_Weight: 1
+  - m_Path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+      Arm/Left Wrist/Left Hand/Circle009/Pinky Finger 1/Pinky Finger 2/Pinky Finger
+      3/Pinky Finger Nub
+    m_Weight: 1
+  - m_Path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+      Arm/Left Wrist/Left Hand/Circle010
+    m_Weight: 1
+  - m_Path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+      Arm/Left Wrist/Left Hand/Circle010/Ring Finger 1
+    m_Weight: 1
+  - m_Path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+      Arm/Left Wrist/Left Hand/Circle010/Ring Finger 1/Ring Finger 2
+    m_Weight: 1
+  - m_Path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+      Arm/Left Wrist/Left Hand/Circle010/Ring Finger 1/Ring Finger 2/Ring Finger 3
+    m_Weight: 1
+  - m_Path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+      Arm/Left Wrist/Left Hand/Circle010/Ring Finger 1/Ring Finger 2/Ring Finger 3/Ring
+      Finger Nub
+    m_Weight: 1
+  - m_Path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+      Arm/Left Wrist/Left Hand/Circle011
+    m_Weight: 1
+  - m_Path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+      Arm/Left Wrist/Left Hand/Circle011/Middle Finger 1
+    m_Weight: 1
+  - m_Path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+      Arm/Left Wrist/Left Hand/Circle011/Middle Finger 1/Middle Finger 2
+    m_Weight: 1
+  - m_Path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+      Arm/Left Wrist/Left Hand/Circle011/Middle Finger 1/Middle Finger 2/Middle Finger
+      3
+    m_Weight: 1
+  - m_Path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+      Arm/Left Wrist/Left Hand/Circle011/Middle Finger 1/Middle Finger 2/Middle Finger
+      3/Middle Finger Nub
+    m_Weight: 1
+  - m_Path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+      Arm/Left Wrist/Left Hand/Circle012
+    m_Weight: 1
+  - m_Path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+      Arm/Left Wrist/Left Hand/Circle012/Index Finger 1
+    m_Weight: 1
+  - m_Path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+      Arm/Left Wrist/Left Hand/Circle012/Index Finger 1/Index Finger 2
+    m_Weight: 1
+  - m_Path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+      Arm/Left Wrist/Left Hand/Circle012/Index Finger 1/Index Finger 2/Index Finger
+      3
+    m_Weight: 1
+  - m_Path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+      Arm/Left Wrist/Left Hand/Circle012/Index Finger 1/Index Finger 2/Index Finger
+      3/Index Finger Nub
+    m_Weight: 1
+  - m_Path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+      Arm/Left Wrist/Left Hand/Circle013
+    m_Weight: 1
+  - m_Path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+      Arm/Left Wrist/Left Hand/Circle013/Thumb 1
+    m_Weight: 1
+  - m_Path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+      Arm/Left Wrist/Left Hand/Circle013/Thumb 1/Thumb 2
+    m_Weight: 1
+  - m_Path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+      Arm/Left Wrist/Left Hand/Circle013/Thumb 1/Thumb 2/Thumb 3
+    m_Weight: 1
+  - m_Path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+      Arm/Left Wrist/Left Hand/Circle013/Thumb 1/Thumb 2/Thumb 3/Thumb Nub
+    m_Weight: 1
+  - m_Path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Left Clavicle/Left Shoulder/Left
+      Arm/Left Wrist/Left Hand/Left Hand Nub
+    m_Weight: 1
+  - m_Path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Neck
+    m_Weight: 1
+  - m_Path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Neck/Head
+    m_Weight: 1
+  - m_Path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Neck/Head/Hat
+    m_Weight: 1
+  - m_Path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Neck/Head/Head Nub
+    m_Weight: 1
+  - m_Path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Right Clavicle
+    m_Weight: 1
+  - m_Path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Right Clavicle/Right Shoulder
+    m_Weight: 1
+  - m_Path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Right Clavicle/Right Shoulder/Right
+      Arm
+    m_Weight: 1
+  - m_Path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Right Clavicle/Right Shoulder/Right
+      Arm/Right Wrist
+    m_Weight: 1
+  - m_Path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Right Clavicle/Right Shoulder/Right
+      Arm/Right Wrist/Right Hand
+    m_Weight: 1
+  - m_Path: Star001/Circle001/Spine 1/Spine 2/Spine 3/Right Clavicle/Right Shoulder/Right
+      Arm/Right Wrist/Right Hand/Weapon
+    m_Weight: 1
+  - m_Path: Star001/Circle001/Spine Base Controller
+    m_Weight: 1
+  - m_Path: Star001/Circle001/Spine Base Controller/NeckBase
+    m_Weight: 1
+  - m_Path: Star001/Circle001/Spine Base Controller/NeckBase/Head Controller
+    m_Weight: 1
+  - m_Path: Star001/Line001
+    m_Weight: 1
+  - m_Path: Star001/Line001/Donut001
+    m_Weight: 1
+  - m_Path: Star001/Line001/Donut001/IK Chain001
+    m_Weight: 1
+  - m_Path: Star001/Line001/Donut002
+    m_Weight: 1
+  - m_Path: Star001/Line001/Donut002/IK Chain002
+    m_Weight: 1
+  - m_Path: Star001/Line001/Donut003
+    m_Weight: 1
+  - m_Path: Star001/Line001/Donut003/IK Chain003
+    m_Weight: 1
+  - m_Path: Star001/Line002
+    m_Weight: 1
+  - m_Path: Star001/Line002/Donut004
+    m_Weight: 1
+  - m_Path: Star001/Line002/Donut004/IK Chain004
+    m_Weight: 1
+  - m_Path: Star001/Line002/Donut005
+    m_Weight: 1
+  - m_Path: Star001/Line002/Donut005/IK Chain005
+    m_Weight: 1
+  - m_Path: Star001/Line002/Donut006
+    m_Weight: 1
+  - m_Path: Star001/Line002/Donut006/IK Chain006
+    m_Weight: 1
