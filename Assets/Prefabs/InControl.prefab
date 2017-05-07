@@ -20,6 +20,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4510096732482376}
   - component: {fileID: 114117061848423584}
+  - component: {fileID: 114093143060555478}
   m_Layer: 0
   m_Name: InControl
   m_TagString: Untagged
@@ -40,6 +41,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114093143060555478
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1090584710375820}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6dbf666ae99684f4cbe044dac136447f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  xanderPrefab: {fileID: 1151394015315932, guid: bfa2860cf55ef02499df1782490bf500,
+    type: 2}
+  sheraPrefab: {fileID: 1738042257745472, guid: 798373dabd5007e4aaae61d282c009c8,
+    type: 2}
+  jeremiahPrefab: {fileID: 1723943958225304, guid: 95f5b26c05f07254fb8d0103ba09824b,
+    type: 2}
+  croakPrefab: {fileID: 1619446372764296, guid: 7615179b18474f14fa1cdedf0a73dbe3,
+    type: 2}
 --- !u!114 &114117061848423584
 MonoBehaviour:
   m_ObjectHideFlags: 1

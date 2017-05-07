@@ -16,7 +16,7 @@ public class SheraScript : MonoBehaviour
 	private float rotateChar = 12f;
 
 	[Header ("----- Settable Variables -----")]
-	public Animation playerAnim;
+	public Animator playerAnim;
 	public GameObject playerBody;
 	public GameObject playerParent;
 	public GameObject basicSpawnPoint;
