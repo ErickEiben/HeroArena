@@ -244,7 +244,7 @@ public class menuScript : MonoBehaviour {
 	}
 */
 	public void StartLevel(){
-		SceneManager.LoadScene (1);
+		SceneManager.LoadScene ("Scene_CharacterSelect");
 	}
 
 	public void ExitGame(){
