@@ -110,9 +110,10 @@ public class CroakScript : MonoBehaviour
 				}
 
 				if (Device.RightBumper.WasPressed) {
-					if (croakBasicCooling == false)
+					if (croakBasicCooling == false) {
 						croakBasic (croakBasicRange);
-					anim.Play ("Basic Attack", -1, 0f);
+						anim.Play ("Basic Attack", -1, 0f);
+					}
 				}
 				#endregion
 
@@ -145,9 +146,10 @@ public class CroakScript : MonoBehaviour
 				}
 
 				if (Device.Action2.WasPressed) {
-					if (croakFireballCooling == false)
+					if (croakFireballCooling == false) {
 						croakFireball ();
-					anim.Play ("Ability 2", -1, 0f);
+						anim.Play ("Ability 2", -1, 0f);
+					}
 				}
 				#endregion
 

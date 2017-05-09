@@ -104,9 +104,10 @@ public class XanderScript : MonoBehaviour
 				}
 
 				if (Device.RightBumper.WasPressed) {
-					if (basicCooling == false)
+					if (basicCooling == false) {
 						xanderBasic (playerBody);
-					anim.Play ("Basic Attack", -1, 0f);
+						anim.Play ("Basic Attack", -1, 0f);
+					}
 				}
 				#endregion
 
@@ -121,9 +122,10 @@ public class XanderScript : MonoBehaviour
 				}
 
 				if (Device.Action1.WasPressed) {
-					if (mineCooling == false)
+					if (mineCooling == false) {
 						xanderMine (playerBody);
-					anim.Play ("Ability 1", -1, 0f);
+						anim.Play ("Ability 1", -1, 0f);
+					}
 				}
 				#endregion
 

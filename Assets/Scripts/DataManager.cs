@@ -59,11 +59,6 @@ public class DataManager : MonoBehaviour
 				SceneManager.LoadScene ("Scene_Main");
 			}
 		}
-
-		if (thisScene.name == "Scene_Main") {
-			StartMainScene ();
-			Destroy (this);
-		}
 	}
 
 	public void StartMainScene ()

@@ -112,9 +112,10 @@ public class SheraScript : MonoBehaviour
 				}
 
 				if (Device.RightBumper.WasPressed) {
-					if (sheraBasicCooling == false)
+					if (sheraBasicCooling == false) {
 						sheraBasic (sheraBasicRange);
-					anim.Play ("Basic Attack", -1, 0f);
+						anim.Play ("Basic Attack", -1, 0f);
+					}
 				}
 				#endregion
 
@@ -129,9 +130,10 @@ public class SheraScript : MonoBehaviour
 				}
 
 				if (Device.Action2.WasPressed) {
-					if (sheraDancingLeapCooling == false)
+					if (sheraDancingLeapCooling == false) {
 						sheraDancingLeap (sheraDancingLeapRange);
-					anim.Play ("Ability 1", -1, 0f);
+						anim.Play ("Ability 1", -1, 0f);
+					}
 				}
 				#endregion
 
@@ -146,9 +148,10 @@ public class SheraScript : MonoBehaviour
 				}
 
 				if (Device.Action1.IsPressed) {
-					if (sheraDoubleKickCooling == false)
+					if (sheraDoubleKickCooling == false) {
 						sheraDoubleKick (sheraDoubleKickRange);
-					anim.Play ("Ability 2", -1, 0f);
+						anim.Play ("Ability 2", -1, 0f);
+					}
 				}
 				#endregion
 

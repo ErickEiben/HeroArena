@@ -26,6 +26,21 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &1009651179226706
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4456848293484894}
+  m_Layer: 10
+  m_Name: sheraBasicSpawn
+  m_TagString: Player
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &1063041738325270
 GameObject:
   m_ObjectHideFlags: 1
@@ -605,21 +620,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1 &1792861404663240
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 4309491119241678}
-  m_Layer: 10
-  m_Name: sheraBasicSpawn
-  m_TagString: Player
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
 --- !u!1 &1798855594015284
 GameObject:
   m_ObjectHideFlags: 1
@@ -798,7 +798,7 @@ Transform:
   - {fileID: 4849404869643964}
   - {fileID: 4698876447625586}
   - {fileID: 4098780404561270}
-  - {fileID: 4309491119241678}
+  - {fileID: 4456848293484894}
   m_Father: {fileID: 4977926477431244}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -940,19 +940,6 @@ Transform:
   m_Father: {fileID: 4693707028348032}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &4309491119241678
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1792861404663240}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.334, z: 0.030000012}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 4039696894206848}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4316775350949324
 Transform:
   m_ObjectHideFlags: 1
@@ -1050,6 +1037,19 @@ Transform:
   - {fileID: 4518389512185576}
   m_Father: {fileID: 4671837523624652}
   m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4456848293484894
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1009651179226706}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.334, z: 0.030000012}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4039696894206848}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4468837152917088
 Transform:
@@ -1356,7 +1356,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1738042257745472}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.25, y: 0, z: -0.97}
+  m_LocalPosition: {x: 6.1376095, y: 0.000000834465, z: -1.2762177}
   m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
   m_Children:
   - {fileID: 4039696894206848}
@@ -1567,10 +1567,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 2.75
-  playerAnim: {fileID: 95556817676513686}
+  anim: {fileID: 0}
   playerBody: {fileID: 1653531818164522}
   playerParent: {fileID: 1738042257745472}
-  basicSpawnPoint: {fileID: 1792861404663240}
+  basicSpawnPoint: {fileID: 1009651179226706}
   canMove: 1
   maxHealth: 300
   maxStamina: 100
@@ -1585,8 +1585,8 @@ MonoBehaviour:
   sheraDoubleKickRange: 1
   sheraDoubleKickSpeed: 6
   sheraDancingLeapDamage: 10
-  sheraDancingLeapDistance: 2
-  sheraDancingLeapCD: 8
+  sheraDancingLeapDistance: 1
+  sheraDancingLeapCD: 6
   sheraDancingLeapRange: 1
   sheraDancingLeapSpeed: 8
   coneAngle: 45
