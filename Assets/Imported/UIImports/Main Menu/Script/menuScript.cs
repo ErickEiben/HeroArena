@@ -4,6 +4,8 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class menuScript : MonoBehaviour {
+	public Canvas quitMenu;
+	public Canvas controlMenu;
 	//public Canvas characterMenu;
 	public Button startText;
 	public Button exitText;
@@ -39,6 +41,8 @@ public class menuScript : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+		quitMenu = quitMenu.GetComponent<Canvas> ();
+		controlMenu = controlMenu.GetComponent<Canvas> ();
 		//characterMenu = characterMenu.GetComponent<Canvas> ();
 		startText = startText.GetComponent<Button> ();
 		exitText = exitText.GetComponent<Button> ();
@@ -69,12 +73,15 @@ public class menuScript : MonoBehaviour {
 		CPage = CPage.GetComponent<GameObject> ();
 		JPage = JPage.GetComponent<GameObject> ();
 		//characterBack = characterBack.GetComponent<GameObject> ();
+		quitMenu.enabled = false;
 		//characters.enabled = false;
+		controlMenu.enabled = false;
 
 	}
 
 	// Update is called once per frame
 	public void ExitPress () {
+		quitMenu.enabled = true;
 		startText.enabled = false;
 		characterText.enabled = false;
 		controlText.enabled = false;
@@ -82,6 +89,7 @@ public class menuScript : MonoBehaviour {
 	}
 
 	public void NoPress(){
+		quitMenu.enabled = false;
 		startText.enabled = true;
 		exitText.enabled = true;
 		controlText.enabled = true;
@@ -93,6 +101,7 @@ public class menuScript : MonoBehaviour {
 		exitText.enabled = false;
 		controlText.enabled = false;
 		characterText.enabled = false;
+		controlMenu.enabled = true;
 	}
 
 	public void CharacterPress(){
