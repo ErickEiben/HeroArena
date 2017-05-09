@@ -30,6 +30,8 @@ public class SelectUIScript : MonoBehaviour
 	[HideInInspector] [Range (0, 5)] public int teamColor;
 	[HideInInspector] [Range (0, 3)] public int playerNumber;
 
+	private bool canInteract;
+
 	#endregion
 
 	public InputDevice Device { get; set; }
@@ -65,170 +67,174 @@ public class SelectUIScript : MonoBehaviour
 		sheraPlayerSelect.SetActive (false);
 
 		this.name = "PlayerSelectUI";
+		canInteract = true;
 		#endregion
 	}
 
 	void Update ()
 	{
 		if (Device != null) {
-			#region *** RIGHT BUMPER ***
-			if (Device.RightBumper.WasPressed) {
-				if (xanderPlayerSelect.activeSelf == true) {
-					xanderPlayerSelect.SetActive (false);
-					xanderInformation.SetActive (false);
+			if (canInteract == true) {
+				#region *** RIGHT BUMPER ***
+				if (Device.RightBumper.WasPressed) {
+					if (xanderPlayerSelect.activeSelf == true) {
+						xanderPlayerSelect.SetActive (false);
+						xanderInformation.SetActive (false);
 
-					bloodhunterPlayerSelect.SetActive (true);
-					bloodhunterInformation.SetActive (true);
+						bloodhunterPlayerSelect.SetActive (true);
+						bloodhunterInformation.SetActive (true);
 
-					croakPlayerSelect.SetActive (false);
-					croakInformation.SetActive (false);
+						croakPlayerSelect.SetActive (false);
+						croakInformation.SetActive (false);
 
-					sheraPlayerSelect.SetActive (false);
-					sheraInformation.SetActive (false);
-				} else if (bloodhunterPlayerSelect.activeSelf == true) {
-					xanderPlayerSelect.SetActive (false);
-					xanderInformation.SetActive (false);
+						sheraPlayerSelect.SetActive (false);
+						sheraInformation.SetActive (false);
+					} else if (bloodhunterPlayerSelect.activeSelf == true) {
+						xanderPlayerSelect.SetActive (false);
+						xanderInformation.SetActive (false);
 
-					bloodhunterPlayerSelect.SetActive (false);
-					bloodhunterInformation.SetActive (false);
+						bloodhunterPlayerSelect.SetActive (false);
+						bloodhunterInformation.SetActive (false);
 
-					croakPlayerSelect.SetActive (true);
-					croakInformation.SetActive (true);
+						croakPlayerSelect.SetActive (true);
+						croakInformation.SetActive (true);
 
-					sheraPlayerSelect.SetActive (false);
-					sheraInformation.SetActive (false);
-				} else if (croakPlayerSelect.activeSelf == true) {
-					xanderPlayerSelect.SetActive (false);
-					xanderInformation.SetActive (false);
+						sheraPlayerSelect.SetActive (false);
+						sheraInformation.SetActive (false);
+					} else if (croakPlayerSelect.activeSelf == true) {
+						xanderPlayerSelect.SetActive (false);
+						xanderInformation.SetActive (false);
 
-					bloodhunterPlayerSelect.SetActive (false);
-					bloodhunterInformation.SetActive (false);
+						bloodhunterPlayerSelect.SetActive (false);
+						bloodhunterInformation.SetActive (false);
 
-					croakPlayerSelect.SetActive (false);
-					croakInformation.SetActive (false);
+						croakPlayerSelect.SetActive (false);
+						croakInformation.SetActive (false);
 
-					sheraPlayerSelect.SetActive (true);
-					sheraInformation.SetActive (true);
-				} else if (sheraPlayerSelect.activeSelf == true) {
-					xanderPlayerSelect.SetActive (true);
-					xanderInformation.SetActive (true);
+						sheraPlayerSelect.SetActive (true);
+						sheraInformation.SetActive (true);
+					} else if (sheraPlayerSelect.activeSelf == true) {
+						xanderPlayerSelect.SetActive (true);
+						xanderInformation.SetActive (true);
 
-					bloodhunterPlayerSelect.SetActive (false);
-					bloodhunterInformation.SetActive (false);
+						bloodhunterPlayerSelect.SetActive (false);
+						bloodhunterInformation.SetActive (false);
 
-					croakPlayerSelect.SetActive (false);
-					croakInformation.SetActive (false);
+						croakPlayerSelect.SetActive (false);
+						croakInformation.SetActive (false);
 
-					sheraPlayerSelect.SetActive (false);
-					sheraInformation.SetActive (false);
+						sheraPlayerSelect.SetActive (false);
+						sheraInformation.SetActive (false);
+					}
 				}
-			}
-			#endregion
+				#endregion
 
-			#region *** LEFT BUMPER ***
-			if (Device.LeftBumper.WasPressed) {
-				if (xanderPlayerSelect.activeSelf == true) {
-					xanderPlayerSelect.SetActive (false);
-					xanderInformation.SetActive (false);
+				#region *** LEFT BUMPER ***
+				if (Device.LeftBumper.WasPressed) {
+					if (xanderPlayerSelect.activeSelf == true) {
+						xanderPlayerSelect.SetActive (false);
+						xanderInformation.SetActive (false);
 
-					bloodhunterPlayerSelect.SetActive (false);
-					bloodhunterInformation.SetActive (false);
+						bloodhunterPlayerSelect.SetActive (false);
+						bloodhunterInformation.SetActive (false);
 
-					croakPlayerSelect.SetActive (false);
-					croakInformation.SetActive (false);
+						croakPlayerSelect.SetActive (false);
+						croakInformation.SetActive (false);
 
-					sheraPlayerSelect.SetActive (true);
-					sheraInformation.SetActive (true);
-				} else if (bloodhunterPlayerSelect.activeSelf == true) {
-					xanderPlayerSelect.SetActive (false);
-					xanderInformation.SetActive (false);
+						sheraPlayerSelect.SetActive (true);
+						sheraInformation.SetActive (true);
+					} else if (bloodhunterPlayerSelect.activeSelf == true) {
+						xanderPlayerSelect.SetActive (false);
+						xanderInformation.SetActive (false);
 
-					bloodhunterPlayerSelect.SetActive (false);
-					bloodhunterInformation.SetActive (false);
+						bloodhunterPlayerSelect.SetActive (false);
+						bloodhunterInformation.SetActive (false);
 
-					croakPlayerSelect.SetActive (true);
-					croakInformation.SetActive (true);
+						croakPlayerSelect.SetActive (true);
+						croakInformation.SetActive (true);
 
-					sheraPlayerSelect.SetActive (false);
-					sheraInformation.SetActive (false);
-				} else if (croakPlayerSelect.activeSelf == true) {
-					xanderPlayerSelect.SetActive (false);
-					xanderInformation.SetActive (false);
+						sheraPlayerSelect.SetActive (false);
+						sheraInformation.SetActive (false);
+					} else if (croakPlayerSelect.activeSelf == true) {
+						xanderPlayerSelect.SetActive (false);
+						xanderInformation.SetActive (false);
 
-					bloodhunterPlayerSelect.SetActive (true);
-					bloodhunterInformation.SetActive (true);
+						bloodhunterPlayerSelect.SetActive (true);
+						bloodhunterInformation.SetActive (true);
 
-					croakPlayerSelect.SetActive (false);
-					croakInformation.SetActive (false);
+						croakPlayerSelect.SetActive (false);
+						croakInformation.SetActive (false);
 
-					sheraPlayerSelect.SetActive (false);
-					sheraInformation.SetActive (false);
-				} else if (sheraPlayerSelect.activeSelf == true) {
-					xanderPlayerSelect.SetActive (true);
-					xanderInformation.SetActive (true);
+						sheraPlayerSelect.SetActive (false);
+						sheraInformation.SetActive (false);
+					} else if (sheraPlayerSelect.activeSelf == true) {
+						xanderPlayerSelect.SetActive (true);
+						xanderInformation.SetActive (true);
 
-					bloodhunterPlayerSelect.SetActive (false);
-					bloodhunterInformation.SetActive (false);
+						bloodhunterPlayerSelect.SetActive (false);
+						bloodhunterInformation.SetActive (false);
 
-					croakPlayerSelect.SetActive (false);
-					croakInformation.SetActive (false);
+						croakPlayerSelect.SetActive (false);
+						croakInformation.SetActive (false);
 
-					sheraPlayerSelect.SetActive (false);
-					sheraInformation.SetActive (false);
+						sheraPlayerSelect.SetActive (false);
+						sheraInformation.SetActive (false);
+					}
 				}
-			}
-			#endregion
+				#endregion
 
-			#region *** CHANGE TEAM COLOR ***
-			if (Device.Action3.WasPressed) {
-				if (team1Information.enabled == true) {
-					team1Information.enabled = false;
-					team2Information.enabled = true;
-					team3Information.enabled = false;
-					team4Information.enabled = false;
-					team5Information.enabled = false;
-					team6Information.enabled = false;
-				} else if (team2Information.enabled == true) {
-					team1Information.enabled = false;
-					team2Information.enabled = false;
-					team3Information.enabled = true;
-					team4Information.enabled = false;
-					team5Information.enabled = false;
-					team6Information.enabled = false;
-				} else if (team3Information.enabled == true) {
-					team1Information.enabled = false;
-					team2Information.enabled = false;
-					team3Information.enabled = false;
-					team4Information.enabled = true;
-					team5Information.enabled = false;
-					team6Information.enabled = false;
-				} else if (team4Information.enabled == true) {
-					team1Information.enabled = false;
-					team2Information.enabled = false;
-					team3Information.enabled = false;
-					team4Information.enabled = false;
-					team5Information.enabled = true;
-					team6Information.enabled = false;
-				} else if (team5Information.enabled == true) {
-					team1Information.enabled = false;
-					team2Information.enabled = false;
-					team3Information.enabled = false;
-					team4Information.enabled = false;
-					team5Information.enabled = false;
-					team6Information.enabled = true;
-				} else if (team6Information.enabled == true) {
-					team1Information.enabled = true;
-					team2Information.enabled = false;
-					team3Information.enabled = false;
-					team4Information.enabled = false;
-					team5Information.enabled = false;
-					team6Information.enabled = false;
+				#region *** CHANGE TEAM COLOR ***
+				if (Device.Action3.WasPressed) {
+					if (team1Information.enabled == true) {
+						team1Information.enabled = false;
+						team2Information.enabled = true;
+						team3Information.enabled = false;
+						team4Information.enabled = false;
+						team5Information.enabled = false;
+						team6Information.enabled = false;
+					} else if (team2Information.enabled == true) {
+						team1Information.enabled = false;
+						team2Information.enabled = false;
+						team3Information.enabled = true;
+						team4Information.enabled = false;
+						team5Information.enabled = false;
+						team6Information.enabled = false;
+					} else if (team3Information.enabled == true) {
+						team1Information.enabled = false;
+						team2Information.enabled = false;
+						team3Information.enabled = false;
+						team4Information.enabled = true;
+						team5Information.enabled = false;
+						team6Information.enabled = false;
+					} else if (team4Information.enabled == true) {
+						team1Information.enabled = false;
+						team2Information.enabled = false;
+						team3Information.enabled = false;
+						team4Information.enabled = false;
+						team5Information.enabled = true;
+						team6Information.enabled = false;
+					} else if (team5Information.enabled == true) {
+						team1Information.enabled = false;
+						team2Information.enabled = false;
+						team3Information.enabled = false;
+						team4Information.enabled = false;
+						team5Information.enabled = false;
+						team6Information.enabled = true;
+					} else if (team6Information.enabled == true) {
+						team1Information.enabled = true;
+						team2Information.enabled = false;
+						team3Information.enabled = false;
+						team4Information.enabled = false;
+						team5Information.enabled = false;
+						team6Information.enabled = false;
+					}
 				}
-			}
-			#endregion
+				#endregion
 
-			if (Device.Action1.WasPressed) {
-				SelectCharacter ();
+				if (Device.Action1.WasPressed) {
+					SelectCharacter ();
+					canInteract = false;
+				}
 			}
 		}
 	}
@@ -257,6 +263,24 @@ public class SelectUIScript : MonoBehaviour
 			teamColor = 4;
 		} else if (team6Information.enabled == true) {
 			teamColor = 5;
+		}
+
+		if (playerNumber == 0) {
+			DataManager.S.player1Device = this.Device;
+			DataManager.S.player1character = this.characterSelected;
+			DataManager.S.player1Team = this.teamColor;
+		} else if (playerNumber == 1) {
+			DataManager.S.player2Device = this.Device;
+			DataManager.S.player2character = this.characterSelected;
+			DataManager.S.player2Team = this.teamColor;
+		} else if (playerNumber == 2) {
+			DataManager.S.player3Device = this.Device;
+			DataManager.S.player3character = this.characterSelected;
+			DataManager.S.player3Team = this.teamColor;
+		} else if (playerNumber == 3) {
+			DataManager.S.player4Device = this.Device;
+			DataManager.S.player4character = this.characterSelected;
+			DataManager.S.player4Team = this.teamColor;
 		}
 	}
 }

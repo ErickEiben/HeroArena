@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using InControl;
+using UnityEngine.SceneManagement;
 
 public class PlayerSelectScript : MonoBehaviour
 {
@@ -11,6 +12,8 @@ public class PlayerSelectScript : MonoBehaviour
 	[HideInInspector] public GameObject playerJoin2;
 	[HideInInspector] public GameObject playerJoin3;
 	[HideInInspector] public GameObject playerJoin4;
+
+	private Scene thisScene;
 
 	const int maxPlayers = 4;
 
@@ -27,6 +30,8 @@ public class PlayerSelectScript : MonoBehaviour
 	{
 		InputManager.OnDeviceDetached += OnDeviceDetached;
 
+		thisScene = SceneManager.GetActiveScene ();
+
 		playerJoin1 = GameObject.Find ("PlayerJoin1");
 		playerJoin2 = GameObject.Find ("PlayerJoin2");
 		playerJoin3 = GameObject.Find ("PlayerJoin3");
@@ -35,11 +40,13 @@ public class PlayerSelectScript : MonoBehaviour
 
 	void Update ()
 	{
-		var inputDevice = InputManager.ActiveDevice;
+		if (thisScene.name == "Scene_CharacterSelect") {
+			var inputDevice = InputManager.ActiveDevice;
 
-		if (JoinButtonWasPressedOnDevice (inputDevice)) {
-			if (ThereIsNoPlayerUsingDevice (inputDevice)) {
-				CreatePlayer (inputDevice);
+			if (JoinButtonWasPressedOnDevice (inputDevice)) {
+				if (ThereIsNoPlayerUsingDevice (inputDevice)) {
+					CreatePlayer (inputDevice);
+				}
 			}
 		}
 	}

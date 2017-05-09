@@ -120,18 +120,18 @@ ModelImporter:
     400110: Waist Swivel
     400112: Whole Rig
     4300000: Gator
-    7400000: 'Run '
-    7400002: Ability 1
-    7400004: Nothing Idle
-    7400006: Character Select Idle
-    7400008: Character Selected Idle
-    7400010: Ability 2
-    7400012: Attack
-    7400014: Move Idle
-    7400016: Strafe Left
-    7400018: Strafe Right
-    7400020: Backpedal
-    7400022: Death
+    7400000: Run_Croak
+    7400002: Ability 1_Croak
+    7400004: Nothing Idle_Croak
+    7400006: Character Select Idle_Croak
+    7400008: Character Selected Idle_Croak
+    7400010: Ability 2_Croak
+    7400012: Attack_Croak
+    7400014: Move Idle_Croak
+    7400016: Strafe Left_Croak
+    7400018: Strafe Right_Croak
+    7400020: Backpedal_Croak
+    7400022: Death_Croak
     9500000: //RootNode
     13700000: Gator
   materials:
@@ -144,6 +144,8 @@ ModelImporter:
     resampleCurves: 1
     optimizeGameObjects: 0
     motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
@@ -156,7 +158,7 @@ ModelImporter:
     extraExposedTransformPaths: []
     clipAnimations:
     - serializedVersion: 16
-      name: 'Run '
+      name: Run_Croak
       takeName: Take 001
       firstFrame: 0
       lastFrame: 47
@@ -335,7 +337,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Ability 1
+      name: Ability 1_Croak
       takeName: Take 001
       firstFrame: 60
       lastFrame: 88
@@ -514,7 +516,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Nothing Idle
+      name: Nothing Idle_Croak
       takeName: Take 001
       firstFrame: 90
       lastFrame: 150
@@ -693,7 +695,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Character Select Idle
+      name: Character Select Idle_Croak
       takeName: Take 001
       firstFrame: 180
       lastFrame: 265
@@ -872,7 +874,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Character Selected Idle
+      name: Character Selected Idle_Croak
       takeName: Take 001
       firstFrame: 265
       lastFrame: 380
@@ -1051,7 +1053,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Ability 2
+      name: Ability 2_Croak
       takeName: Take 001
       firstFrame: 400
       lastFrame: 460
@@ -1230,7 +1232,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Attack
+      name: Attack_Croak
       takeName: Take 001
       firstFrame: 480
       lastFrame: 510
@@ -1409,7 +1411,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Move Idle
+      name: Move Idle_Croak
       takeName: Take 001
       firstFrame: 515
       lastFrame: 605
@@ -1588,7 +1590,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Strafe Left
+      name: Strafe Left_Croak
       takeName: Take 001
       firstFrame: 615
       lastFrame: 650
@@ -1767,7 +1769,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Strafe Right
+      name: Strafe Right_Croak
       takeName: Take 001
       firstFrame: 655
       lastFrame: 689
@@ -1946,7 +1948,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Backpedal
+      name: Backpedal_Croak
       takeName: Take 001
       firstFrame: 705
       lastFrame: 750
@@ -2125,7 +2127,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Death
+      name: Death_Croak
       takeName: Take 001
       firstFrame: 760
       lastFrame: 825

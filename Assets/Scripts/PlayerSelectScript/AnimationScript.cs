@@ -4,25 +4,25 @@ using UnityEngine;
 
 public class AnimationScript : MonoBehaviour {
 
-	[HideInInspector] public Animation anim;
+	[HideInInspector] public Animator anim;
 	[HideInInspector] public bool selected = false;
 
 	void Start () {
-		anim = GetComponent<Animation> ();
+		anim = GetComponent<Animator> ();
 	}
 
 	void Update () {
 		if ((selected == false) && (this.name == "XanderPlayerSelect")) {
-			anim.Play ("Idle");
+			anim.Play ("Character Select Idle_Xander");
 		}
 		if ((selected == false) && (this.name == "BloodhunterPlayerSelect")) {
-			anim.Play ("Nothing Idle");
+			anim.Play ("Character Select Idle_Jeremiah");
 		}
 		if ((selected == false) && (this.name == "CroakPlayerSelect")) {
-			anim.Play ("Nothing Idle");
+			anim.Play ("Character Select Idle_Croak");
 		}
 		if ((selected == false) && (this.name == "SheraPlayerSelect")) {
-			anim.Play ("Nothing Idle");
+			anim.Play ("Character Select Idle_Shera");
 		}
 	}
 

@@ -16,7 +16,9 @@ public class JeremiahScript : MonoBehaviour
 	private float rotateChar = 12f;
 
 	[Header ("----- Settable Variables -----")]
-	public Animator playerAnim;
+	public Animator anim;
+	private float inputH;
+	private float inputV;
 	public GameObject playerBody;
 	public GameObject playerParent;
 	public GameObject basicSpawnPoint;
@@ -73,6 +75,11 @@ public class JeremiahScript : MonoBehaviour
 		this.gameObject.name = "Jeremiah";
 	}
 
+	void Start ()
+	{
+		anim = GetComponent<Animator> ();
+	}
+
 	void Update ()
 	{
 		
@@ -108,8 +115,10 @@ public class JeremiahScript : MonoBehaviour
 				if ((Device.RightBumper.IsPressed)) {
 					if ((jeremiahBasicCooling == false) && (innerBlood == false)) {
 						jeremiahBasic (jeremiahBasicRange);
+						anim.Play ("Basic Attack 1", -1, 0f);
 					} else if ((jeremiahInnerBloodCooling == false) && (innerBlood == true)) {
 						jeremiahInnerBlood (jeremiahInnerBloodRange);
+						anim.Play ("Basic Attack 2", -1, 0f);
 					}
 				}
 				#endregion
@@ -129,6 +138,7 @@ public class JeremiahScript : MonoBehaviour
 						innerBlood = true;
 					else
 						innerBlood = false;
+					anim.Play ("Ability 1", -1, 0f);
 				}
 				#endregion
 
@@ -145,6 +155,7 @@ public class JeremiahScript : MonoBehaviour
 				if ((Device.Action2.WasPressed)) {
 					if (jeremiahCrimsonReachCooling == false) {
 						jeremiahCrimsonReach (jeremiahCrimsonReachRange);
+						anim.Play ("Ability 2", -1, 0f);
 					}
 				}
 				#endregion
@@ -192,11 +203,15 @@ public class JeremiahScript : MonoBehaviour
 			}
 
 			// Playing animations
-			if (moveDirection == Vector3.zero) { 
-				playerAnim.Play ("Move Idle");
+			if (moveDirection == Vector3.zero) {
+				anim.SetFloat ("inputH", 0);
+				anim.SetFloat ("inputV", 0);
 			}
 			if (moveDirection != Vector3.zero) {
-				playerAnim.Play ("Run");
+				inputH = 0;
+				inputV = 1;
+				anim.SetFloat ("inputH", inputH);
+				anim.SetFloat ("inputV", inputV);
 			}
 		}
 	}
