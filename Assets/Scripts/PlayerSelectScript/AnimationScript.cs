@@ -2,27 +2,50 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AnimationScript : MonoBehaviour {
+public class AnimationScript : MonoBehaviour
+{
+	public static AnimationScript S;
 
-	[HideInInspector] public Animator anim;
-	[HideInInspector] public bool selected = false;
+	public Animator anim;
+	public bool selected = false;
 
-	void Start () {
-		anim = GetComponent<Animator> ();
+	void Awake ()
+	{
+		S = this;
 	}
 
-	void Update () {
+	void Start ()
+	{
+		anim = this.gameObject.GetComponent<Animator> ();
+	}
+
+	void Update ()
+	{
 		if ((selected == false) && (this.name == "XanderPlayerSelect")) {
-			anim.Play ("Character Select Idle_Xander");
+			anim.Play ("Character Select Idle_Xander", 0, 0f);
 		}
 		if ((selected == false) && (this.name == "BloodhunterPlayerSelect")) {
-			anim.Play ("Character Select Idle_Jeremiah");
+			anim.Play ("Character Select Idle_Jeremiah2", 0, 0f);
 		}
 		if ((selected == false) && (this.name == "CroakPlayerSelect")) {
-			anim.Play ("Character Select Idle_Croak");
+			anim.Play ("Character Select Idle_Croak", 0, 0f);
 		}
 		if ((selected == false) && (this.name == "SheraPlayerSelect")) {
-			anim.Play ("Character Select Idle_Shera");
+			anim.Play ("Character Select Idle_Shera", 0, 0f);
+		}
+
+
+		if ((selected == true) && (this.name == "XanderPlayerSelect")) {
+			anim.Play ("Character Selected Idle_Xander", 0, 0f);
+		}
+		if ((selected == true) && (this.name == "BloodhunterPlayerSelect")) {
+			anim.Play ("Character Selected Idle_Jeremiah2", 0, 0f);
+		}
+		if ((selected == true) && (this.name == "CroakPlayerSelect")) {
+			anim.Play ("Character Selected Idle_Croak", 0, 0f);
+		}
+		if ((selected == true) && (this.name == "SheraPlayerSelect")) {
+			anim.Play ("Character Selected Idle_Shera", 0, 0f);
 		}
 	}
 

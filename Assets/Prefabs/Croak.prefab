@@ -20,9 +20,9 @@ GameObject:
   m_Component:
   - component: {fileID: 4930942319077522}
   - component: {fileID: 137440249822122474}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Gator
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35,9 +35,9 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4189839432330326}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Upper Spine
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -50,9 +50,9 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4618057770311548}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Left  Shoulder Controller
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -65,9 +65,9 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4019501586371686}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: IK Chain002
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -80,9 +80,9 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4301622985825692}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Head/Neck Control
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -95,9 +95,9 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4810722838300774}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Lower Tail
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -110,9 +110,9 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4429810219285388}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Top Jaw
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -125,9 +125,9 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4674207333431542}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Right Toe
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -140,9 +140,9 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4184216672271182}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Pelvis Nub
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -155,9 +155,9 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4811049343116414}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Tail
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -170,13 +170,13 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4704987461933168}
+  - component: {fileID: 95337520632711216}
   - component: {fileID: 114042680203075358}
   - component: {fileID: 143676865601980904}
   - component: {fileID: 65419467035989340}
-  - component: {fileID: 95337520632711216}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Croak
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -189,9 +189,9 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4549784527347758}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Spine Base
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -204,9 +204,9 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4456115459106668}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Upper Jaw
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -219,9 +219,9 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4292705716415204}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Whole Rig
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -234,9 +234,9 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4329082660203602}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Left Foot
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -249,9 +249,26 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4378665000551410}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Tail Controller 3
-  m_TagString: Untagged
+  m_TagString: Player
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1211970024884552
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 224564650149603182}
+  - component: {fileID: 222511635372669884}
+  - component: {fileID: 114605997459466924}
+  m_Layer: 5
+  m_Name: HealthBar_Red
+  m_TagString: User Interface
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -264,9 +281,9 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4400966261979932}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Left Toe Nub
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -279,9 +296,9 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4847398935373946}
-  m_Layer: 12
+  m_Layer: 14
   m_Name: CroakFireBallSpawn
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -294,9 +311,9 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4728111829608878}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Waist Swivel
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -309,9 +326,9 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4294244496484184}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Left CLavicle
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -324,9 +341,9 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4674641107872624}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Left Toe
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -339,9 +356,9 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4281642294341876}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Tail Controller
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -354,9 +371,9 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4863481412081596}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Hip Control
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -369,9 +386,9 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4685035090983254}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Left Thigh
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -384,9 +401,9 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4278606298699464}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Left Arm
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -399,9 +416,9 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4249149008787442}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Tail end
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -414,9 +431,9 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4351062475246290}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: IK Chain001
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -429,9 +446,9 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4100910752957760}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Right Shoulder
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -447,12 +464,12 @@ GameObject:
   - component: {fileID: 222764052967165786}
   - component: {fileID: 114123863571465698}
   m_Layer: 5
-  m_Name: HealthBar
+  m_Name: HealthBar_Blue
   m_TagString: User Interface
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &1436279578090428
 GameObject:
   m_ObjectHideFlags: 1
@@ -461,9 +478,9 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4225210392335276}
-  m_Layer: 12
+  m_Layer: 14
   m_Name: CroakBasicSpawn
-  m_TagString: Weapon
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -476,9 +493,9 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4922303624536822}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Right Arm Controller
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -491,9 +508,9 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4070730724569776}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Right Foot Controller
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -506,9 +523,9 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4840958880195914}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Left Wrist Controller
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -521,9 +538,9 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4359384138457712}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Left Wrist
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -553,9 +570,9 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4724266571619486}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Right Shoulder Controller
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -568,9 +585,9 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4407766602677020}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: CroakBody
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -583,9 +600,9 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4130786592729318}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Neck Fix
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -598,9 +615,9 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4559974461838864}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Right Wrist
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -632,9 +649,9 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4492082872433816}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Right Arm
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -647,9 +664,9 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4442730099888856}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Right Toe Nub
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -662,9 +679,9 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4609432968334716}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Pelvis
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -677,9 +694,9 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4507916329918960}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Lower Spine
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -692,9 +709,9 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4098537915592090}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Jaw Control
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -707,9 +724,9 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4341422010508070}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Right Clavicle
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -722,9 +739,9 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4505867174154044}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Upper Body Control
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -737,9 +754,9 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4154262623909230}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Mid Spine
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -769,9 +786,9 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4938721128760600}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Jaw Bottom
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -784,9 +801,9 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4195442299835328}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Left Arm Controller
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -799,9 +816,9 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4972264486455668}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Right Thigh
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -814,9 +831,9 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4123462375638580}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Tail Controller 2
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -830,9 +847,9 @@ GameObject:
   m_Component:
   - component: {fileID: 4022697069715348}
   - component: {fileID: 212506297080780174}
-  m_Layer: 12
+  m_Layer: 14
   m_Name: CroakIndicator
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -845,9 +862,9 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4087809969590432}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Left Knee
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -860,9 +877,9 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4701425261045826}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Right Wrist Controller
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -875,9 +892,9 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4178576970469894}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Left Shoulder
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -890,9 +907,9 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4419048807321998}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Middle Tail
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -905,9 +922,9 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4059614752856284}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Right Foot
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -920,9 +937,9 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4040120018046250}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Upper tail
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -935,9 +952,9 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4915968830133060}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Lower Jaw
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -950,9 +967,9 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4769909534288078}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Left Foot Controller
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -965,9 +982,9 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4674831133171260}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Tail Controller 4
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -980,9 +997,9 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4207783433473150}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Neck
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -995,9 +1012,9 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4135789705574710}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Right Knee
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1674,7 +1691,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1161375278215126}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -2.25}
+  m_LocalPosition: {x: 6.47, y: 0, z: -0.35}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4407766602677020}
@@ -1903,7 +1920,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 2
-  playerAnim: {fileID: 95337520632711216}
+  anim: {fileID: 0}
   playerBody: {fileID: 1524844974385992}
   playerParent: {fileID: 1161375278215126}
   basicSpawnPoint: {fileID: 1436279578090428}
@@ -1940,7 +1957,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.68275857, b: 0, a: 1}
+  m_Color: {r: 0, g: 0.5034485, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -1992,6 +2009,33 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!114 &114605997459466924
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1211970024884552}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
 --- !u!114 &114689058250615172
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2201,6 +2245,12 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1503954039959108}
+--- !u!222 &222511635372669884
+CanvasRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1211970024884552}
 --- !u!222 &222764052967165786
 CanvasRenderer:
   m_ObjectHideFlags: 1
@@ -2262,13 +2312,31 @@ RectTransform:
   m_LocalScale: {x: 0.002, y: 0.003, z: 0.003}
   m_Children: []
   m_Father: {fileID: 224713496713636864}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0.252}
   m_SizeDelta: {x: 1, y: 1}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!224 &224564650149603182
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1211970024884552}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 224713496713636864}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMax: {x: 0, y: 0.5}
+  m_AnchoredPosition: {x: 0.025000095, y: 0}
+  m_SizeDelta: {x: 0.45, y: 0.15}
+  m_Pivot: {x: 0, y: 0.5}
 --- !u!224 &224713496713636864
 RectTransform:
   m_ObjectHideFlags: 1
@@ -2280,6 +2348,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 224112260412919468}
+  - {fileID: 224564650149603182}
   - {fileID: 224961835788716142}
   - {fileID: 224493134425889352}
   m_Father: {fileID: 4704987461933168}
@@ -2301,7 +2370,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 224713496713636864}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}

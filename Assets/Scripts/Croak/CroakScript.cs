@@ -16,7 +16,9 @@ public class CroakScript : MonoBehaviour
 	private float rotateChar = 12f;
 
 	[Header ("----- Settable Variables -----")]
-	public Animator playerAnim;
+	public Animator anim;
+	private float inputH;
+	private float inputV;
 	public GameObject playerBody;
 	public GameObject playerParent;
 	public GameObject basicSpawnPoint;
@@ -70,6 +72,11 @@ public class CroakScript : MonoBehaviour
 		this.gameObject.name = "Croak";
 	}
 
+	void Start ()
+	{
+		anim = GetComponent<Animator> ();
+	}
+
 	void Update ()
 	{
 
@@ -102,9 +109,10 @@ public class CroakScript : MonoBehaviour
 					}
 				}
 
-				if (Device.RightBumper.IsPressed) {
+				if (Device.RightBumper.WasPressed) {
 					if (croakBasicCooling == false)
 						croakBasic (croakBasicRange);
+					anim.Play ("Basic Attack", -1, 0f);
 				}
 				#endregion
 
@@ -121,6 +129,7 @@ public class CroakScript : MonoBehaviour
 				if ((Device.Action1.WasPressed)) {
 					if (croakMangleCooling == false) {
 						croakMangle (croakMangleRange);
+						anim.Play ("Ability 1", -1, 0f);
 					}
 				}
 				#endregion
@@ -138,6 +147,7 @@ public class CroakScript : MonoBehaviour
 				if (Device.Action2.WasPressed) {
 					if (croakFireballCooling == false)
 						croakFireball ();
+					anim.Play ("Ability 2", -1, 0f);
 				}
 				#endregion
 
@@ -183,14 +193,22 @@ public class CroakScript : MonoBehaviour
 			}
 
 			// Playing animations
-
+			if (moveDirection == Vector3.zero) {
+				anim.SetFloat ("inputH", 0);
+				anim.SetFloat ("inputV", 0);
+			}
+			if (moveDirection != Vector3.zero) {
+				inputH = 0;
+				inputV = 1;
+				anim.SetFloat ("inputH", inputH);
+				anim.SetFloat ("inputV", inputV);
+			}
 		}
 	}
 
 	public void croakBasic (float croakBasicRange)
 	{
 		croakBasicCooling = true;
-		playerAnim.Play ("Basic Attack 1", -1, 0f);
 		Vector3 explosionPos = basicSpawnPoint.transform.position;
 		Collider[] hitColliders = Physics.OverlapSphere (explosionPos, croakBasicRange);
 
@@ -205,7 +223,6 @@ public class CroakScript : MonoBehaviour
 	public void croakMangle (float croakMangleRange)
 	{
 		croakMangleCooling = true;
-		playerAnim.Play ("Ability 1", -1, 0f);
 		Vector3 explosionPos = basicSpawnPoint.transform.position;
 		Collider[] hitColliders = Physics.OverlapSphere (explosionPos, croakMangleRange);
 
@@ -240,7 +257,6 @@ public class CroakScript : MonoBehaviour
 	public void croakFireball ()
 	{
 		croakFireballCooling = true;
-		playerAnim.Play ("Ability 2", -1, 0f);
 		GameObject creation;
 		creation = Instantiate (Resources.Load ("croakFireball"), basicSpawnPoint.transform.position, basicSpawnPoint.transform.rotation) as GameObject;
 		creation.transform.eulerAngles = new Vector3 (creation.transform.eulerAngles.x, creation.transform.eulerAngles.y - 2, creation.transform.eulerAngles.x);

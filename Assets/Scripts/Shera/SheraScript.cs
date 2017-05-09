@@ -16,7 +16,9 @@ public class SheraScript : MonoBehaviour
 	private float rotateChar = 12f;
 
 	[Header ("----- Settable Variables -----")]
-	public Animator playerAnim;
+	public Animator anim;
+	private float inputH;
+	private float inputV;
 	public GameObject playerBody;
 	public GameObject playerParent;
 	public GameObject basicSpawnPoint;
@@ -72,6 +74,11 @@ public class SheraScript : MonoBehaviour
 		this.gameObject.name = "Shera";
 	}
 
+	void Start ()
+	{
+		anim = GetComponent<Animator> ();
+	}
+
 	void Update ()
 	{
 
@@ -104,9 +111,10 @@ public class SheraScript : MonoBehaviour
 					}
 				}
 
-				if (Device.RightBumper.IsPressed) {
+				if (Device.RightBumper.WasPressed) {
 					if (sheraBasicCooling == false)
 						sheraBasic (sheraBasicRange);
+					anim.Play ("Basic Attack", -1, 0f);
 				}
 				#endregion
 
@@ -123,6 +131,7 @@ public class SheraScript : MonoBehaviour
 				if (Device.Action2.WasPressed) {
 					if (sheraDancingLeapCooling == false)
 						sheraDancingLeap (sheraDancingLeapRange);
+					anim.Play ("Ability 1", -1, 0f);
 				}
 				#endregion
 
@@ -139,6 +148,7 @@ public class SheraScript : MonoBehaviour
 				if (Device.Action1.IsPressed) {
 					if (sheraDoubleKickCooling == false)
 						sheraDoubleKick (sheraDoubleKickRange);
+					anim.Play ("Ability 2", -1, 0f);
 				}
 				#endregion
 
@@ -185,11 +195,15 @@ public class SheraScript : MonoBehaviour
 			}
 
 			// Playing animations
-			if (moveDirection == Vector3.zero) { 
-				playerAnim.Play ("Nothing Idle");
+			if (moveDirection == Vector3.zero) {
+				anim.SetFloat ("inputH", 0);
+				anim.SetFloat ("inputV", 0);
 			}
 			if (moveDirection != Vector3.zero) {
-				playerAnim.Play ("Run");
+				inputH = 0;
+				inputV = 1;
+				anim.SetFloat ("inputH", inputH);
+				anim.SetFloat ("inputV", inputV);
 			}
 		}
 	}

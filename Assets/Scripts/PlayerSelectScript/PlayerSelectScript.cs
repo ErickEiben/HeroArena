@@ -18,10 +18,10 @@ public class PlayerSelectScript : MonoBehaviour
 	const int maxPlayers = 4;
 
 	List<Vector3> playerPositions = new List<Vector3> () {
-		new Vector3 (-602, 100, 0),
-		new Vector3 (-216, 100, 0),
-		new Vector3 (174, 100, 0),
-		new Vector3 (560, 100, 0),
+		new Vector3 (-602, 175, 0),
+		new Vector3 (-216, 175, 0),
+		new Vector3 (174, 175, 0),
+		new Vector3 (560, 175, 0),
 	};
 
 	List<SelectUIScript> players = new List<SelectUIScript> (maxPlayers);

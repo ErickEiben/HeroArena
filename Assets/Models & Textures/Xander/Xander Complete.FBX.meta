@@ -140,19 +140,20 @@ ModelImporter:
     4300016: Left Grenade (Bottom)
     4300018: Backpack
     4300020: Backpack(Flap)
-    7400000: Run
-    7400002: Ability 1
-    7400004: Ability 2A
-    7400006: Ability 2B
-    7400008: Attack
-    7400010: Strafe Left
-    7400012: Strafe Right
-    7400014: Backpedal
-    7400016: Move Idle
-    7400018: Still Idle
-    7400020: Character Select Idle
-    7400022: Character Selected Idle
-    7400024: Death
+    7400000: Run_Xander
+    7400002: Ability 1_Xander
+    7400004: Ability 2A_Xander
+    7400006: Ability 2B_Xander
+    7400008: Attack_Xander
+    7400010: Strafe Left_Xander
+    7400012: Strafe Right_Xander
+    7400014: Backpedal_Xander
+    7400016: Move Idle_Xander
+    7400018: Still Idle_Xander
+    7400020: Character Select Idle_Xander
+    7400022: Character Selected Idle_Xander
+    7400024: Death_Xander
+    7400026: ALL_Xander
     9500000: //RootNode
     13700000: Backpack
     13700002: Backpack(Flap)
@@ -175,6 +176,8 @@ ModelImporter:
     resampleCurves: 1
     optimizeGameObjects: 0
     motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
@@ -187,7 +190,7 @@ ModelImporter:
     extraExposedTransformPaths: []
     clipAnimations:
     - serializedVersion: 16
-      name: Run
+      name: Run_Xander
       takeName: Take 001
       firstFrame: 9
       lastFrame: 45
@@ -197,7 +200,7 @@ ModelImporter:
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 0
+      loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
@@ -385,7 +388,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Ability 1
+      name: Ability 1_Xander
       takeName: Take 001
       firstFrame: 55
       lastFrame: 100
@@ -583,7 +586,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Ability 2A
+      name: Ability 2A_Xander
       takeName: Take 001
       firstFrame: 170
       lastFrame: 210
@@ -781,7 +784,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Ability 2B
+      name: Ability 2B_Xander
       takeName: Take 001
       firstFrame: 260
       lastFrame: 297
@@ -979,7 +982,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Attack
+      name: Attack_Xander
       takeName: Take 001
       firstFrame: 302
       lastFrame: 365
@@ -1177,7 +1180,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Strafe Left
+      name: Strafe Left_Xander
       takeName: Take 001
       firstFrame: 380
       lastFrame: 422
@@ -1187,7 +1190,7 @@ ModelImporter:
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 0
+      loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
@@ -1375,7 +1378,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Strafe Right
+      name: Strafe Right_Xander
       takeName: Take 001
       firstFrame: 427
       lastFrame: 448
@@ -1385,7 +1388,7 @@ ModelImporter:
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 0
+      loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
@@ -1573,7 +1576,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Backpedal
+      name: Backpedal_Xander
       takeName: Take 001
       firstFrame: 475
       lastFrame: 500
@@ -1583,7 +1586,7 @@ ModelImporter:
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 0
+      loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
@@ -1771,7 +1774,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Move Idle
+      name: Move Idle_Xander
       takeName: Take 001
       firstFrame: 550
       lastFrame: 680
@@ -1781,7 +1784,7 @@ ModelImporter:
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 0
+      loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
@@ -1969,7 +1972,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Still Idle
+      name: Still Idle_Xander
       takeName: Take 001
       firstFrame: 710
       lastFrame: 770
@@ -1979,7 +1982,7 @@ ModelImporter:
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 0
+      loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
@@ -2167,7 +2170,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Character Select Idle
+      name: Character Select Idle_Xander
       takeName: Take 001
       firstFrame: 800
       lastFrame: 920
@@ -2177,7 +2180,7 @@ ModelImporter:
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 0
+      loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
@@ -2365,7 +2368,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Character Selected Idle
+      name: Character Selected Idle_Xander
       takeName: Take 001
       firstFrame: 920
       lastFrame: 1017
@@ -2375,7 +2378,7 @@ ModelImporter:
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 0
+      loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
@@ -2563,7 +2566,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Death
+      name: Death_Xander
       takeName: Take 001
       firstFrame: 1111
       lastFrame: 1176
@@ -2574,6 +2577,204 @@ ModelImporter:
       loop: 0
       hasAdditiveReferencePose: 0
       loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Backpack
+        weight: 1
+      - path: Backpack(Flap)
+        weight: 1
+      - path: Civet Skeley
+        weight: 1
+      - path: Civet Skeley/Bip001 Footsteps
+        weight: 1
+      - path: Civet Skeley/Bip001 Pelvis
+        weight: 1
+      - path: Civet Skeley/Bip001 Pelvis/Bip001 Spine
+        weight: 1
+      - path: Civet Skeley/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh
+        weight: 1
+      - path: Civet Skeley/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf
+        weight: 1
+      - path: Civet Skeley/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf/Bip001
+          L HorseLink
+        weight: 1
+      - path: Civet Skeley/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf/Bip001
+          L HorseLink/Bip001 L Foot
+        weight: 1
+      - path: Civet Skeley/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf/Bip001
+          L HorseLink/Bip001 L Foot/Bip001 L Toe0
+        weight: 1
+      - path: Civet Skeley/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf/Bip001
+          L HorseLink/Bip001 L Foot/Bip001 L Toe0/Bip001 L Toe01
+        weight: 1
+      - path: Civet Skeley/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf/Bip001
+          L HorseLink/Bip001 L Foot/Bip001 L Toe0/Bip001 L Toe01/Bip001 L Toe02
+        weight: 1
+      - path: Civet Skeley/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf/Bip001
+          L HorseLink/Bip001 L Foot/Bip001 L Toe0/Bip001 L Toe01/Bip001 L Toe02/Bip001
+          L Toe0Nub
+        weight: 1
+      - path: Civet Skeley/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh
+        weight: 1
+      - path: Civet Skeley/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf
+        weight: 1
+      - path: Civet Skeley/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf/Bip001
+          R HorseLink
+        weight: 1
+      - path: Civet Skeley/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf/Bip001
+          R HorseLink/Bip001 R Foot
+        weight: 1
+      - path: Civet Skeley/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf/Bip001
+          R HorseLink/Bip001 R Foot/Bip001 R Toe0
+        weight: 1
+      - path: Civet Skeley/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf/Bip001
+          R HorseLink/Bip001 R Foot/Bip001 R Toe0/Bip001 R Toe01
+        weight: 1
+      - path: Civet Skeley/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf/Bip001
+          R HorseLink/Bip001 R Foot/Bip001 R Toe0/Bip001 R Toe01/Bip001 R Toe02
+        weight: 1
+      - path: Civet Skeley/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf/Bip001
+          R HorseLink/Bip001 R Foot/Bip001 R Toe0/Bip001 R Toe01/Bip001 R Toe02/Bip001
+          R Toe0Nub
+        weight: 1
+      - path: Civet Skeley/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1
+        weight: 1
+      - path: Civet Skeley/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2
+        weight: 1
+      - path: Civet Skeley/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3
+        weight: 1
+      - path: Civet Skeley/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Backpack Controller
+        weight: 1
+      - path: Civet Skeley/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck
+        weight: 1
+      - path: Civet Skeley/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Head
+        weight: 1
+      - path: Civet Skeley/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 Head/Bip001 HeadNub
+        weight: 1
+      - path: Civet Skeley/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 L Clavicle
+        weight: 1
+      - path: Civet Skeley/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 L Clavicle/Bip001 L UpperArm
+        weight: 1
+      - path: Civet Skeley/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 L Clavicle/Bip001 L UpperArm/Bip001 L Forearm
+        weight: 1
+      - path: Civet Skeley/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 L Clavicle/Bip001 L UpperArm/Bip001 L Forearm/Bip001
+          L Hand
+        weight: 1
+      - path: Civet Skeley/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 L Clavicle/Bip001 L UpperArm/Bip001 L Forearm/Bip001
+          L Hand/Bip001 L Finger0
+        weight: 1
+      - path: Civet Skeley/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 L Clavicle/Bip001 L UpperArm/Bip001 L Forearm/Bip001
+          L Hand/Bip001 L Finger0/Bip001 L Finger0Nub
+        weight: 1
+      - path: Civet Skeley/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 R Clavicle
+        weight: 1
+      - path: Civet Skeley/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 R Clavicle/Bip001 R UpperArm
+        weight: 1
+      - path: Civet Skeley/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 R Clavicle/Bip001 R UpperArm/Bip001 R Forearm
+        weight: 1
+      - path: Civet Skeley/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 R Clavicle/Bip001 R UpperArm/Bip001 R Forearm/Bip001
+          R Hand
+        weight: 1
+      - path: Civet Skeley/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 R Clavicle/Bip001 R UpperArm/Bip001 R Forearm/Bip001
+          R Hand/Bip001 R Finger0
+        weight: 1
+      - path: Civet Skeley/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Bip001 Neck/Bip001 R Clavicle/Bip001 R UpperArm/Bip001 R Forearm/Bip001
+          R Hand/Bip001 R Finger0/Bip001 R Finger0Nub
+        weight: 1
+      - path: Civet Skeley/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Landmine Controller
+        weight: 1
+      - path: Civet Skeley/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Left Grenade Controller
+        weight: 1
+      - path: Civet Skeley/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Middle Grenade Controller
+        weight: 1
+      - path: Civet Skeley/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001
+          Spine3/Right Grenade Controller
+        weight: 1
+      - path: Civet Skeley/Bip001 Pelvis/Bip001 Spine/Bip001 Tail
+        weight: 1
+      - path: Civet Skeley/Bip001 Pelvis/Bip001 Spine/Bip001 Tail/Bip001 Tail1
+        weight: 1
+      - path: Civet Skeley/Bip001 Pelvis/Bip001 Spine/Bip001 Tail/Bip001 Tail1/Bip001
+          Tail2
+        weight: 1
+      - path: Civet Skeley/Bip001 Pelvis/Bip001 Spine/Bip001 Tail/Bip001 Tail1/Bip001
+          Tail2/Bip001 Tail3
+        weight: 1
+      - path: Civet Skeley/Bip001 Pelvis/Bip001 Spine/Bip001 Tail/Bip001 Tail1/Bip001
+          Tail2/Bip001 Tail3/Bip001 Tail4
+        weight: 1
+      - path: Civet Skeley/Bip001 Pelvis/Bip001 Spine/Bip001 Tail/Bip001 Tail1/Bip001
+          Tail2/Bip001 Tail3/Bip001 Tail4/Bip001 Tail5
+        weight: 1
+      - path: Civet Skeley/Bip001 Pelvis/Bip001 Spine/Bip001 Tail/Bip001 Tail1/Bip001
+          Tail2/Bip001 Tail3/Bip001 Tail4/Bip001 Tail5/Bip001 TailNub
+        weight: 1
+      - path: Landmine
+        weight: 1
+      - path: Landmine/Landmine Base
+        weight: 1
+      - path: Left Grenade (Top)
+        weight: 1
+      - path: Left Grenade (Top)/Left Grenade (Bottom)
+        weight: 1
+      - path: Middle Grenade (Top)
+        weight: 1
+      - path: 'Middle Grenade (Top)/Middle Grenade (Bottom) '
+        weight: 1
+      - path: Right Grenade (Top)
+        weight: 1
+      - path: Right Grenade (Top)/Right Grenade (Bottom)
+        weight: 1
+      - path: Xander
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: ALL_Xander
+      takeName: Take 001
+      firstFrame: 9
+      lastFrame: 1176
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0

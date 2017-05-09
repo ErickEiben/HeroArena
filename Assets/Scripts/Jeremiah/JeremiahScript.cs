@@ -112,7 +112,7 @@ public class JeremiahScript : MonoBehaviour
 					}
 				}
 
-				if ((Device.RightBumper.IsPressed)) {
+				if ((Device.RightBumper.WasPressed)) {
 					if ((jeremiahBasicCooling == false) && (innerBlood == false)) {
 						jeremiahBasic (jeremiahBasicRange);
 						anim.Play ("Basic Attack 1", -1, 0f);

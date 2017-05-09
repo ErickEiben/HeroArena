@@ -51,19 +51,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 562053858fd8d4f889ee9c0f780c3f1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  xanderPrefab: {fileID: 0}
-  bloodhunterPrefab: {fileID: 0}
-  croakPrefab: {fileID: 0}
-  sheraPrefab: {fileID: 0}
+  xanderPrefab: {fileID: 1762558120855238, guid: bfa2860cf55ef02499df1782490bf500,
+    type: 2}
+  bloodhunterPrefab: {fileID: 1723943958225304, guid: 95f5b26c05f07254fb8d0103ba09824b,
+    type: 2}
+  croakPrefab: {fileID: 1161375278215126, guid: 7615179b18474f14fa1cdedf0a73dbe3,
+    type: 2}
+  sheraPrefab: {fileID: 1738042257745472, guid: 798373dabd5007e4aaae61d282c009c8,
+    type: 2}
   player1character: 0
   player2character: 0
   player3character: 0
   player4character: 0
+  player1TeamColor: 0
+  player2TeamColor: 0
+  player3TeamColor: 1
+  player4TeamColor: 1
   player1Team: 0
   player2Team: 0
   player3Team: 0
   player4Team: 0
-  player1Position: {x: 0, y: 0, z: 0}
-  player2Position: {x: 0, y: 0, z: 0}
-  player3Position: {x: 0, y: 0, z: 0}
-  player4Position: {x: 0, y: 0, z: 0}
+  player1Position: {x: -7, y: 9, z: 1}
+  player2Position: {x: -7, y: 9, z: -2}
+  player3Position: {x: 8, y: 9, z: 1}
+  player4Position: {x: 8, y: 9, z: -2}

@@ -26,6 +26,8 @@ public class SelectUIScript : MonoBehaviour
 	[HideInInspector] public Image team5Information;
 	[HideInInspector] public Image team6Information;
 
+	[HideInInspector] public TextMesh SelectText;
+
 	[HideInInspector] [Range (0, 3)] public int characterSelected;
 	[HideInInspector] [Range (0, 5)] public int teamColor;
 	[HideInInspector] [Range (0, 3)] public int playerNumber;
@@ -61,10 +63,19 @@ public class SelectUIScript : MonoBehaviour
 		team5Information = this.transform.FindChild ("Team5Information").GetComponent<Image> ();
 		team6Information = this.transform.FindChild ("Team6Information").GetComponent<Image> ();
 
+		SelectText = this.transform.FindChild ("LockIn").GetComponent<TextMesh> ();
+
 		xanderPlayerSelect.SetActive (true);
 		bloodhunterPlayerSelect.SetActive (false);
 		croakPlayerSelect.SetActive (false);
 		sheraPlayerSelect.SetActive (false);
+
+		team1Information.enabled = true;
+		team2Information.enabled = false;
+		team3Information.enabled = false;
+		team4Information.enabled = false;
+		team5Information.enabled = false;
+		team6Information.enabled = false;
 
 		this.name = "PlayerSelectUI";
 		canInteract = true;
@@ -144,14 +155,14 @@ public class SelectUIScript : MonoBehaviour
 						sheraPlayerSelect.SetActive (true);
 						sheraInformation.SetActive (true);
 					} else if (bloodhunterPlayerSelect.activeSelf == true) {
-						xanderPlayerSelect.SetActive (false);
-						xanderInformation.SetActive (false);
+						xanderPlayerSelect.SetActive (true);
+						xanderInformation.SetActive (true);
 
 						bloodhunterPlayerSelect.SetActive (false);
 						bloodhunterInformation.SetActive (false);
 
-						croakPlayerSelect.SetActive (true);
-						croakInformation.SetActive (true);
+						croakPlayerSelect.SetActive (false);
+						croakInformation.SetActive (false);
 
 						sheraPlayerSelect.SetActive (false);
 						sheraInformation.SetActive (false);
@@ -168,14 +179,14 @@ public class SelectUIScript : MonoBehaviour
 						sheraPlayerSelect.SetActive (false);
 						sheraInformation.SetActive (false);
 					} else if (sheraPlayerSelect.activeSelf == true) {
-						xanderPlayerSelect.SetActive (true);
-						xanderInformation.SetActive (true);
+						xanderPlayerSelect.SetActive (false);
+						xanderInformation.SetActive (false);
 
 						bloodhunterPlayerSelect.SetActive (false);
 						bloodhunterInformation.SetActive (false);
 
-						croakPlayerSelect.SetActive (false);
-						croakInformation.SetActive (false);
+						croakPlayerSelect.SetActive (true);
+						croakInformation.SetActive (true);
 
 						sheraPlayerSelect.SetActive (false);
 						sheraInformation.SetActive (false);
@@ -234,6 +245,8 @@ public class SelectUIScript : MonoBehaviour
 				if (Device.Action1.WasPressed) {
 					SelectCharacter ();
 					canInteract = false;
+					AnimationScript.S.selected = true;
+					SelectText.text = "SELECTED";
 				}
 			}
 		}

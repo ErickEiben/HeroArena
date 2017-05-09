@@ -16,7 +16,9 @@ public class XanderScript : MonoBehaviour
 	private float rotateChar = 12f;
 
 	[Header ("----- Settable Variables -----")]
-	public Animator playerAnim;
+	public Animator anim;
+	private float inputH;
+	private float inputV;
 	public GameObject playerBody;
 	public GameObject playerParent;
 	[HideInInspector] public bool canMove = true;
@@ -67,6 +69,7 @@ public class XanderScript : MonoBehaviour
 
 	void Start ()
 	{
+		anim = GetComponent<Animator> ();
 	}
 
 	void Update ()
@@ -100,9 +103,10 @@ public class XanderScript : MonoBehaviour
 					}
 				}
 
-				if (Device.RightBumper.IsPressed) {
+				if (Device.RightBumper.WasPressed) {
 					if (basicCooling == false)
 						xanderBasic (playerBody);
+					anim.Play ("Basic Attack", -1, 0f);
 				}
 				#endregion
 
@@ -119,6 +123,7 @@ public class XanderScript : MonoBehaviour
 				if (Device.Action1.WasPressed) {
 					if (mineCooling == false)
 						xanderMine (playerBody);
+					anim.Play ("Ability 1", -1, 0f);
 				}
 				#endregion
 
@@ -136,6 +141,7 @@ public class XanderScript : MonoBehaviour
 					if (digCooling == false) {
 						this.transform.position	+= playerBody.transform.forward * xanderDigDistance;
 						digCooling = true;
+						anim.Play ("Ability 2A", -1, 0f);
 					}
 				}
 				#endregion
@@ -183,11 +189,15 @@ public class XanderScript : MonoBehaviour
 			}
 
 			// Playing animations
-			if (moveDirection == Vector3.zero) { 
-				playerAnim.Play ("Move Idle");
+			if (moveDirection == Vector3.zero) {
+				anim.SetFloat ("inputH", 0);
+				anim.SetFloat ("inputV", 0);
 			}
 			if (moveDirection != Vector3.zero) {
-				playerAnim.Play ("Run");
+				inputH = 0;
+				inputV = 1;
+				anim.SetFloat ("inputH", inputH);
+				anim.SetFloat ("inputV", inputV);
 			}
 		}
 	}
