@@ -17,6 +17,8 @@ public class HealthBarScript : MonoBehaviour
 	private Image healthBarRed;
 	private Image healthBarBlue;
 
+	//public bool isDead = false;
+
 	// Other script variable access
 	XanderScript xanderScript;
 	SheraScript sheraScript;
@@ -32,6 +34,7 @@ public class HealthBarScript : MonoBehaviour
 		if (thisParent.name == "Xander") {
 			xanderScript = thisParent.GetComponent<XanderScript> ();
 			maxHealth = xanderScript.maxHealth;
+			//isDead = xanderScript.isDead;
 			if (xanderScript.team == 0) {
 				healthBar = healthBarRed;
 				healthBarRed.enabled = true;
@@ -44,6 +47,7 @@ public class HealthBarScript : MonoBehaviour
 		} else if (thisParent.name == "Shera") {
 			sheraScript = thisParent.GetComponent<SheraScript> ();
 			maxHealth = sheraScript.maxHealth;
+			//isDead = sheraScript.isDead;
 			if (sheraScript.team == 0) {
 				healthBar = healthBarRed;
 				healthBarRed.enabled = true;
@@ -56,6 +60,7 @@ public class HealthBarScript : MonoBehaviour
 		} else if (thisParent.name == "Jeremiah") {
 			jeremiahScript = thisParent.GetComponent<JeremiahScript> ();
 			maxHealth = jeremiahScript.maxHealth;
+			//isDead = jeremiahScript.isDead;
 			if (jeremiahScript.team == 0) {
 				healthBar = healthBarRed;
 				healthBarRed.enabled = true;
@@ -68,6 +73,7 @@ public class HealthBarScript : MonoBehaviour
 		} else if (thisParent.name == "Croak") {
 			croakScript = thisParent.GetComponent<CroakScript> ();
 			maxHealth = croakScript.maxHealth;
+			//isDead = croakScript.isDead;
 			if (croakScript.team == 0) {
 				healthBar = healthBarRed;
 				healthBarRed.enabled = true;
@@ -101,7 +107,16 @@ public class HealthBarScript : MonoBehaviour
 	void Update ()
 	{
 		if (curHealth <= 0f) {
-			Destroy (thisParent);
+			if (thisParent.name == "Xander") {
+				xanderScript.isDead = true;
+			} else if (thisParent.name == "Croak") {
+				croakScript.isDead = true;
+			} else if (thisParent.name == "Jeremiah") {
+				jeremiahScript.isDead = true;
+			} else if (thisParent.name == "Shera") {
+				sheraScript.isDead = true;
+			}
+			Destroy (this.gameObject);
 		}
 	}
 }

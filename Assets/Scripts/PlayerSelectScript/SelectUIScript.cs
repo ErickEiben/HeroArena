@@ -281,19 +281,19 @@ public class SelectUIScript : MonoBehaviour
 		if (playerNumber == 0) {
 			DataManager.S.player1Device = this.Device;
 			DataManager.S.player1character = this.characterSelected;
-			DataManager.S.player1Team = this.teamColor;
+			DataManager.S.player1TeamColor = this.teamColor;
 		} else if (playerNumber == 1) {
 			DataManager.S.player2Device = this.Device;
 			DataManager.S.player2character = this.characterSelected;
-			DataManager.S.player2Team = this.teamColor;
+			DataManager.S.player2TeamColor = this.teamColor;
 		} else if (playerNumber == 2) {
 			DataManager.S.player3Device = this.Device;
 			DataManager.S.player3character = this.characterSelected;
-			DataManager.S.player3Team = this.teamColor;
+			DataManager.S.player3TeamColor = this.teamColor;
 		} else if (playerNumber == 3) {
 			DataManager.S.player4Device = this.Device;
 			DataManager.S.player4character = this.characterSelected;
-			DataManager.S.player4Team = this.teamColor;
+			DataManager.S.player4TeamColor = this.teamColor;
 		}
 	}
 }

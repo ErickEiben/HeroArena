@@ -5,7 +5,6 @@ using UnityEngine.UI;
 using InControl;
 
 public class CharacterUIScript : MonoBehaviour {
-	public static CharacterUIScript S;
 
 	public SpriteRenderer bluePortait;
 	public SpriteRenderer redPortait;
@@ -30,18 +29,16 @@ public class CharacterUIScript : MonoBehaviour {
 
 	DataManager dataManager;
 
-	void Awake () {
-		S = this;
-	}
-
 	void Start () {
-		
+
+		/*
 		bluePortait = this.transform.FindChild ("BluePortait").GetComponent<SpriteRenderer> ();
 		redPortait = this.transform.FindChild ("RedPortait").GetComponent<SpriteRenderer> ();
 		greenPortait = this.transform.FindChild ("GreenPortait").GetComponent<SpriteRenderer> ();
 		yellowPortait = this.transform.FindChild ("YellowPortait").GetComponent<SpriteRenderer> ();
 		purplePortait = this.transform.FindChild ("PurplePortait").GetComponent<SpriteRenderer> ();
 		orangePortait = this.transform.FindChild ("OrangePortait").GetComponent<SpriteRenderer> ();
+		*/
 
 		croak_A1 = this.transform.FindChild ("Croak_A1").GetComponent<SpriteRenderer> ();
 		croak_A2 = this.transform.FindChild ("Croak_A2").GetComponent<SpriteRenderer> ();
@@ -464,5 +461,4 @@ public class CharacterUIScript : MonoBehaviour {
 			}
 		}
 	}
-
 }

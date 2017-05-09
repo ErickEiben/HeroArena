@@ -63,6 +63,8 @@ public class CroakScript : MonoBehaviour
 	[HideInInspector] public float croakSlowedAmount;
 	[HideInInspector] public float croakSlowedLength;
 	public int team;
+	[HideInInspector] public int playerPosition;
+	[HideInInspector] public bool isDead = false;
 
 	#endregion
 
@@ -79,6 +81,19 @@ public class CroakScript : MonoBehaviour
 
 	void Update ()
 	{
+		if (isDead == true) {
+			canMove = false;
+			anim.Play ("Death");
+			if (playerPosition == 0) {
+				DataManager.S.player1Dead = true;
+			} else if (playerPosition == 1) {
+				DataManager.S.player2Dead = true;
+			}  else if (playerPosition == 2) {
+				DataManager.S.player3Dead = true;
+			}  else if (playerPosition == 3) {
+				DataManager.S.player4Dead = true;
+			}
+		}
 
 		this.transform.position = new Vector3 (transform.position.x, 0, transform.position.z);
 

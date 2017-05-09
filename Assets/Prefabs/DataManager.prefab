@@ -65,12 +65,12 @@ MonoBehaviour:
   player4character: 0
   player1TeamColor: 0
   player2TeamColor: 0
-  player3TeamColor: 1
-  player4TeamColor: 1
+  player3TeamColor: 0
+  player4TeamColor: 0
   player1Team: 0
   player2Team: 0
-  player3Team: 0
-  player4Team: 0
+  player3Team: 1
+  player4Team: 1
   player1Position: {x: -7, y: 9, z: 1}
   player2Position: {x: -7, y: 9, z: -2}
   player3Position: {x: 8, y: 9, z: 1}
