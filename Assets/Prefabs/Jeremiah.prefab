@@ -2990,7 +2990,7 @@ MonoBehaviour:
   jeremiahBasicCD: 0.4
   jeremiahBasicRange: 1
   jeremiahBasicSpeed: 0.5
-  jeremiahInnerBloodDamage: 10
+  jeremiahInnerBloodDamage: 15
   jeremiahInnerBloodCD: 0.65
   jeremiahInnerBloodRange: 1
   jeremiahInnerBloodSpeed: 1
@@ -3006,6 +3006,8 @@ MonoBehaviour:
   jeremiahSlowedAmount: 0
   jeremiahSlowedLength: 0
   team: 0
+  playerPosition: 0
+  isDead: 0
 --- !u!114 &114560194138612714
 MonoBehaviour:
   m_ObjectHideFlags: 1

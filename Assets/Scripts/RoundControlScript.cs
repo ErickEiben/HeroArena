@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class RoundControlScript : MonoBehaviour {
 
@@ -19,9 +20,13 @@ public class RoundControlScript : MonoBehaviour {
 	public SpriteRenderer round2_team2_filled;
 	public SpriteRenderer round3_team2_filled;
 
-	public Text roundCounter;
+	[HideInInspector] public float gameOverCD;
+	[HideInInspector] public float gameOverWaitTime;
+	[HideInInspector] public bool gameOver = false;
 
-	public bool gameOver = false;
+	public Text roundCounter;
+	public Text team1Victory;
+	public Text team2Victory;
 
 	DataManager dataManager;
 
@@ -29,6 +34,8 @@ public class RoundControlScript : MonoBehaviour {
 		dataManager = GameObject.Find ("DataManager").GetComponent<DataManager> ();
 		roundCounter.text = ("Round: " + dataManager.roundNumber);
 		dataManager.StartMainScene ();
+		gameOverWaitTime = 5f;
+		gameOverCD = 5f;
 
 		round1_team1_empty.enabled = true;
 		round2_team1_empty.enabled = true;
@@ -42,6 +49,9 @@ public class RoundControlScript : MonoBehaviour {
 		round1_team2_filled.enabled = false;
 		round2_team2_filled.enabled = false;
 		round3_team2_filled.enabled = false;
+
+		team1Victory.enabled = false;
+		team2Victory.enabled = false;
 	}
 
 	void Update () {
@@ -64,6 +74,7 @@ public class RoundControlScript : MonoBehaviour {
 			round3_team1_empty.enabled = false;
 			round3_team1_filled.enabled = true;
 			gameOver = true;
+			team1Victory.enabled = true;
 		}
 
 		if (dataManager.team2Wins == 1) {
@@ -76,6 +87,19 @@ public class RoundControlScript : MonoBehaviour {
 			round3_team2_empty.enabled = false;
 			round3_team2_filled.enabled = true;
 			gameOver = true;
+			team2Victory.enabled = true;
+		}
+
+		if (gameOver) {
+			gameOverCD -= Time.deltaTime;
+
+			if (gameOverCD <= 0f) {
+				gameOverCD = gameOverWaitTime;
+				if (gameOver == true) {
+					SceneManager.LoadScene ("Scene_Menu");
+					dataManager.RemoveDontDestroyOnLoads ();
+				}
+			}
 		}
 	}
 

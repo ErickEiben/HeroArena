@@ -109,6 +109,12 @@ NavMeshSettings:
     tileSize: 256
     accuratePlacement: 0
   m_NavMeshData: {fileID: 0}
+--- !u!114 &93605970 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114874546713224422, guid: 6dbf53b295a41f14e8087ff0c2005f8e,
+    type: 2}
+  m_PrefabInternal: {fileID: 1720565476}
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
 --- !u!1 &203171000
 GameObject:
   m_ObjectHideFlags: 0
@@ -171,6 +177,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &572875909 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114659355270765398, guid: 6dbf53b295a41f14e8087ff0c2005f8e,
+    type: 2}
+  m_PrefabInternal: {fileID: 1720565476}
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
 --- !u!1 &890045274
 GameObject:
   m_ObjectHideFlags: 0
@@ -290,8 +302,12 @@ MonoBehaviour:
   round1_team2_filled: {fileID: 1720565479}
   round2_team2_filled: {fileID: 1720565478}
   round3_team2_filled: {fileID: 1720565477}
-  roundCounter: {fileID: 1720565489}
+  gameOverCD: 0
+  gameOverWaitTime: 0
   gameOver: 0
+  roundCounter: {fileID: 1720565489}
+  team1Victory: {fileID: 93605970}
+  team2Victory: {fileID: 572875909}
 --- !u!1001 &1560013540
 Prefab:
   m_ObjectHideFlags: 0
@@ -317,7 +333,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4346319004284958, guid: 390f390a08f19c748aa46ad2700b703f, type: 2}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4346319004284958, guid: 390f390a08f19c748aa46ad2700b703f, type: 2}
       propertyPath: m_LocalRotation.z
@@ -517,7 +533,7 @@ SpriteRenderer:
   m_PrefabInternal: {fileID: 1720565476}
 --- !u!114 &1720565489 stripped
 MonoBehaviour:
-  m_PrefabParentObject: {fileID: 114659355270765398, guid: 6dbf53b295a41f14e8087ff0c2005f8e,
+  m_PrefabParentObject: {fileID: 114749490392367738, guid: 6dbf53b295a41f14e8087ff0c2005f8e,
     type: 2}
   m_PrefabInternal: {fileID: 1720565476}
   m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}

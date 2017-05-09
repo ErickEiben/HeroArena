@@ -10,6 +10,7 @@ public class DataManager : MonoBehaviour
 	public static DataManager S;
 
 	#region *** VARIABLES ***
+	public GameObject inControl;
 
 	public GameObject xanderPrefab;
 	public GameObject bloodhunterPrefab;
@@ -62,6 +63,7 @@ public class DataManager : MonoBehaviour
 	void Start ()
 	{
 		DontDestroyOnLoad (this);
+		inControl = GameObject.Find ("InControl");
 		S = this;
 	}
 
@@ -212,5 +214,10 @@ public class DataManager : MonoBehaviour
 			}
 		}
 		#endregion
+	}
+
+	public void RemoveDontDestroyOnLoads () {
+		Destroy (inControl);
+		Destroy (this);
 	}
 }

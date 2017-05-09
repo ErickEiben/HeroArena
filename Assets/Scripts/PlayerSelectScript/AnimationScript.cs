@@ -7,7 +7,7 @@ public class AnimationScript : MonoBehaviour
 	public static AnimationScript S;
 
 	public Animator anim;
-	public bool selected = false;
+	SelectUIScript uiScript;
 
 	void Awake ()
 	{
@@ -17,35 +17,36 @@ public class AnimationScript : MonoBehaviour
 	void Start ()
 	{
 		anim = this.gameObject.GetComponent<Animator> ();
+		uiScript = this.gameObject.GetComponentInParent<SelectUIScript> ();
 	}
 
 	void Update ()
 	{
-		if ((selected == false) && (this.name == "XanderPlayerSelect")) {
-			anim.Play ("Character Select Idle_Xander", 0, 0f);
+		if ((uiScript.canInteract == true) && (this.name == "XanderPlayerSelect")) {
+			anim.Play ("Character Select Idle", -1, 0f);
 		}
-		if ((selected == false) && (this.name == "BloodhunterPlayerSelect")) {
-			anim.Play ("Character Select Idle_Jeremiah2", 0, 0f);
+		if ((uiScript.canInteract == true) && (this.name == "BloodhunterPlayerSelect")) {
+			anim.Play ("Character Select Idle", -1, 0f);
 		}
-		if ((selected == false) && (this.name == "CroakPlayerSelect")) {
-			anim.Play ("Character Select Idle_Croak", 0, 0f);
+		if ((uiScript.canInteract == true) && (this.name == "CroakPlayerSelect")) {
+			anim.Play ("Character Select Idle", -1, 0f);
 		}
-		if ((selected == false) && (this.name == "SheraPlayerSelect")) {
-			anim.Play ("Character Select Idle_Shera", 0, 0f);
+		if ((uiScript.canInteract == true) && (this.name == "SheraPlayerSelect")) {
+			anim.Play ("Character Select Idle", -1, 0f);
 		}
 
 
-		if ((selected == true) && (this.name == "XanderPlayerSelect")) {
-			anim.Play ("Character Selected Idle_Xander", 0, 0f);
+		if ((uiScript.canInteract == false) && (this.name == "XanderPlayerSelect")) {
+			anim.Play ("Character Selected Idle", -1, 0f);
 		}
-		if ((selected == true) && (this.name == "BloodhunterPlayerSelect")) {
-			anim.Play ("Character Selected Idle_Jeremiah2", 0, 0f);
+		if ((uiScript.canInteract == false) && (this.name == "BloodhunterPlayerSelect")) {
+			anim.Play ("Character Selected Idle", -1, 0f);
 		}
-		if ((selected == true) && (this.name == "CroakPlayerSelect")) {
-			anim.Play ("Character Selected Idle_Croak", 0, 0f);
+		if ((uiScript.canInteract == false) && (this.name == "CroakPlayerSelect")) {
+			anim.Play ("Character Selected Idle", -1, 0f);
 		}
-		if ((selected == true) && (this.name == "SheraPlayerSelect")) {
-			anim.Play ("Character Selected Idle_Shera", 0, 0f);
+		if ((uiScript.canInteract == false) && (this.name == "SheraPlayerSelect")) {
+			anim.Play ("Character Selected Idle", -1, 0f);
 		}
 	}
 

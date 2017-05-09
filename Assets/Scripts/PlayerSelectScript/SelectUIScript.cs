@@ -32,7 +32,7 @@ public class SelectUIScript : MonoBehaviour
 	[HideInInspector] [Range (0, 5)] public int teamColor;
 	[HideInInspector] [Range (0, 3)] public int playerNumber;
 
-	private bool canInteract;
+	[HideInInspector] public bool canInteract;
 
 	#endregion
 
@@ -245,7 +245,6 @@ public class SelectUIScript : MonoBehaviour
 				if (Device.Action1.WasPressed) {
 					SelectCharacter ();
 					canInteract = false;
-					AnimationScript.S.selected = true;
 					SelectText.text = "SELECTED";
 				}
 			}
