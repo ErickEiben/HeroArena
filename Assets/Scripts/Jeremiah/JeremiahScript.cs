@@ -23,6 +23,7 @@ public class JeremiahScript : MonoBehaviour
 	public GameObject playerParent;
 	public GameObject basicSpawnPoint;
 	public GameObject crimsonReachSpawnPoint;
+	public GameObject crimsonReachIndicator;
 	[HideInInspector] public bool canMove = true;
 
 	// Private Static Variables
@@ -61,6 +62,7 @@ public class JeremiahScript : MonoBehaviour
 	[Header ("----- Jeremiah Miscellaneous Variables -----")]
 	public float slimConeAngle;
 	public float wideConeAngle;
+	CollisionTriggerScript collisionTriggerScript;
 	HealthBarScript healthBarScript;
 	[HideInInspector] public bool jeremiahSlowed = false;
 	[HideInInspector] public float jeremiahSlowedAmount;
@@ -80,12 +82,16 @@ public class JeremiahScript : MonoBehaviour
 	void Start ()
 	{
 		anim = GetComponent<Animator> ();
+		collisionTriggerScript = crimsonReachIndicator.GetComponent<CollisionTriggerScript> ();
+		crimsonReachIndicator.SetActive (false);
 	}
 
 	void Update ()
 	{
 		if (isDead == true) {
 			canMove = false;
+			this.GetComponent<BoxCollider> ().enabled = false;
+			this.GetComponent<CharacterController> ().enabled = false;
 			anim.Play ("Death");
 			if (playerPosition == 0) {
 				DataManager.S.player1Dead = true;
@@ -167,10 +173,15 @@ public class JeremiahScript : MonoBehaviour
 					}
 				}
 
-				if ((Device.Action2.WasPressed)) {
+				if ((Device.LeftBumper.WasPressed)) {
 					if (jeremiahCrimsonReachCooling == false) {
-						jeremiahCrimsonReach (jeremiahCrimsonReachRange);
-						anim.Play ("Ability 2", -1, 0f);
+						if (crimsonReachIndicator.activeSelf == false) {
+							crimsonReachIndicator.SetActive (true);
+						} else if (crimsonReachIndicator.activeSelf == true) {
+							jeremiahCrimsonReach (jeremiahCrimsonReachRange);
+							anim.Play ("Ability 2", -1, 0f);
+							crimsonReachIndicator.SetActive (false);
+						}
 					}
 				}
 				#endregion
@@ -262,36 +273,34 @@ public class JeremiahScript : MonoBehaviour
 	public void jeremiahCrimsonReach (float jeremiahCrimsonReachRange)
 	{
 		jeremiahCrimsonReachCooling = true;
-		Vector3 explosionPos = basicSpawnPoint.transform.position;
-		Collider[] hitColliders = Physics.OverlapSphere (explosionPos, jeremiahCrimsonReachRange);
-
-		foreach (Collider hit in hitColliders) {
-			if ((hit.GetComponent<Collider> ().tag == "Player") && (hit.gameObject != playerParent.gameObject) && (Vector3.Angle (basicSpawnPoint.transform.forward, hit.transform.position - explosionPos) <= slimConeAngle)) {
-				if (hit.name == "Xander") {
-					hit.transform.GetComponent<XanderScript> ().canMove = false;
-					hit.transform.GetComponent<XanderScript> ().xanderSlowed = true;
-					hit.transform.GetComponent<XanderScript> ().xanderSlowedLength += jeremiahCrimsonReachSlowLength;
-					hit.transform.position = crimsonReachSpawnPoint.transform.position;
+		if (collisionTriggerScript.triggered == true) {
+			for (int i = 0; i < collisionTriggerScript.targets.Count; i++) {
+				if (collisionTriggerScript.targets[i].name == "Xander") {
+					collisionTriggerScript.targets[i].transform.GetComponent<XanderScript> ().canMove = false;
+					collisionTriggerScript.targets[i].transform.GetComponent<XanderScript> ().xanderSlowed = true;
+					collisionTriggerScript.targets[i].transform.GetComponent<XanderScript> ().xanderSlowedLength += jeremiahCrimsonReachSlowLength;
+					collisionTriggerScript.targets[i].transform.position = crimsonReachSpawnPoint.transform.position;
 				}
-				if (hit.name == "Shera") {
-					hit.transform.GetComponent<SheraScript> ().canMove = false;
-					hit.transform.GetComponent<SheraScript> ().sheraSlowed = true;
-					hit.transform.GetComponent<SheraScript> ().sheraSlowedLength += jeremiahCrimsonReachSlowLength;
-					hit.transform.position = crimsonReachSpawnPoint.transform.position;
+				if (collisionTriggerScript.targets[i].name == "Shera") {
+					collisionTriggerScript.targets[i].transform.GetComponent<SheraScript> ().canMove = false;
+					collisionTriggerScript.targets[i].transform.GetComponent<SheraScript> ().sheraSlowed = true;
+					collisionTriggerScript.targets[i].transform.GetComponent<SheraScript> ().sheraSlowedLength += jeremiahCrimsonReachSlowLength;
+					collisionTriggerScript.targets[i].transform.position = crimsonReachSpawnPoint.transform.position;
 				}
-				if (hit.name == "Croak") {
-					hit.transform.GetComponent<CroakScript> ().canMove = false;
-					hit.transform.GetComponent<CroakScript> ().croakSlowed = true;
-					hit.transform.GetComponent<CroakScript> ().croakSlowedLength += jeremiahCrimsonReachSlowLength;
-					hit.transform.position = crimsonReachSpawnPoint.transform.position;
+				if (collisionTriggerScript.targets[i].name == "Croak") {
+					collisionTriggerScript.targets[i].transform.GetComponent<CroakScript> ().canMove = false;
+					collisionTriggerScript.targets[i].transform.GetComponent<CroakScript> ().croakSlowed = true;
+					collisionTriggerScript.targets[i].transform.GetComponent<CroakScript> ().croakSlowedLength += jeremiahCrimsonReachSlowLength;
+					collisionTriggerScript.targets[i].transform.position = crimsonReachSpawnPoint.transform.position;
 				}
-				if (hit.name == "Jeremiah") {
-					hit.transform.GetComponent<JeremiahScript> ().canMove = false;
-					hit.transform.GetComponent<JeremiahScript> ().jeremiahSlowed = true;
-					hit.transform.GetComponent<JeremiahScript> ().jeremiahSlowedLength += jeremiahCrimsonReachSlowLength;
-					hit.transform.position = crimsonReachSpawnPoint.transform.position;
+				if (collisionTriggerScript.targets[i].name == "Jeremiah") {
+					collisionTriggerScript.targets[i].transform.GetComponent<JeremiahScript> ().canMove = false;
+					collisionTriggerScript.targets[i].transform.GetComponent<JeremiahScript> ().jeremiahSlowed = true;
+					collisionTriggerScript.targets[i].transform.GetComponent<JeremiahScript> ().jeremiahSlowedLength += jeremiahCrimsonReachSlowLength;
+					collisionTriggerScript.targets[i].transform.position = crimsonReachSpawnPoint.transform.position;
 				}
 			}
+			collisionTriggerScript.targets.Clear();
 		}
 	}
 }

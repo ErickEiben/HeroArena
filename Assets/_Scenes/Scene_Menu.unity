@@ -467,7 +467,7 @@ GameObject:
   - component: {fileID: 418191024}
   - component: {fileID: 418191023}
   m_Layer: 14
-  m_Name: Croak
+  m_Name: Croak_Menu
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -514,7 +514,7 @@ Animator:
   m_GameObject: {fileID: 418191022}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: ac6e78703b9093f4bab1da153e61f11c, type: 3}
-  m_Controller: {fileID: 9100000, guid: d1b541c392eb44e41abd8f0b4d4d27d5, type: 2}
+  m_Controller: {fileID: 9100000, guid: e2e90e48e63eaea4c831a9f94c1423d5, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -1652,7 +1652,7 @@ Transform:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1194401165}
-  m_LocalRotation: {x: -0.06919035, y: -0.0098007955, z: 0.15443598, w: 0.98552835}
+  m_LocalRotation: {x: -0.06919036, y: -0.0098007955, z: 0.15443599, w: 0.98552835}
   m_LocalPosition: {x: -0.26607585, y: -0.0000008720398, z: 0.000000048446655}
   m_LocalScale: {x: 1.0000004, y: 1.0000002, z: 0.9999999}
   m_Children:
@@ -2085,7 +2085,7 @@ Transform:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1385709201}
-  m_LocalRotation: {x: 0.23416048, y: -0.6239889, z: -0.3009874, w: 0.68206555}
+  m_LocalRotation: {x: 0.23416048, y: -0.62398887, z: -0.3009874, w: 0.6820655}
   m_LocalPosition: {x: -0.27266946, y: 0.0000001332283, z: 0.00000009689331}
   m_LocalScale: {x: 1.1416464, y: 1.1416453, z: 1.1416454}
   m_Children:

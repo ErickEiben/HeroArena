@@ -111,7 +111,7 @@ public class CharacterUIScript : MonoBehaviour {
 					croak_A2.enabled = false;
 					shera_Headshot.enabled = false;
 					shera_A1.enabled = false;
-					shera_Headshot.enabled = false;
+					shera_A2.enabled = false;
 					jeremiah_Headshot.enabled = false;
 					jeremiah_A1.enabled = false;
 					jeremiah_A2.enabled = false;
@@ -124,7 +124,7 @@ public class CharacterUIScript : MonoBehaviour {
 					croak_A2.enabled = false;
 					shera_Headshot.enabled = false;
 					shera_A1.enabled = false;
-					shera_Headshot.enabled = false;
+					shera_A2.enabled = false;
 					jeremiah_Headshot.enabled = true;
 					jeremiah_A1.enabled = true;
 					jeremiah_A2.enabled = true;
@@ -137,7 +137,7 @@ public class CharacterUIScript : MonoBehaviour {
 					croak_A2.enabled = true;
 					shera_Headshot.enabled = false;
 					shera_A1.enabled = false;
-					shera_Headshot.enabled = false;
+					shera_A2.enabled = false;
 					jeremiah_Headshot.enabled = false;
 					jeremiah_A1.enabled = false;
 					jeremiah_A2.enabled = false;
@@ -150,7 +150,7 @@ public class CharacterUIScript : MonoBehaviour {
 					croak_A2.enabled = false;
 					shera_Headshot.enabled = true;
 					shera_A1.enabled = true;
-					shera_Headshot.enabled = true;
+					shera_A2.enabled = true;
 					jeremiah_Headshot.enabled = false;
 					jeremiah_A1.enabled = false;
 					jeremiah_A2.enabled = false;
@@ -211,7 +211,7 @@ public class CharacterUIScript : MonoBehaviour {
 					croak_A2.enabled = false;
 					shera_Headshot.enabled = false;
 					shera_A1.enabled = false;
-					shera_Headshot.enabled = false;
+					shera_A2.enabled = false;
 					jeremiah_Headshot.enabled = false;
 					jeremiah_A1.enabled = false;
 					jeremiah_A2.enabled = false;
@@ -224,7 +224,7 @@ public class CharacterUIScript : MonoBehaviour {
 					croak_A2.enabled = false;
 					shera_Headshot.enabled = false;
 					shera_A1.enabled = false;
-					shera_Headshot.enabled = false;
+					shera_A2.enabled = false;
 					jeremiah_Headshot.enabled = true;
 					jeremiah_A1.enabled = true;
 					jeremiah_A2.enabled = true;
@@ -237,7 +237,7 @@ public class CharacterUIScript : MonoBehaviour {
 					croak_A2.enabled = true;
 					shera_Headshot.enabled = false;
 					shera_A1.enabled = false;
-					shera_Headshot.enabled = false;
+					shera_A2.enabled = false;
 					jeremiah_Headshot.enabled = false;
 					jeremiah_A1.enabled = false;
 					jeremiah_A2.enabled = false;
@@ -250,7 +250,7 @@ public class CharacterUIScript : MonoBehaviour {
 					croak_A2.enabled = false;
 					shera_Headshot.enabled = true;
 					shera_A1.enabled = true;
-					shera_Headshot.enabled = true;
+					shera_A2.enabled = true;
 					jeremiah_Headshot.enabled = false;
 					jeremiah_A1.enabled = false;
 					jeremiah_A2.enabled = false;
@@ -312,7 +312,7 @@ public class CharacterUIScript : MonoBehaviour {
 					croak_A2.enabled = false;
 					shera_Headshot.enabled = false;
 					shera_A1.enabled = false;
-					shera_Headshot.enabled = false;
+					shera_A2.enabled = false;
 					jeremiah_Headshot.enabled = false;
 					jeremiah_A1.enabled = false;
 					jeremiah_A2.enabled = false;
@@ -325,7 +325,7 @@ public class CharacterUIScript : MonoBehaviour {
 					croak_A2.enabled = false;
 					shera_Headshot.enabled = false;
 					shera_A1.enabled = false;
-					shera_Headshot.enabled = false;
+					shera_A2.enabled = false;
 					jeremiah_Headshot.enabled = true;
 					jeremiah_A1.enabled = true;
 					jeremiah_A2.enabled = true;
@@ -338,7 +338,7 @@ public class CharacterUIScript : MonoBehaviour {
 					croak_A2.enabled = true;
 					shera_Headshot.enabled = false;
 					shera_A1.enabled = false;
-					shera_Headshot.enabled = false;
+					shera_A2.enabled = false;
 					jeremiah_Headshot.enabled = false;
 					jeremiah_A1.enabled = false;
 					jeremiah_A2.enabled = false;
@@ -351,7 +351,7 @@ public class CharacterUIScript : MonoBehaviour {
 					croak_A2.enabled = false;
 					shera_Headshot.enabled = true;
 					shera_A1.enabled = true;
-					shera_Headshot.enabled = true;
+					shera_A2.enabled = true;
 					jeremiah_Headshot.enabled = false;
 					jeremiah_A1.enabled = false;
 					jeremiah_A2.enabled = false;
@@ -413,7 +413,7 @@ public class CharacterUIScript : MonoBehaviour {
 					croak_A2.enabled = false;
 					shera_Headshot.enabled = false;
 					shera_A1.enabled = false;
-					shera_Headshot.enabled = false;
+					shera_A2.enabled = false;
 					jeremiah_Headshot.enabled = false;
 					jeremiah_A1.enabled = false;
 					jeremiah_A2.enabled = false;
@@ -426,7 +426,7 @@ public class CharacterUIScript : MonoBehaviour {
 					croak_A2.enabled = false;
 					shera_Headshot.enabled = false;
 					shera_A1.enabled = false;
-					shera_Headshot.enabled = false;
+					shera_A2.enabled = false;
 					jeremiah_Headshot.enabled = true;
 					jeremiah_A1.enabled = true;
 					jeremiah_A2.enabled = true;
@@ -439,7 +439,7 @@ public class CharacterUIScript : MonoBehaviour {
 					croak_A2.enabled = true;
 					shera_Headshot.enabled = false;
 					shera_A1.enabled = false;
-					shera_Headshot.enabled = false;
+					shera_A2.enabled = false;
 					jeremiah_Headshot.enabled = false;
 					jeremiah_A1.enabled = false;
 					jeremiah_A2.enabled = false;
@@ -452,12 +452,11 @@ public class CharacterUIScript : MonoBehaviour {
 					croak_A2.enabled = false;
 					shera_Headshot.enabled = true;
 					shera_A1.enabled = true;
-					shera_Headshot.enabled = true;
+					shera_A2.enabled = true;
 					jeremiah_Headshot.enabled = false;
 					jeremiah_A1.enabled = false;
 					jeremiah_A2.enabled = false;
 				}
-
 			}
 		}
 	}

@@ -1196,7 +1196,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1762558120855238}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.66, y: 0.01, z: -5.02}
+  m_LocalPosition: {x: 0.92480034, y: 0, z: -6.3384495}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4201287368986038}
@@ -2110,7 +2110,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 2.5
-  playerAnim: {fileID: 95911827875131280}
+  anim: {fileID: 0}
   playerBody: {fileID: 1168123888931178}
   playerParent: {fileID: 1762558120855238}
   canMove: 1
@@ -2131,6 +2131,8 @@ MonoBehaviour:
   xanderSlowedAmount: 0
   xanderSlowedLength: 0
   team: 0
+  playerPosition: 0
+  isDead: 0
 --- !u!114 &114788952507800234
 MonoBehaviour:
   m_ObjectHideFlags: 1

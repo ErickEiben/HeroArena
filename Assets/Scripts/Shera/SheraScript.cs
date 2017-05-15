@@ -22,6 +22,7 @@ public class SheraScript : MonoBehaviour
 	public GameObject playerBody;
 	public GameObject playerParent;
 	public GameObject basicSpawnPoint;
+	public GameObject doubleKickIndicator;
 	[HideInInspector] public bool canMove = true;
 
 	// Private Static Variables
@@ -60,6 +61,7 @@ public class SheraScript : MonoBehaviour
 
 	[Header ("----- Shera Miscellaneous Variables -----")]
 	HealthBarScript healthBarScript;
+	CollisionTriggerScript collisionTriggerScript;
 	public float coneAngle = 45f;
 	[HideInInspector] public bool sheraSlowed = false;
 	[HideInInspector] public float sheraSlowedAmount;
@@ -79,12 +81,16 @@ public class SheraScript : MonoBehaviour
 	void Start ()
 	{
 		anim = GetComponent<Animator> ();
+		collisionTriggerScript = doubleKickIndicator.GetComponent<CollisionTriggerScript> ();
+		doubleKickIndicator.SetActive (false);
 	}
 
 	void Update ()
 	{
 		if (isDead == true) {
 			canMove = false;
+			this.GetComponent<BoxCollider> ().enabled = false;
+			this.GetComponent<CharacterController> ().enabled = false;
 			anim.Play ("Death");
 			if (playerPosition == 0) {
 				DataManager.S.player1Dead = true;
@@ -162,10 +168,15 @@ public class SheraScript : MonoBehaviour
 					}
 				}
 
-				if (Device.Action1.IsPressed) {
+				if ((Device.LeftBumper.WasPressed)) {
 					if (sheraDoubleKickCooling == false) {
-						sheraDoubleKick (sheraDoubleKickRange);
-						anim.Play ("Ability 2", -1, 0f);
+						if (doubleKickIndicator.activeSelf == false) {
+							doubleKickIndicator.SetActive (true);
+						} else if (doubleKickIndicator.activeSelf == true) {
+							sheraDoubleKick (sheraDoubleKickRange);
+							anim.Play ("Ability 2", -1, 0f);
+							doubleKickIndicator.SetActive (false);
+						}
 					}
 				}
 				#endregion
@@ -233,7 +244,7 @@ public class SheraScript : MonoBehaviour
 		Collider[] hitColliders = Physics.OverlapSphere (explosionPos, sheraBasicRange);
 
 		foreach (Collider hit in hitColliders) {
-			if ((hit.GetComponent<Collider> ().tag == "Player") && (hit.gameObject != playerParent.gameObject) && (Vector3.Angle (basicSpawnPoint.transform.forward, hit.transform.position - explosionPos) <= coneAngle)) {
+			if ((hit.GetComponent<Collider> ().tag == "Player") && (hit.gameObject != playerParent.gameObject)) {
 				healthBarScript = hit.transform.FindChild ("HealthBarCanvas").GetComponent<HealthBarScript> ();
 				healthBarScript.GetHit (sheraBasicDamage);
 			}
@@ -243,34 +254,32 @@ public class SheraScript : MonoBehaviour
 	public void sheraDoubleKick (float sheraBasicRange)
 	{
 		sheraDoubleKickCooling = true;
-		Vector3 explosionPos = basicSpawnPoint.transform.position;
-		Collider[] hitColliders = Physics.OverlapSphere (explosionPos, sheraDoubleKickRange);
-
-		foreach (Collider hit in hitColliders) {
-			if ((hit.GetComponent<Collider> ().tag == "Player") && (hit.gameObject != playerParent.gameObject)) {
-				healthBarScript = hit.transform.FindChild ("HealthBarCanvas").GetComponent<HealthBarScript> ();
+		if (collisionTriggerScript.triggered == true) {
+			for (int i = 0; i < collisionTriggerScript.targets.Count; i++) {
+				healthBarScript = collisionTriggerScript.targets[i].transform.FindChild ("HealthBarCanvas").GetComponent<HealthBarScript> ();
 				healthBarScript.GetHit (sheraDoubleKickDamage);
-				if (hit.name == "Xander") {
-					hit.transform.GetComponent<XanderScript> ().xanderSlowed = true;
-					hit.transform.GetComponent<XanderScript> ().xanderSlowedAmount += sheraDoubleKickSlow;
-					hit.transform.GetComponent<XanderScript> ().xanderSlowedLength += sheraDoubleKickSlowLength;
+				if (collisionTriggerScript.targets[i].name == "Xander") {
+					collisionTriggerScript.targets[i].transform.GetComponent<XanderScript> ().xanderSlowed = true;
+					collisionTriggerScript.targets[i].transform.GetComponent<XanderScript> ().xanderSlowedAmount += sheraDoubleKickSlow;
+					collisionTriggerScript.targets[i].transform.GetComponent<XanderScript> ().xanderSlowedLength += sheraDoubleKickSlowLength;
 				}
-				if (hit.name == "Shera") {
-					hit.transform.GetComponent<SheraScript> ().sheraSlowed = true;
-					hit.transform.GetComponent<SheraScript> ().sheraSlowedAmount += sheraDoubleKickSlow;
-					hit.transform.GetComponent<SheraScript> ().sheraSlowedLength += sheraDoubleKickSlowLength;
+				if (collisionTriggerScript.targets[i].name == "Shera") {
+					collisionTriggerScript.targets[i].transform.GetComponent<SheraScript> ().sheraSlowed = true;
+					collisionTriggerScript.targets[i].transform.GetComponent<SheraScript> ().sheraSlowedAmount += sheraDoubleKickSlow;
+					collisionTriggerScript.targets[i].transform.GetComponent<SheraScript> ().sheraSlowedLength += sheraDoubleKickSlowLength;
 				}
-				if (hit.name == "Croak") {
-					hit.transform.GetComponent<CroakScript> ().croakSlowed = true;
-					hit.transform.GetComponent<CroakScript> ().croakSlowedAmount += sheraDoubleKickSlow;
-					hit.transform.GetComponent<CroakScript> ().croakSlowedLength += sheraDoubleKickSlowLength;
+				if (collisionTriggerScript.targets[i].name == "Croak") {
+					collisionTriggerScript.targets[i].transform.GetComponent<CroakScript> ().croakSlowed = true;
+					collisionTriggerScript.targets[i].transform.GetComponent<CroakScript> ().croakSlowedAmount += sheraDoubleKickSlow;
+					collisionTriggerScript.targets[i].transform.GetComponent<CroakScript> ().croakSlowedLength += sheraDoubleKickSlowLength;
 				}
-				if (hit.name == "Jeremiah") {
-					hit.transform.GetComponent<JeremiahScript> ().jeremiahSlowed = true;
-					hit.transform.GetComponent<JeremiahScript> ().jeremiahSlowedAmount += sheraDoubleKickSlow;
-					hit.transform.GetComponent<JeremiahScript> ().jeremiahSlowedLength += sheraDoubleKickSlowLength;
+				if (collisionTriggerScript.targets[i].name == "Jeremiah") {
+					collisionTriggerScript.targets[i].transform.GetComponent<JeremiahScript> ().jeremiahSlowed = true;
+					collisionTriggerScript.targets[i].transform.GetComponent<JeremiahScript> ().jeremiahSlowedAmount += sheraDoubleKickSlow;
+					collisionTriggerScript.targets[i].transform.GetComponent<JeremiahScript> ().jeremiahSlowedLength += sheraDoubleKickSlowLength;
 				}
 			}
+			collisionTriggerScript.targets.Clear();
 		}
 	}
 

@@ -78,6 +78,8 @@ public class XanderScript : MonoBehaviour
 	{
 		if (isDead == true) {
 			canMove = false;
+			this.GetComponent<BoxCollider> ().enabled = false;
+			this.GetComponent<CharacterController> ().enabled = false;
 			anim.Play ("Death");
 			if (playerPosition == 0) {
 				DataManager.S.player1Dead = true;
