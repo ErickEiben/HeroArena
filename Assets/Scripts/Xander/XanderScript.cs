@@ -21,6 +21,7 @@ public class XanderScript : MonoBehaviour
 	private float inputV;
 	public GameObject playerBody;
 	public GameObject playerParent;
+	public GameObject digIndicator;
 	[HideInInspector] public bool canMove = true;
 
 	// Private Static Variables
@@ -45,6 +46,10 @@ public class XanderScript : MonoBehaviour
 	public float xanderMineSpeed;
 	private bool mineCooling;
 
+	private bool mineAnim = false;
+	private float mineAnimCD = 1.5f;
+	private float mineAnimSpeed = 1.5f;
+
 	[Header ("----- Xander Dig Variables -----")]
 	[Range (0, 10)] public float xanderDigDistance;
 	[Range (0, 10)] public float xanderDigCD;
@@ -54,6 +59,8 @@ public class XanderScript : MonoBehaviour
 	[Header ("----- Xander Miscellaneous Variables -----")]
 	public GameObject basicSpawnPoint;
 	public GameObject mineSpawnPoint;
+	CollisionTriggerScript collisionTriggerScript;
+	GrenadeScript grenadeScript;
 	[HideInInspector] public bool xanderSlowed = false;
 	[HideInInspector] public float xanderSlowedAmount;
 	[HideInInspector] public float xanderSlowedLength;
@@ -72,6 +79,8 @@ public class XanderScript : MonoBehaviour
 	void Start ()
 	{
 		anim = GetComponent<Animator> ();
+		collisionTriggerScript = digIndicator.GetComponent<CollisionTriggerScript> ();
+		digIndicator.SetActive (false);
 	}
 
 	void Update ()
@@ -107,6 +116,16 @@ public class XanderScript : MonoBehaviour
 					xanderSlowedLength = 0f;
 				}
 			}
+
+			if (mineAnim) {
+				mineAnimCD -= Time.deltaTime;
+
+				if (mineAnimCD <= 0f) {
+					mineAnim = false;
+					canMove = true;
+					mineAnimCD = mineAnimSpeed;
+				}
+			}
 			#endregion
 
 			if (canMove) {
@@ -134,13 +153,16 @@ public class XanderScript : MonoBehaviour
 
 					if (xanderMineCD <= 0f) {
 						mineCooling = false;
+						canMove = true;
 						xanderMineCD = xanderMineSpeed;
 					}
 				}
 
-				if (Device.Action1.WasPressed) {
+				if (Device.LeftBumper.WasPressed) {
 					if (mineCooling == false) {
 						xanderMine (playerBody);
+						mineAnim = true;
+						canMove = false;
 						anim.Play ("Ability 1", -1, 0f);
 					}
 				}
@@ -156,11 +178,17 @@ public class XanderScript : MonoBehaviour
 					}
 				}
 
-				if (Device.Action2.WasPressed) {
+				if (Device.Action1.WasPressed) {
 					if (digCooling == false) {
-						this.transform.position	+= playerBody.transform.forward * xanderDigDistance;
-						digCooling = true;
-						anim.Play ("Ability 2A", -1, 0f);
+						if (digIndicator.activeSelf == false) {
+							digIndicator.SetActive (true);
+						} else if ((digIndicator.activeSelf == true) && (collisionTriggerScript.targets.Count == 0)) {
+							this.transform.position	= digIndicator.transform.position;
+							digCooling = true;
+							anim.Play ("Ability 2A", -1, 0f);
+							digIndicator.SetActive (false);
+							collisionTriggerScript.targets.Clear();
+						}
 					}
 				}
 				#endregion
@@ -227,10 +255,21 @@ public class XanderScript : MonoBehaviour
 		GameObject creation;
 		creation = Instantiate (Resources.Load ("XanderGrenade"), basicSpawnPoint.transform.position, basicSpawnPoint.transform.rotation) as GameObject;
 		creation.transform.eulerAngles = new Vector3 (creation.transform.eulerAngles.x, creation.transform.eulerAngles.y - 2, creation.transform.eulerAngles.x);
+		Physics.IgnoreCollision (creation.GetComponent<Collider>(), this.GetComponent<Collider>());
+		grenadeScript = creation.GetComponent<GrenadeScript> ();
+		grenadeScript.parent = this.gameObject;
+
 		creation = Instantiate (Resources.Load ("XanderGrenade"), basicSpawnPoint.transform.position, basicSpawnPoint.transform.rotation) as GameObject;
 		creation.transform.eulerAngles = new Vector3 (creation.transform.eulerAngles.x, creation.transform.eulerAngles.y, creation.transform.eulerAngles.x);
+		Physics.IgnoreCollision (creation.GetComponent<Collider>(), this.GetComponent<Collider>());
+		grenadeScript = creation.GetComponent<GrenadeScript> ();
+		grenadeScript.parent = this.gameObject;
+
 		creation = Instantiate (Resources.Load ("XanderGrenade"), basicSpawnPoint.transform.position, basicSpawnPoint.transform.rotation) as GameObject;
 		creation.transform.eulerAngles = new Vector3 (creation.transform.eulerAngles.x, creation.transform.eulerAngles.y + 2, creation.transform.eulerAngles.x);
+		Physics.IgnoreCollision (creation.GetComponent<Collider>(), this.GetComponent<Collider>());
+		grenadeScript = creation.GetComponent<GrenadeScript> ();
+		grenadeScript.parent = this.gameObject;
 	}
 
 	public void xanderMine (GameObject thisPlayer)
@@ -239,6 +278,7 @@ public class XanderScript : MonoBehaviour
 		canMove = false;
 		GameObject creation;
 		creation = Instantiate (Resources.Load ("XanderMine"), mineSpawnPoint.transform.position, mineSpawnPoint.transform.rotation) as GameObject;
+		Physics.IgnoreCollision (creation.GetComponent<Collider> (), this.GetComponent<Collider> ());
 		canMove = true;
 	}
 }

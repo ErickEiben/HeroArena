@@ -26,10 +26,10 @@ public class DataManager : MonoBehaviour
 	public int team1Wins;
 	public int team2Wins;
 
-	[HideInInspector] public bool player1Dead = false;
-	[HideInInspector] public bool player2Dead = false;
-	[HideInInspector] public bool player3Dead = false;
-	[HideInInspector] public bool player4Dead = false;
+	public bool player1Dead = false;
+	public bool player2Dead = false;
+	public bool player3Dead = false;
+	public bool player4Dead = false;
 
 	[HideInInspector] public int player1character;
 	[HideInInspector] public int player2character;
@@ -60,11 +60,14 @@ public class DataManager : MonoBehaviour
 
 	#endregion
 
+	void Awake () {
+		S = this;
+		DontDestroyOnLoad (this);
+	}
+
 	void Start ()
 	{
-		DontDestroyOnLoad (this);
 		inControl = GameObject.Find ("InControl");
-		S = this;
 	}
 
 	void Update ()

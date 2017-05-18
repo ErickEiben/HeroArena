@@ -162,7 +162,7 @@ public class CroakScript : MonoBehaviour
 					}
 				}
 
-				if (Device.Action2.WasPressed) {
+				if (Device.LeftBumper.WasPressed) {
 					if (croakFireballCooling == false) {
 						croakFireball ();
 						anim.Play ("Ability 2", -1, 0f);
@@ -278,6 +278,7 @@ public class CroakScript : MonoBehaviour
 		croakFireballCooling = true;
 		GameObject creation;
 		creation = Instantiate (Resources.Load ("croakFireball"), basicSpawnPoint.transform.position, basicSpawnPoint.transform.rotation) as GameObject;
+		Physics.IgnoreCollision (creation.GetComponent<Collider> (), this.GetComponent<Collider> ());
 		creation.transform.eulerAngles = new Vector3 (creation.transform.eulerAngles.x, creation.transform.eulerAngles.y - 2, creation.transform.eulerAngles.x);
 	}
 }

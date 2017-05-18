@@ -23,6 +23,7 @@ public class SheraScript : MonoBehaviour
 	public GameObject playerParent;
 	public GameObject basicSpawnPoint;
 	public GameObject doubleKickIndicator;
+	public GameObject dancingLeapIndicator;
 	[HideInInspector] public bool canMove = true;
 
 	// Private Static Variables
@@ -62,6 +63,7 @@ public class SheraScript : MonoBehaviour
 	[Header ("----- Shera Miscellaneous Variables -----")]
 	HealthBarScript healthBarScript;
 	CollisionTriggerScript collisionTriggerScript;
+	CollisionTriggerScript collisionTriggerScript2;
 	public float coneAngle = 45f;
 	[HideInInspector] public bool sheraSlowed = false;
 	[HideInInspector] public float sheraSlowedAmount;
@@ -82,7 +84,9 @@ public class SheraScript : MonoBehaviour
 	{
 		anim = GetComponent<Animator> ();
 		collisionTriggerScript = doubleKickIndicator.GetComponent<CollisionTriggerScript> ();
+		collisionTriggerScript2 = dancingLeapIndicator.GetComponent<CollisionTriggerScript> ();
 		doubleKickIndicator.SetActive (false);
+		dancingLeapIndicator.SetActive (false);
 	}
 
 	void Update ()
@@ -150,10 +154,15 @@ public class SheraScript : MonoBehaviour
 					}
 				}
 
-				if (Device.Action2.WasPressed) {
+				if (Device.Action1.WasPressed) {
 					if (sheraDancingLeapCooling == false) {
-						sheraDancingLeap (sheraDancingLeapRange);
-						anim.Play ("Ability 1", -1, 0f);
+						if (dancingLeapIndicator.activeSelf == false) {
+							dancingLeapIndicator.SetActive (true);
+						} else if (dancingLeapIndicator.activeSelf == true) {
+							sheraDancingLeap (sheraDancingLeapRange);
+							anim.Play ("Ability 1", -1, 0f);
+							dancingLeapIndicator.SetActive (false);
+						}
 					}
 				}
 				#endregion
@@ -286,16 +295,15 @@ public class SheraScript : MonoBehaviour
 	public void sheraDancingLeap (float sheraDancingLeapRange)
 	{
 		sheraDancingLeapCooling = true;
-		this.transform.position	+= playerBody.transform.forward * sheraDancingLeapDistance;
+		this.transform.position = dancingLeapIndicator.transform.position;
 
-		Vector3 explosionPos = basicSpawnPoint.transform.position;
-		Collider[] hitColliders = Physics.OverlapSphere (explosionPos, sheraDancingLeapRange);
-
-		foreach (Collider hit in hitColliders) {
-			if ((hit.GetComponent<Collider> ().tag == "Player") && (hit.gameObject != playerParent.gameObject)) {
-				healthBarScript = hit.transform.FindChild ("HealthBarCanvas").GetComponent<HealthBarScript> ();
+		if (collisionTriggerScript2.triggered == true) {
+			for (int i = 0; i < collisionTriggerScript2.targets.Count; i++) {
+				healthBarScript = collisionTriggerScript2.targets[i].transform.FindChild ("HealthBarCanvas").GetComponent<HealthBarScript> ();
 				healthBarScript.GetHit (sheraDancingLeapDamage);
 			}
 		}
+		collisionTriggerScript2.targets.Clear();
+
 	}
 } 

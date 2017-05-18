@@ -13,7 +13,14 @@ public class CollisionTriggerScript : MonoBehaviour {
 	}
 
 	void OnTriggerEnter (Collider col) {
-		if ((col.gameObject != parent) && (col.tag == "Player")) {
+		if (this.gameObject.name == "DigIndicator") {
+			if ((col.gameObject != parent) && (col.gameObject.tag == "Obstacle")) {
+				triggered = true;
+				targets.Add (col.gameObject);
+			} else {
+				triggered = false;
+			}
+		} else if ((col.gameObject != parent) && (col.tag == "Player")) {
 			triggered = true;
 			targets.Add (col.gameObject);
 		} else {

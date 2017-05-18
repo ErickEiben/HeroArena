@@ -8,6 +8,7 @@ public class GrenadeScript : MonoBehaviour
 	HealthBarScript healthBarScript;
 	private float lifeTime = 3f;
 	private Rigidbody rb;
+	public GameObject parent;
 	[Range (0, 100)] public float thrust = 50f;
 
 	void Start ()
@@ -27,8 +28,10 @@ public class GrenadeScript : MonoBehaviour
 
 	void OnCollisionEnter (Collision col)
 	{
-		Explosion (col);
-		Destroy (this.gameObject);
+		if (col.gameObject != parent) {
+			Explosion (col);
+			Destroy (this.gameObject);
+		}
 	}
 
 	void Explosion (Collision col)
@@ -37,10 +40,5 @@ public class GrenadeScript : MonoBehaviour
 			healthBarScript = col.transform.FindChild ("HealthBarCanvas").GetComponent<HealthBarScript> ();
 			healthBarScript.GetHit (XanderScript.S.xanderBasicDamage);
 		}
-		if (col.gameObject.tag == "Obstacle")
-			Destroy (this.gameObject);
-
-		if (col.gameObject.tag == "Ground")
-			Destroy (this.gameObject);
 	}
 }

@@ -1945,6 +1945,8 @@ MonoBehaviour:
   croakSlowedAmount: 0
   croakSlowedLength: 0
   team: 0
+  playerPosition: 0
+  isDead: 0
 --- !u!114 &114123863571465698
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -51,6 +51,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 562053858fd8d4f889ee9c0f780c3f1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  inControl: {fileID: 0}
   xanderPrefab: {fileID: 1762558120855238, guid: bfa2860cf55ef02499df1782490bf500,
     type: 2}
   bloodhunterPrefab: {fileID: 1723943958225304, guid: 95f5b26c05f07254fb8d0103ba09824b,
@@ -59,6 +60,17 @@ MonoBehaviour:
     type: 2}
   sheraPrefab: {fileID: 1738042257745472, guid: 798373dabd5007e4aaae61d282c009c8,
     type: 2}
+  player1: {fileID: 0}
+  player2: {fileID: 0}
+  player3: {fileID: 0}
+  player4: {fileID: 0}
+  roundNumber: 0
+  team1Wins: 0
+  team2Wins: 0
+  player1Dead: 0
+  player2Dead: 0
+  player3Dead: 0
+  player4Dead: 0
   player1character: 0
   player2character: 0
   player3character: 0
